@@ -53,9 +53,24 @@ SERIES_START = datetime(2026, 1, 5, 9, 0, tzinfo=timezone.utc)
 # TTS helpers
 # ----------------------------------------------------------------------------
 async def _tts(text: str, voice: str, rate: str, path: Path):
-    """Render one phrase to an mp3 file via Edge TTS."""
-    communicate = edge_tts.Communicate(text, voice=voice, rate=rate)
-    await communicate.save(str(path))
+    """Render one phrase to an mp3 file via Edge TTS.
+
+    The Edge endpoint intermittently returns an empty stream
+    (NoAudioReceived); retry a few times with backoff before giving up so a
+    single hiccup doesn't discard a whole episode's worth of work.
+    """
+    last_err = None
+    for attempt in range(5):
+        try:
+            communicate = edge_tts.Communicate(text, voice=voice, rate=rate)
+            await communicate.save(str(path))
+            if path.exists() and path.stat().st_size > 0:
+                return
+            last_err = RuntimeError("empty audio file")
+        except edge_tts.exceptions.NoAudioReceived as e:
+            last_err = e
+        await asyncio.sleep(1.5 * (attempt + 1))
+    raise RuntimeError(f"edge-tts failed after 5 attempts for {text!r}: {last_err}")
 
 
 def say(text: str, voice: str, rate: str, idx: list) -> AudioSegment:
