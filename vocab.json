@@ -40,6 +40,54 @@
         {"en": "menu", "th": "เมนู", "roman": "mee-nuu", "sentence_th": "ขอดูเมนูหน่อยครับ", "sentence_roman": "kŏr duu mee-nuu nòi kráp", "sentence_en": "Can I see the menu, please?"},
         {"en": "vegetarian", "th": "มังสวิรัติ", "roman": "mang-sà-wí-rát", "sentence_th": "ผมกินมังสวิรัติครับ", "sentence_roman": "pŏm gin mang-sà-wí-rát kráp", "sentence_en": "I eat vegetarian."}
       ]
+    },
+    {
+      "week": 3,
+      "theme": "Getting around",
+      "words": [
+        {"en": "car", "th": "รถ", "roman": "rót", "sentence_th": "ผมขับรถมาเอง", "sentence_roman": "pŏm kàp rót maa eeng", "sentence_en": "I drove here myself."},
+        {"en": "bus", "th": "รถเมล์", "roman": "rót-mee", "sentence_th": "รถเมล์มาถึงกี่โมงครับ", "sentence_roman": "rót-mee maa tĕung gìi mong kráp", "sentence_en": "What time does the bus arrive?"},
+        {"en": "taxi", "th": "แท็กซี่", "roman": "táek-sîi", "sentence_th": "ขอเรียกแท็กซี่ให้หน่อยครับ", "sentence_roman": "kŏr rîak táek-sîi hâi nòi kráp", "sentence_en": "Please call a taxi for me."},
+        {"en": "train", "th": "รถไฟ", "roman": "rót-fai", "sentence_th": "รถไฟไปเชียงใหม่ออกกี่โมง", "sentence_roman": "rót-fai bpai chiang-mài òk gìi mong", "sentence_en": "What time does the train to Chiang Mai leave?"},
+        {"en": "station", "th": "สถานี", "roman": "sà-tăa-nii", "sentence_th": "สถานีรถไฟอยู่ที่ไหนครับ", "sentence_roman": "sà-tăa-nii rót-fai yùu tîi năi kráp", "sentence_en": "Where is the train station?"},
+        {"en": "ticket", "th": "ตั๋ว", "roman": "dtŭa", "sentence_th": "ขอตั๋วสองใบครับ", "sentence_roman": "kŏr dtŭa sŏng bai kráp", "sentence_en": "Two tickets, please."},
+        {"en": "go", "th": "ไป", "roman": "bpai", "sentence_th": "ผมจะไปสนามบิน", "sentence_roman": "pŏm jà bpai sà-năam-bin", "sentence_en": "I'm going to the airport."},
+        {"en": "come", "th": "มา", "roman": "maa", "sentence_th": "คุณมาจากไหนครับ", "sentence_roman": "kun maa jàak năi kráp", "sentence_en": "Where are you from?"},
+        {"en": "left", "th": "ซ้าย", "roman": "sáai", "sentence_th": "เลี้ยวซ้ายตรงไฟแดง", "sentence_roman": "líao sáai dtrong fai-daeng", "sentence_en": "Turn left at the red light."},
+        {"en": "right", "th": "ขวา", "roman": "kwăa", "sentence_th": "เลี้ยวขวาที่สี่แยก", "sentence_roman": "líao kwăa tîi sìi-yâek", "sentence_en": "Turn right at the intersection."}
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "Numbers & money",
+      "words": [
+        {"en": "one", "th": "หนึ่ง", "roman": "nùeng", "sentence_th": "ขอเบียร์หนึ่งขวดครับ", "sentence_roman": "kŏr biia nùeng kùat kráp", "sentence_en": "One bottle of beer, please."},
+        {"en": "two", "th": "สอง", "roman": "sŏng", "sentence_th": "ผมมีน้องสองคน", "sentence_roman": "pŏm mii nóng sŏng kon", "sentence_en": "I have two younger siblings."},
+        {"en": "three", "th": "สาม", "roman": "săam", "sentence_th": "ผมอยู่ที่นี่สามวัน", "sentence_roman": "pŏm yùu tîi nîi săam wan", "sentence_en": "I'm staying here three days."},
+        {"en": "how much", "th": "เท่าไหร่", "roman": "tâo-rài", "sentence_th": "อันนี้ราคาเท่าไหร่ครับ", "sentence_roman": "an níi raa-kaa tâo-rài kráp", "sentence_en": "How much does this cost?"},
+        {"en": "baht", "th": "บาท", "roman": "bàat", "sentence_th": "ห้าสิบบาทครับ", "sentence_roman": "hâa-sìp bàat kráp", "sentence_en": "Fifty baht."},
+        {"en": "expensive", "th": "แพง", "roman": "paeng", "sentence_th": "แพงไปครับ ลดได้ไหม", "sentence_roman": "paeng bpai kráp, lót dâai măi", "sentence_en": "It's too expensive, can you discount?"},
+        {"en": "cheap", "th": "ถูก", "roman": "tùuk", "sentence_th": "อันนี้ถูกกว่า", "sentence_roman": "an níi tùuk gwàa", "sentence_en": "This one is cheaper."},
+        {"en": "money", "th": "เงิน", "roman": "ngern", "sentence_th": "ผมไม่มีเงินสดครับ", "sentence_roman": "pŏm mâi mii ngern sòt kráp", "sentence_en": "I don't have cash."},
+        {"en": "credit card", "th": "บัตรเครดิต", "roman": "bàt kree-dìt", "sentence_th": "รับบัตรเครดิตไหมครับ", "sentence_roman": "ráp bàt kree-dìt măi kráp", "sentence_en": "Do you accept credit cards?"},
+        {"en": "change (money)", "th": "เงินทอน", "roman": "ngern-ton", "sentence_th": "นี่เงินทอนของคุณครับ", "sentence_roman": "nîi ngern-ton kŏng kun kráp", "sentence_en": "Here is your change."}
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "Time & days",
+      "words": [
+        {"en": "today", "th": "วันนี้", "roman": "wan-níi", "sentence_th": "วันนี้ผมว่างครับ", "sentence_roman": "wan-níi pŏm wâang kráp", "sentence_en": "I'm free today."},
+        {"en": "tomorrow", "th": "พรุ่งนี้", "roman": "prûng-níi", "sentence_th": "พรุ่งนี้เจอกันใหม่นะครับ", "sentence_roman": "prûng-níi jer gan mài ná kráp", "sentence_en": "See you again tomorrow."},
+        {"en": "yesterday", "th": "เมื่อวาน", "roman": "mûea-waan", "sentence_th": "เมื่อวานผมไม่อยู่ครับ", "sentence_roman": "mûea-waan pŏm mâi yùu kráp", "sentence_en": "I wasn't here yesterday."},
+        {"en": "now", "th": "ตอนนี้", "roman": "dton-níi", "sentence_th": "ตอนนี้กี่โมงแล้วครับ", "sentence_roman": "dton-níi gìi mong láew kráp", "sentence_en": "What time is it now?"},
+        {"en": "morning", "th": "เช้า", "roman": "cháao", "sentence_th": "ผมตื่นเช้าทุกวัน", "sentence_roman": "pŏm dtùen cháao túk wan", "sentence_en": "I wake up early every day."},
+        {"en": "evening", "th": "เย็น", "roman": "yen", "sentence_th": "เย็นนี้ไปกินข้าวกันไหม", "sentence_roman": "yen níi bpai gin khâao gan măi", "sentence_en": "Shall we go eat this evening?"},
+        {"en": "day", "th": "วัน", "roman": "wan", "sentence_th": "วันนี้วันอะไรครับ", "sentence_roman": "wan-níi wan à-rai kráp", "sentence_en": "What day is it today?"},
+        {"en": "week", "th": "สัปดาห์", "roman": "sàp-daa", "sentence_th": "สัปดาห์หน้าผมไม่อยู่", "sentence_roman": "sàp-daa nâa pŏm mâi yùu", "sentence_en": "I won't be here next week."},
+        {"en": "hour", "th": "ชั่วโมง", "roman": "chûa-mong", "sentence_th": "ขอเวลาอีกหนึ่งชั่วโมงครับ", "sentence_roman": "kŏr wee-laa ìik nùeng chûa-mong kráp", "sentence_en": "Give me one more hour, please."},
+        {"en": "minute", "th": "นาที", "roman": "naa-tii", "sentence_th": "รอสักห้านาทีครับ", "sentence_roman": "ror sàk hâa naa-tii kráp", "sentence_en": "Please wait about five minutes."}
+      ]
     }
   ]
 }
