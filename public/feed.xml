@@ -2,14 +2,14 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Walk &amp; Talk Thai</title>
-    <link>https://YOURNAME.github.io/walk-talk-thai</link>
+    <link>https://jerryjj.github.io/walk-talk-thai</link>
     <description>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
-      <url>https://YOURNAME.github.io/walk-talk-thai/cover.jpg</url>
+      <url>https://jerryjj.github.io/walk-talk-thai/cover.jpg</url>
       <title>Walk &amp; Talk Thai</title>
-      <link>https://YOURNAME.github.io/walk-talk-thai</link>
+      <link>https://jerryjj.github.io/walk-talk-thai</link>
     </image>
     <language>en</language>
     <lastBuildDate>Wed, 03 Jun 2026 14:29:06 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
-    <itunes:image href="https://YOURNAME.github.io/walk-talk-thai/cover.jpg"/>
+    <itunes:image href="https://jerryjj.github.io/walk-talk-thai/cover.jpg"/>
     <itunes:summary>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</itunes:summary>
     <item>
       <title>Week 2: Ordering food &amp; drinks</title>
@@ -34,8 +34,8 @@ Words this week:
 - want — อยาก (yàak)  |  ผมอยากกินผัดไทย (pŏm yàak gin phàt-thai) — I want to eat pad thai.
 - menu — เมนู (mee-nuu)  |  ขอดูเมนูหน่อยครับ (kŏr duu mee-nuu nòi kráp) — Can I see the menu, please?
 - vegetarian — มังสวิรัติ (mang-sà-wí-rát)  |  ผมกินมังสวิรัติครับ (pŏm gin mang-sà-wí-rát kráp) — I eat vegetarian.</description>
-      <guid isPermaLink="false">https://YOURNAME.github.io/walk-talk-thai/episodes/episode_02.mp3</guid>
-      <enclosure url="https://YOURNAME.github.io/walk-talk-thai/episodes/episode_02.mp3" length="3257036" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_02.mp3</guid>
+      <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_02.mp3" length="3257036" type="audio/mpeg"/>
       <pubDate>Mon, 12 Jan 2026 09:00:00 +0000</pubDate>
       <itunes:summary>Theme: Ordering food &amp; drinks
 
@@ -66,8 +66,8 @@ Words this week:
 - nice to meet you — ยินดีที่ได้รู้จัก (yin-dii tîi dâai rúu-jàk)  |  ยินดีที่ได้รู้จักครับ (yin-dii tîi dâai rúu-jàk kráp) — Nice to meet you.
 - see you again — เจอกันใหม่ (jer gan mài)  |  แล้วเจอกันใหม่นะครับ (láew jer gan mài ná kráp) — See you again, okay?
 - please / may I — ขอ (kŏr)  |  ขอเวลาสักครู่ครับ (kŏr wee-laa sàk-krûu kráp) — May I have a moment, please?</description>
-      <guid isPermaLink="false">https://YOURNAME.github.io/walk-talk-thai/episodes/episode_01.mp3</guid>
-      <enclosure url="https://YOURNAME.github.io/walk-talk-thai/episodes/episode_01.mp3" length="3278924" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_01.mp3</guid>
+      <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_01.mp3" length="3278924" type="audio/mpeg"/>
       <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
       <itunes:summary>Theme: Greetings &amp; politeness
 
