@@ -17,6 +17,7 @@ import argparse
 import asyncio
 import json
 import os
+import subprocess
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -150,20 +151,47 @@ def episode_filename(week: int) -> str:
     return f"episode_{week:02d}.mp3"
 
 
+def mp3_duration(path: Path) -> str:
+    """Return HH:MM:SS duration of an mp3 via ffprobe (ships with ffmpeg)."""
+    out = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            str(path),
+        ],
+        capture_output=True, text=True, check=True,
+    ).stdout.strip()
+    secs = int(float(out))
+    h, rem = divmod(secs, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h:02d}:{m:02d}:{s:02d}"
+
+
 def build_feed(cfg: dict, episodes: list):
     pod = cfg["podcast"]
     base = pod["base_url"].rstrip("/")
+    feed_url = f"{base}/feed.xml"
 
     fg = FeedGenerator()
     fg.load_extension("podcast")
     fg.title(pod["title"])
-    fg.link(href=base, rel="alternate")
+    # feedgen quirk: the rendered RSS <link> takes whichever entry is LAST,
+    # so put the canonical site link last and the atom:self link first.
+    fg.link([
+        {"href": feed_url, "rel": "self"},
+        {"href": base, "rel": "alternate"},
+    ])
     fg.description(pod["description"])
     fg.language(pod["language"])
-    fg.author({"name": pod["author"]})
+    fg.author({"name": pod["author"], "email": pod.get("owner_email", "")})
     fg.podcast.itunes_author(pod["author"])
     fg.podcast.itunes_summary(pod["description"])
     fg.podcast.itunes_category("Education", "Language Learning")
+    fg.podcast.itunes_explicit("no")              # required by Apple
+    fg.podcast.itunes_type("episodic")
+    if pod.get("owner_email"):
+        fg.podcast.itunes_owner(name=pod["author"], email=pod["owner_email"])
     if pod.get("image_url"):
         fg.image(pod["image_url"])
         fg.podcast.itunes_image(pod["image_url"])
@@ -194,6 +222,8 @@ def build_feed(cfg: dict, episodes: list):
         fe.enclosure(url, str(mp3_path.stat().st_size), "audio/mpeg")
         fe.published(pub)
         fe.podcast.itunes_summary(notes)
+        fe.podcast.itunes_explicit("no")          # required by Apple per-item
+        fe.podcast.itunes_duration(mp3_duration(mp3_path))
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fg.rss_file(str(OUT_DIR / "feed.xml"), pretty=True)

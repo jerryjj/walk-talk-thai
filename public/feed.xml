@@ -4,6 +4,7 @@
     <title>Walk &amp; Talk Thai</title>
     <link>https://jerryjj.github.io/walk-talk-thai</link>
     <description>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</description>
+    <atom:link href="https://jerryjj.github.io/walk-talk-thai/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
@@ -12,13 +13,19 @@
       <link>https://jerryjj.github.io/walk-talk-thai</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 14:54:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 15:54:55 +0000</lastBuildDate>
     <itunes:author>Walk &amp; Talk Thai</itunes:author>
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
     <itunes:image href="https://jerryjj.github.io/walk-talk-thai/cover.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Walk &amp; Talk Thai</itunes:name>
+      <itunes:email>jerry@leakstop.online</itunes:email>
+    </itunes:owner>
     <itunes:summary>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
     <item>
       <title>Week 5: Time &amp; days</title>
       <description>Theme: Time &amp; days
@@ -37,6 +44,8 @@ Words this week:
       <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_05.mp3</guid>
       <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_05.mp3" length="3248972" type="audio/mpeg"/>
       <pubDate>Mon, 02 Feb 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>00:04:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:summary>Theme: Time &amp; days
 
 Words this week:
@@ -69,6 +78,8 @@ Words this week:
       <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_04.mp3</guid>
       <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_04.mp3" length="3216716" type="audio/mpeg"/>
       <pubDate>Mon, 26 Jan 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>00:04:28</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:summary>Theme: Numbers &amp; money
 
 Words this week:
@@ -101,6 +112,8 @@ Words this week:
       <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_03.mp3</guid>
       <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_03.mp3" length="3246668" type="audio/mpeg"/>
       <pubDate>Mon, 19 Jan 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>00:04:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:summary>Theme: Getting around
 
 Words this week:
@@ -133,6 +146,8 @@ Words this week:
       <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_02.mp3</guid>
       <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_02.mp3" length="3257036" type="audio/mpeg"/>
       <pubDate>Mon, 12 Jan 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>00:04:31</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:summary>Theme: Ordering food &amp; drinks
 
 Words this week:
@@ -165,6 +180,8 @@ Words this week:
       <guid isPermaLink="false">https://jerryjj.github.io/walk-talk-thai/episodes/episode_01.mp3</guid>
       <enclosure url="https://jerryjj.github.io/walk-talk-thai/episodes/episode_01.mp3" length="3278924" type="audio/mpeg"/>
       <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>00:04:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:summary>Theme: Greetings &amp; politeness
 
 Words this week:
