@@ -120,7 +120,27 @@ def build_recap(words: list, idx: list) -> AudioSegment:
     return block
 
 
-def build_episode(ep: dict, idx: list) -> AudioSegment:
+def build_step_block(step: dict, idx: list) -> AudioSegment:
+    """One step inside a sentence-builder stem: slow Thai, natural Thai, English, pause."""
+    block = AudioSegment.empty()
+    block += say(step["th"], TH_VOICE, SLOW_RATE, idx) + silence(GAP_SHORT)
+    block += say(step["th"], TH_VOICE, NATURAL_RATE, idx) + silence(GAP_SHORT)
+    block += say(step["en"], EN_VOICE, NATURAL_RATE, idx)
+    block += silence(GAP_REPEAT)
+    return block
+
+
+def build_builder_recap(stems: list, idx: list) -> AudioSegment:
+    block = say("Let's review the full sentences.", EN_VOICE, NATURAL_RATE, idx)
+    block += silence(GAP_SECTION)
+    for stem in stems:
+        full = stem["steps"][-1]
+        block += say(full["en"], EN_VOICE, NATURAL_RATE, idx) + silence(GAP_SHORT)
+        block += say(full["th"], TH_VOICE, NATURAL_RATE, idx) + silence(GAP_WORD)
+    return block
+
+
+def build_vocab_episode(ep: dict, idx: list) -> AudioSegment:
     week, theme, words = ep["week"], ep["theme"], ep["words"]
 
     intro = say(
@@ -142,6 +162,40 @@ def build_episode(ep: dict, idx: list) -> AudioSegment:
     )
 
     return intro + body + recap + outro
+
+
+def build_builder_episode(ep: dict, idx: list) -> AudioSegment:
+    week, theme, stems = ep["week"], ep["theme"], ep["stems"]
+
+    intro = say(
+        f"Welcome to Walk and Talk Thai, week {week}. "
+        f"Today we'll build up sentences step by step on the theme: {theme}. "
+        f"Each sentence grows by one piece. After each Thai phrase you'll hear a pause. Say it out loud.",
+        EN_VOICE, NATURAL_RATE, idx,
+    ) + silence(GAP_SECTION)
+
+    body = AudioSegment.empty()
+    for stem in stems:
+        body += say(stem["intro_en"], EN_VOICE, NATURAL_RATE, idx) + silence(GAP_SECTION)
+        for step in stem["steps"]:
+            body += build_step_block(step, idx)
+        body += silence(GAP_SECTION)
+
+    recap = silence(GAP_SECTION) + build_builder_recap(stems, idx)
+
+    outro = silence(GAP_SECTION) + say(
+        "That's it for this week. Try those sentences on your next walk. See you again!",
+        EN_VOICE, NATURAL_RATE, idx,
+    )
+
+    return intro + body + recap + outro
+
+
+def build_episode(ep: dict, idx: list) -> AudioSegment:
+    kind = ep.get("kind", "vocab")
+    if kind == "builder":
+        return build_builder_episode(ep, idx)
+    return build_vocab_episode(ep, idx)
 
 
 # ----------------------------------------------------------------------------
@@ -206,13 +260,23 @@ def build_feed(cfg: dict, episodes: list):
         url = f"{base}/episodes/{fn}"
         pub = SERIES_START + timedelta(days=7 * (week - 1))
 
-        # Show notes: the romanized word list.
-        notes_lines = [f"Theme: {ep['theme']}", "", "Words this week:"]
-        for w in ep["words"]:
-            notes_lines.append(
-                f"- {w['en']} — {w['th']} ({w['roman']})  |  "
-                f"{w['sentence_th']} ({w['sentence_roman']}) — {w['sentence_en']}"
-            )
+        # Show notes: differ by episode kind.
+        notes_lines = [f"Theme: {ep['theme']}", ""]
+        if ep.get("kind") == "builder":
+            notes_lines.append("Sentences we build this week:")
+            for stem in ep["stems"]:
+                for step in stem["steps"]:
+                    notes_lines.append(
+                        f"  {step['th']} ({step['roman']}) — {step['en']}"
+                    )
+                notes_lines.append("")
+        else:
+            notes_lines.append("Words this week:")
+            for w in ep["words"]:
+                notes_lines.append(
+                    f"- {w['en']} — {w['th']} ({w['roman']})  |  "
+                    f"{w['sentence_th']} ({w['sentence_roman']}) — {w['sentence_en']}"
+                )
         notes = "\n".join(notes_lines)
 
         fe = fg.add_entry()
