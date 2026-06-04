@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Walk &amp; Talk Thai</title>
+<meta name="description" content="A weekly Thai-learning podcast — 10 everyday words taught in real sentences, slow and natural, with pauses to repeat aloud while you walk.">
+<meta property="og:title" content="Walk & Talk Thai">
+<meta property="og:description" content="A weekly Thai-learning podcast. Words & sentences for the road.">
+<meta property="og:image" content="cover.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/jpeg" href="cover.jpg">
+<link rel="alternate" type="application/rss+xml" title="Walk & Talk Thai RSS" href="feed.xml">
+<style>
+  :root {
+    --bg: #f7f1e3;
+    --card: #ffffff;
+    --ink: #1f1b15;
+    --muted: #7a6f5d;
+    --line: #e7dec7;
+    --accent: #126a6a;       /* deep teal */
+    --accent-2: #c8923a;     /* warm gold */
+    --shadow: 0 1px 2px rgba(31,27,21,.04), 0 8px 24px rgba(31,27,21,.06);
+    --radius: 14px;
+    --bar-h: 84px;
+    font-synthesis: none;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14110d;
+      --card: #1f1b15;
+      --ink: #f3ead4;
+      --muted: #a59881;
+      --line: #2c261d;
+      --accent: #5ec6c0;
+      --accent-2: #e0b35a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.4);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.5;
+    padding-bottom: calc(var(--bar-h) + env(safe-area-inset-bottom));
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---- header ---- */
+  header.hero {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 36px 20px 12px;
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 18px;
+    align-items: center;
+  }
+  .cover {
+    width: 96px;
+    height: 96px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    background-size: cover;
+    background-position: center;
+    box-shadow: var(--shadow);
+  }
+  .title-wrap h1 {
+    margin: 0 0 4px;
+    font-size: 26px;
+    letter-spacing: -.01em;
+    line-height: 1.15;
+  }
+  .title-wrap p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14.5px;
+  }
+
+  /* ---- subscribe strip ---- */
+  .subscribe {
+    max-width: 880px;
+    margin: 18px auto 24px;
+    padding: 14px 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 12px;
+    font-size: 14px;
+  }
+  .subscribe .label {
+    font-weight: 600;
+  }
+  .subscribe code {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    padding: 5px 9px;
+    border-radius: 8px;
+    font-size: 13px;
+    flex: 1 1 280px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .btn {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    font: inherit;
+    padding: 7px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .08s ease, background .15s ease;
+  }
+  .btn:hover { background: var(--card); }
+  .btn:active { transform: translateY(1px); }
+  .btn.primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* ---- toolbar ---- */
+  .toolbar {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 20px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--muted);
+    font-size: 13.5px;
+  }
+  .toolbar select {
+    appearance: none;
+    background: var(--card);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 5px 28px 5px 10px;
+    font: inherit;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%237a6f5d' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 9px center;
+  }
+
+  /* ---- episode list ---- */
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .ep {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color .2s ease;
+  }
+  .ep.playing {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent), var(--shadow);
+  }
+  .ep-head {
+    display: grid;
+    grid-template-columns: 44px 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .play-dot {
+    width: 44px; height: 44px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    transition: background .15s ease, transform .08s ease;
+  }
+  .ep:hover .play-dot { background: #0e5454; }
+  @media (prefers-color-scheme: dark) {
+    .ep:hover .play-dot { background: #7cd5cf; }
+  }
+  .play-dot:active { transform: scale(.95); }
+  .play-dot svg { width: 18px; height: 18px; fill: currentColor; }
+  .ep-meta { min-width: 0; }
+  .ep-meta .row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--muted);
+    font-size: 12.5px;
+    margin-bottom: 2px;
+  }
+  .badge {
+    font-size: 11px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+  }
+  .badge.builder { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 40%, var(--line)); }
+  .badge.vocab   { color: var(--accent);  border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+  .ep-meta h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .duration {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .ep-notes {
+    border-top: 1px solid var(--line);
+    padding: 14px 16px 18px;
+    background: color-mix(in srgb, var(--bg) 60%, var(--card));
+    display: none;
+  }
+  .ep.open .ep-notes { display: block; }
+  .ep-notes pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font: inherit;
+    color: var(--ink);
+    font-size: 14px;
+  }
+
+  /* ---- footer ---- */
+  footer {
+    max-width: 880px;
+    margin: 28px auto 8px;
+    padding: 0 20px;
+    color: var(--muted);
+    font-size: 12.5px;
+    text-align: center;
+  }
+
+  /* ---- sticky player bar ---- */
+  .player {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: color-mix(in srgb, var(--card) 92%, transparent);
+    backdrop-filter: saturate(140%) blur(16px);
+    -webkit-backdrop-filter: saturate(140%) blur(16px);
+    border-top: 1px solid var(--line);
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    z-index: 30;
+    transform: translateY(100%);
+    transition: transform .25s ease;
+  }
+  .player.show { transform: translateY(0); }
+  .player-inner {
+    max-width: 880px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 12px;
+    align-items: center;
+  }
+  .pp {
+    width: 44px; height: 44px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+  .pp svg { width: 18px; height: 18px; fill: currentColor; }
+  .pp:active { transform: scale(.95); }
+  .now {
+    min-width: 0;
+  }
+  .now .t {
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .now .b {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .now .b input[type=range] {
+    flex: 1;
+    accent-color: var(--accent);
+    height: 4px;
+  }
+
+  @media (max-width: 480px) {
+    header.hero { padding-top: 24px; }
+    .title-wrap h1 { font-size: 22px; }
+    .subscribe code { font-size: 12.5px; }
+    .ep-head { padding: 12px 14px; }
+  }
+
+  .error {
+    max-width: 880px;
+    margin: 16px auto;
+    padding: 14px 16px;
+    background: #fee9d6;
+    color: #5a3210;
+    border: 1px solid #f0c98a;
+    border-radius: var(--radius);
+    font-size: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .error { background: #3a1f0c; color: #f6c898; border-color: #6a3f1c; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="cover" style="background-image:url('cover.jpg')" aria-hidden="true"></div>
+  <div class="title-wrap">
+    <h1>Walk &amp; Talk Thai</h1>
+    <p>10 everyday Thai words a week, taught in real sentences. Built for walks.</p>
+  </div>
+</header>
+
+<div class="subscribe" role="region" aria-label="Subscribe">
+  <span class="label">Subscribe in any podcast app:</span>
+  <code id="feedUrl">feed.xml</code>
+  <button class="btn primary" id="copyFeed">Copy URL</button>
+</div>
+
+<div class="toolbar">
+  <span id="count">Loading episodes…</span>
+  <label>
+    Order:
+    <select id="orderSel">
+      <option value="asc">Week 1 → latest</option>
+      <option value="desc">Latest → Week 1</option>
+    </select>
+  </label>
+</div>
+
+<main id="list" aria-live="polite"></main>
+
+<footer>
+  <p>Generated weekly · <a href="feed.xml">RSS feed</a> · <a href="https://github.com/jerryjj/walk-talk-thai" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<div class="player" id="player" aria-label="Audio player">
+  <div class="player-inner">
+    <button class="pp" id="ppBtn" aria-label="Play/Pause">
+      <svg id="ppIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <div class="now">
+      <div class="t" id="nowTitle">No episode playing</div>
+      <div class="b">
+        <span id="curTime">0:00</span>
+        <input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="Seek">
+        <span id="totTime">0:00</span>
+      </div>
+    </div>
+  </div>
+  <audio id="audio" preload="metadata"></audio>
+</div>
+
+<script>
+(() => {
+  const FEED_URL = new URL('feed.xml', location.href).href;
+  const listEl   = document.getElementById('list');
+  const countEl  = document.getElementById('count');
+  const orderSel = document.getElementById('orderSel');
+  const feedCode = document.getElementById('feedUrl');
+  const copyBtn  = document.getElementById('copyFeed');
+  const player   = document.getElementById('player');
+  const audio    = document.getElementById('audio');
+  const ppBtn    = document.getElementById('ppBtn');
+  const ppIcon   = document.getElementById('ppIcon');
+  const seek     = document.getElementById('seek');
+  const curTime  = document.getElementById('curTime');
+  const totTime  = document.getElementById('totTime');
+  const nowTitle = document.getElementById('nowTitle');
+
+  feedCode.textContent = FEED_URL;
+  copyBtn.addEventListener('click', copyFeed);
+  function copyFeed() {
+    navigator.clipboard.writeText(FEED_URL).then(() => {
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => copyBtn.textContent = 'Copy feed URL', 1500);
+    }).catch(() => prompt('Copy this URL:', FEED_URL));
+  }
+
+  // ----- parse feed -----
+  let episodes = [];
+
+  async function load() {
+    try {
+      const res = await fetch(FEED_URL, {cache: 'no-cache'});
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const text = await res.text();
+      const xml = new DOMParser().parseFromString(text, 'application/xml');
+      const parseErr = xml.querySelector('parsererror');
+      if (parseErr) throw new Error('feed.xml is not valid XML');
+      const itunes = 'http://www.itunes.com/dtds/podcast-1.0.dtd';
+      episodes = [...xml.querySelectorAll('channel > item')].map(it => {
+        const title = it.querySelector('title')?.textContent ?? '';
+        const desc  = it.querySelector('description')?.textContent ?? '';
+        const url   = it.querySelector('enclosure')?.getAttribute('url') ?? '';
+        const dur   = it.getElementsByTagNameNS(itunes, 'duration')[0]?.textContent ?? '';
+        const m = title.match(/^Week\s+(\d+)/i);
+        const week = m ? +m[1] : 0;
+        // Builder weeks render show-notes with "Sentences we build" — use that to badge.
+        const kind = /Sentences we build/i.test(desc) ? 'builder' : 'vocab';
+        return {week, title, desc, url, dur, kind};
+      });
+      render();
+    } catch (err) {
+      listEl.innerHTML = '<div class="error">Couldn\'t load the feed: ' +
+        escapeHtml(err.message) + '. The feed lives at <a href="' + FEED_URL + '">' +
+        FEED_URL + '</a>.</div>';
+      countEl.textContent = '';
+      console.error(err);
+    }
+  }
+
+  function render() {
+    const order = orderSel.value;
+    const eps = [...episodes].sort((a, b) =>
+      order === 'asc' ? a.week - b.week : b.week - a.week);
+    countEl.textContent = eps.length + (eps.length === 1 ? ' episode' : ' episodes');
+    listEl.innerHTML = '';
+    for (const ep of eps) listEl.appendChild(renderEp(ep));
+  }
+  orderSel.addEventListener('change', render);
+
+  function renderEp(ep) {
+    const card = document.createElement('article');
+    card.className = 'ep';
+    card.dataset.url = ep.url;
+    card.dataset.title = ep.title;
+    card.innerHTML = `
+      <div class="ep-head">
+        <button class="play-dot" aria-label="Play ${escapeAttr(ep.title)}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="ep-meta">
+          <div class="row">
+            <span class="badge ${ep.kind}">${ep.kind === 'builder' ? 'Sentence builder' : 'Vocab'}</span>
+            <span>Week ${ep.week}</span>
+          </div>
+          <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
+        </div>
+        <span class="duration">${escapeHtml(ep.dur || '')}</span>
+      </div>
+      <div class="ep-notes"><pre>${escapeHtml(ep.desc)}</pre></div>
+    `;
+    const head = card.querySelector('.ep-head');
+    const playBtn = card.querySelector('.play-dot');
+    // Clicking the row toggles notes; clicking the play button starts audio.
+    head.addEventListener('click', (e) => {
+      if (e.target.closest('.play-dot')) return;
+      card.classList.toggle('open');
+    });
+    playBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      playEp(ep, card);
+    });
+    return card;
+  }
+
+  // ----- player -----
+  let current = null;
+
+  function playEp(ep, card) {
+    document.querySelectorAll('.ep.playing').forEach(el => el.classList.remove('playing'));
+    if (card) card.classList.add('playing');
+    if (current?.url !== ep.url) {
+      audio.src = ep.url;
+      current = ep;
+      nowTitle.textContent = ep.title;
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: ep.title,
+          artist: 'Walk & Talk Thai',
+          artwork: [{src: new URL('cover.jpg', location.href).href, sizes: '1400x1400', type: 'image/jpeg'}]
+        });
+      }
+      try { localStorage.setItem('wtt:last', ep.url); } catch {}
+    }
+    audio.play().catch(err => console.warn('play failed', err));
+    player.classList.add('show');
+  }
+
+  ppBtn.addEventListener('click', () => {
+    if (!current) return;
+    if (audio.paused) audio.play(); else audio.pause();
+  });
+  audio.addEventListener('play', () => {
+    ppIcon.innerHTML = '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
+  });
+  audio.addEventListener('pause', () => {
+    ppIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+  });
+  audio.addEventListener('loadedmetadata', () => {
+    totTime.textContent = fmt(audio.duration);
+    seek.max = audio.duration || 100;
+    // Resume position if we're picking the same episode back up.
+    try {
+      const pos = +localStorage.getItem('wtt:pos:' + current.url);
+      if (pos && pos < audio.duration - 5) audio.currentTime = pos;
+    } catch {}
+  });
+  audio.addEventListener('timeupdate', () => {
+    curTime.textContent = fmt(audio.currentTime);
+    if (!seek.matches(':active')) seek.value = audio.currentTime;
+    if (current) {
+      try { localStorage.setItem('wtt:pos:' + current.url, audio.currentTime.toFixed(1)); } catch {}
+    }
+  });
+  audio.addEventListener('ended', () => {
+    document.querySelectorAll('.ep.playing').forEach(el => el.classList.remove('playing'));
+  });
+  seek.addEventListener('input', () => {
+    if (current && audio.duration) audio.currentTime = +seek.value;
+  });
+
+  // ----- utils -----
+  function fmt(s) {
+    if (!isFinite(s)) return '0:00';
+    s = Math.max(0, Math.floor(s));
+    const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), sec = s % 60;
+    return h ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+             : `${m}:${String(sec).padStart(2,'0')}`;
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+  function escapeAttr(s) { return escapeHtml(s); }
+
+  load();
+})();
+</script>
+</body>
+</html>
