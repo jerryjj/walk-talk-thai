@@ -1,0 +1,7064 @@
+[
+  {
+    "id": 1,
+    "roman_no_tones": "sa-wat-dii",
+    "en": "Hello.",
+    "page": 4
+  },
+  {
+    "id": 2,
+    "roman_no_tones": "khaaw-th6ot",
+    "en": "Excuse me.",
+    "page": 4
+  },
+  {
+    "id": 3,
+    "roman_no_tones": "khaaw-th6ot",
+    "en": "I'm sorry.",
+    "page": 4
+  },
+  {
+    "id": 5,
+    "roman_no_tones": "yin-dii thfi dai ruu-jak",
+    "en": "Nice to meet you.",
+    "page": 4
+  },
+  {
+    "id": 6,
+    "roman_no_tones": "sa-baai dii mai",
+    "en": "I How are you?",
+    "page": 4
+  },
+  {
+    "id": 9,
+    "roman_no_tones": "khaawp-khun",
+    "en": "Thank you.",
+    "page": 5
+  },
+  {
+    "id": 11,
+    "roman_no_tones": "laa-gaawn",
+    "en": "oodbye. 1, ' q",
+    "page": 5
+  },
+  {
+    "id": 12,
+    "roman_no_tones": "mai-dii",
+    "en": "bad",
+    "page": 5
+  },
+  {
+    "id": 20,
+    "roman_no_tones": "!ek",
+    "en": "small",
+    "page": 6
+  },
+  {
+    "id": 21,
+    "roman_no_tones": "wan-nfi",
+    "en": "I today",
+    "page": 6
+  },
+  {
+    "id": 22,
+    "roman_no_tones": "mtJuea-waan",
+    "en": "yesterday",
+    "page": 7
+  },
+  {
+    "id": 23,
+    "roman_no_tones": "phrtJng-nfi",
+    "en": "tomorrow I icJ",
+    "page": 7
+  },
+  {
+    "id": 24,
+    "roman_no_tones": "sap-daa",
+    "en": "week",
+    "page": 7
+  },
+  {
+    "id": 26,
+    "roman_no_tones": "wf-naa-thii",
+    "en": "second",
+    "page": 7
+  },
+  {
+    "id": 27,
+    "roman_no_tones": "naa-thii",
+    "en": "minute",
+    "page": 7
+  },
+  {
+    "id": 28,
+    "roman_no_tones": "chtJua-moong",
+    "en": "hour",
+    "page": 7
+  },
+  {
+    "id": 29,
+    "roman_no_tones": "naa-/f-gaa",
+    "en": "clock",
+    "page": 8
+  },
+  {
+    "id": 31,
+    "roman_no_tones": "bpa-dti-thin",
+    "en": "calendar",
+    "page": 8
+  },
+  {
+    "id": 33,
+    "roman_no_tones": "wan ang-khaan",
+    "en": "Tuesday",
+    "page": 8
+  },
+  {
+    "id": 38,
+    "roman_no_tones": "wan aa-thft",
+    "en": "Sunday",
+    "page": 9
+  },
+  {
+    "id": 41,
+    "roman_no_tones": "htJua-raw",
+    "en": "laugh",
+    "page": 9
+  },
+  {
+    "id": 45,
+    "roman_no_tones": "gaa-faae",
+    "en": "coffee",
+    "page": 10
+  },
+  {
+    "id": 48,
+    "roman_no_tones": "nuuea-wuua",
+    "en": "I beef",
+    "page": 10
+  },
+  {
+    "id": 50,
+    "roman_no_tones": "nuuea-mtJu",
+    "en": "pork",
+    "page": 11
+  },
+  {
+    "id": 52,
+    "roman_no_tones": "nuuea-gae",
+    "en": "lamb 'Via..! el",
+    "page": 11
+  },
+  {
+    "id": 54,
+    "roman_no_tones": "jao-naa-thfi-dtam-ruuat",
+    "en": "police officer",
+    "page": 11
+  },
+  {
+    "id": 56,
+    "roman_no_tones": "ltJuk-jaang",
+    "en": "I employee",
+    "page": 11
+  },
+  {
+    "id": 61,
+    "roman_no_tones": "saa-maat",
+    "en": "can cl",
+    "page": 12
+  },
+  {
+    "id": 73,
+    "roman_no_tones": "pha-nak-ngaan-khaai",
+    "en": "salesman",
+    "page": 14
+  },
+  {
+    "id": 75,
+    "roman_no_tones": "phaaw-khruua",
+    "en": "cook",
+    "page": 14
+  },
+  {
+    "id": 76,
+    "roman_no_tones": "wit-sa-wa-gaawn",
+    "en": "engineer",
+    "page": 14
+  },
+  {
+    "id": 77,
+    "roman_no_tones": "nak-khTian-bproo-",
+    "en": "graaem programmer",
+    "page": 14
+  },
+  {
+    "id": 78,
+    "roman_no_tones": "pha-yaa-baan",
+    "en": "nurse",
+    "page": 15
+  },
+  {
+    "id": 79,
+    "roman_no_tones": "raang-gaai",
+    "en": "body",
+    "page": 15
+  },
+  {
+    "id": 91,
+    "roman_no_tones": "duuean mii-naa-khom",
+    "en": "March",
+    "page": 16
+  },
+  {
+    "id": 92,
+    "roman_no_tones": "duuean mee-saa-yon",
+    "en": "April b(91 el'U,'W",
+    "page": 17
+  },
+  {
+    "id": 93,
+    "roman_no_tones": "duuean phruet-sa- phaa-khom",
+    "en": "May",
+    "page": 17
+  },
+  {
+    "id": 94,
+    "roman_no_tones": "duuean mf-thu-naa-yon",
+    "en": "June",
+    "page": 17
+  },
+  {
+    "id": 95,
+    "roman_no_tones": "duuean ga-ra-ga-daa­",
+    "en": "khom",
+    "page": 17
+  },
+  {
+    "id": 96,
+    "roman_no_tones": "duuean sTng-haa-khom",
+    "en": "August b (91 el 'U, fl 'U, fJ 1 fJ it,",
+    "page": 17
+  },
+  {
+    "id": 97,
+    "roman_no_tones": "duuean gan-yaa-yon",
+    "en": "September",
+    "page": 17
+  },
+  {
+    "id": 98,
+    "roman_no_tones": "duuean dtu-laa-khom",
+    "en": "October",
+    "page": 17
+  },
+  {
+    "id": 99,
+    "roman_no_tones": "gaa-yon",
+    "en": "November",
+    "page": 18
+  },
+  {
+    "id": 100,
+    "roman_no_tones": "duuean than-waa-khom",
+    "en": "December",
+    "page": 18
+  },
+  {
+    "id": 101,
+    "roman_no_tones": "naa-/f-gaa",
+    "en": "watch",
+    "page": 18
+  },
+  {
+    "id": 102,
+    "roman_no_tones": "waaen-dtaa \u0003\u0004sses",
+    "en": "b xelbbyzbflw",
+    "page": 18
+  },
+  {
+    "id": 103,
+    "roman_no_tones": "suuea-Jaek-get",
+    "en": "jacket",
+    "page": 18
+  },
+  {
+    "id": 105,
+    "roman_no_tones": "kh6n-haa",
+    "en": "I search",
+    "page": 18
+  },
+  {
+    "id": 107,
+    "roman_no_tones": "aawn-aae",
+    "en": "weak I",
+    "page": 19
+  },
+  {
+    "id": 108,
+    "roman_no_tones": "khaeng-raaeng",
+    "en": "strong",
+    "page": 19
+  },
+  {
+    "id": 111,
+    "roman_no_tones": "dta-tok",
+    "en": "funny",
+    "page": 19
+  },
+  {
+    "id": 113,
+    "roman_no_tones": "s6m",
+    "en": "orange ar u e.J",
+    "page": 20
+  },
+  {
+    "id": 114,
+    "roman_no_tones": "man-fa-rang",
+    "en": "potato f;l1 b",
+    "page": 20
+  },
+  {
+    "id": 115,
+    "roman_no_tones": "thuua-ltJueang",
+    "en": "soybean N'n",
+    "page": 20
+  },
+  {
+    "id": 120,
+    "roman_no_tones": "hi-ma",
+    "en": "snow",
+    "page": 21
+  },
+  {
+    "id": 122,
+    "roman_no_tones": "gaang-geeng",
+    "en": "pants 6)j \u0010 f f",
+    "page": 21
+  },
+  {
+    "id": 127,
+    "roman_no_tones": "sa-aat",
+    "en": "clean",
+    "page": 22
+  },
+  {
+    "id": 128,
+    "roman_no_tones": "sok-ga-bprok",
+    "en": "dirty I bb",
+    "page": 22
+  },
+  {
+    "id": 129,
+    "roman_no_tones": "khaae-rawt",
+    "en": "carrot 'li1 'Vi el",
+    "page": 22
+  },
+  {
+    "id": 131,
+    "roman_no_tones": "phak-gaat-haawm",
+    "en": "lettuce",
+    "page": 22
+  },
+  {
+    "id": 133,
+    "roman_no_tones": "gra-dtaai",
+    "en": "I rabbit",
+    "page": 22
+  },
+  {
+    "id": 134,
+    "roman_no_tones": "maaeo-naam",
+    "en": "seal b:J..l'll.l meek",
+    "page": 23
+  },
+  {
+    "id": 137,
+    "roman_no_tones": "!Duk",
+    "en": "I baby b \u0010fl()Jl,'jg\\J\\l 4J dek-phDu-yTng",
+    "page": 23
+  },
+  {
+    "id": 140,
+    "roman_no_tones": "dek-phDu-chaai",
+    "en": "boy",
+    "page": 23
+  },
+  {
+    "id": 141,
+    "roman_no_tones": "dii-jai",
+    "en": "happy b",
+    "page": 24
+  },
+  {
+    "id": 144,
+    "roman_no_tones": "stJuea-phaa -   -fothing",
+    "en": "'a el-3 b",
+    "page": 24
+  },
+  {
+    "id": 145,
+    "roman_no_tones": "raawng-thaa",
+    "en": "shoe fNb'Yll",
+    "page": 24
+  },
+  {
+    "id": 146,
+    "roman_no_tones": "thtJng-thaa",
+    "en": "sock",
+    "page": 24
+  },
+  {
+    "id": 147,
+    "roman_no_tones": "chut-chan-nai",
+    "en": "underwear",
+    "page": 24
+  },
+  {
+    "id": 153,
+    "roman_no_tones": "bplaa-muek-yak",
+    "en": "octopus",
+    "page": 25
+  },
+  {
+    "id": 154,
+    "roman_no_tones": "bplaa-cha-laam",
+    "en": "I shark",
+    "page": 25
+  },
+  {
+    "id": 155,
+    "roman_no_tones": "bplaa-waan",
+    "en": "whale",
+    "page": 26
+  },
+  {
+    "id": 157,
+    "roman_no_tones": "yen sa-baai",
+    "en": "cool f",
+    "page": 26
+  },
+  {
+    "id": 158,
+    "roman_no_tones": "dtaaeng-gwaa",
+    "en": "cumber cw 'an FJ mt",
+    "page": 26
+  },
+  {
+    "id": 159,
+    "roman_no_tones": "phrfk-yak",
+    "en": "bell pepper",
+    "page": 26
+  },
+  {
+    "id": 160,
+    "roman_no_tones": "brawk-khoo-lfi",
+    "en": "broccoli",
+    "page": 26
+  },
+  {
+    "id": 162,
+    "roman_no_tones": "aep-bp6en",
+    "en": "apple",
+    "page": 27
+  },
+  {
+    "id": 164,
+    "roman_no_tones": "dtaaeng-moo",
+    "en": "watermelon",
+    "page": 27
+  },
+  {
+    "id": 167,
+    "roman_no_tones": "phra-aa-thft",
+    "en": "sun 6'1cfll'Wellfll a",
+    "page": 27
+  },
+  {
+    "id": 168,
+    "roman_no_tones": "sa-phaap aa-gaat",
+    "en": "I weather",
+    "page": 27
+  },
+  {
+    "id": 169,
+    "roman_no_tones": "ong-saa",
+    "en": "degree",
+    "page": 28
+  },
+  {
+    "id": 170,
+    "roman_no_tones": "phtJu-yTng",
+    "en": "woman",
+    "page": 28
+  },
+  {
+    "id": 171,
+    "roman_no_tones": "phtJu-chaai",
+    "en": "man bb'W'Ui",
+    "page": 28
+  },
+  {
+    "id": 174,
+    "roman_no_tones": "r6t-fai",
+    "en": "train b",
+    "page": 28
+  },
+  {
+    "id": 175,
+    "roman_no_tones": "khrtJueang-bin",
+    "en": "I airplane",
+    "page": 28
+  },
+  {
+    "id": 176,
+    "roman_no_tones": "r6t-bat",
+    "en": "bus bb",
+    "page": 29
+  },
+  {
+    "id": 177,
+    "roman_no_tones": "thaaek-sfi",
+    "en": "taxi I",
+    "page": 29
+  },
+  {
+    "id": 178,
+    "roman_no_tones": "phak-kh6om",
+    "en": "spinach",
+    "page": 29
+  },
+  {
+    "id": 180,
+    "roman_no_tones": "bplaa-muek-gltJuai",
+    "en": "squid",
+    "page": 29
+  },
+  {
+    "id": 181,
+    "roman_no_tones": "su-nak",
+    "en": "I dog",
+    "page": 29
+  },
+  {
+    "id": 183,
+    "roman_no_tones": "nuu-haaem-sa-dt6oe",
+    "en": "hamster el 'lJ el'U,",
+    "page": 30
+  },
+  {
+    "id": 184,
+    "roman_no_tones": "op-Cm",
+    "en": "warm Nu",
+    "page": 30
+  },
+  {
+    "id": 185,
+    "roman_no_tones": "f6n",
+    "en": "rain :J..l :i:; b6ll el b",
+    "page": 30
+  },
+  {
+    "id": 186,
+    "roman_no_tones": "ma-khtJuea-theet",
+    "en": "I tomato cld 61n610l'ael b'lJ el'a'a",
+    "page": 30
+  },
+  {
+    "id": 187,
+    "roman_no_tones": "!Duk sa-dtraaw-booe-rfi",
+    "en": "strawberry cld b6li el'a'a",
+    "page": 30
+  },
+  {
+    "id": 188,
+    "roman_no_tones": "chooe-rfi",
+    "en": "cherry b",
+    "page": 30
+  },
+  {
+    "id": 191,
+    "roman_no_tones": "phtJu-yai",
+    "en": "adult 2 fl'atll'U,",
+    "page": 31
+  },
+  {
+    "id": 192,
+    "roman_no_tones": "jak-gra-yaan",
+    "en": "bicycle",
+    "page": 31
+  },
+  {
+    "id": 193,
+    "roman_no_tones": "r6t-yon",
+    "en": "car a..J el b@l el'a",
+    "page": 31
+  },
+  {
+    "id": 194,
+    "roman_no_tones": "maaw-dtooe-sai",
+    "en": "motorcycle",
+    "page": 31
+  },
+  {
+    "id": 195,
+    "roman_no_tones": "r6t-sa-khuu-dt6oe",
+    "en": "scooter b'ael",
+    "page": 31
+  },
+  {
+    "id": 198,
+    "roman_no_tones": "gtJng-mang-gaawn",
+    "en": "lobster",
+    "page": 33
+  },
+  {
+    "id": 201,
+    "roman_no_tones": "hee-lf-khawp-dt6ae",
+    "en": "helicopter",
+    "page": 33
+  },
+  {
+    "id": 203,
+    "roman_no_tones": "sTi-nam-dtaan",
+    "en": "I brown",
+    "page": 33
+  },
+  {
+    "id": 204,
+    "roman_no_tones": "sTi-thao",
+    "en": "gray cw' n N el u",
+    "page": 34
+  },
+  {
+    "id": 205,
+    "roman_no_tones": "phak-phaawn",
+    "en": "rest",
+    "page": 34
+  },
+  {
+    "id": 206,
+    "roman_no_tones": "daai-yin",
+    "en": "hear",
+    "page": 34
+  },
+  {
+    "id": 209,
+    "roman_no_tones": "sip-et",
+    "en": "I eleven",
+    "page": 34
+  },
+  {
+    "id": 210,
+    "roman_no_tones": "sip-saawng",
+    "en": "I twelve",
+    "page": 34
+  },
+  {
+    "id": 211,
+    "roman_no_tones": "sip-saam",
+    "en": "thirteen",
+    "page": 35
+  },
+  {
+    "id": 212,
+    "roman_no_tones": "ii-meeo e-mail",
+    "en": "b 'YJ';j @'W'Yl:J..l el f;l el ,J Ji, Ji,",
+    "page": 35
+  },
+  {
+    "id": 213,
+    "roman_no_tones": "thoo-ra-sap-muue­",
+    "en": "thtJue mobile phone 611 el",
+    "page": 35
+  },
+  {
+    "id": 214,
+    "roman_no_tones": "khaaw-khwaam dtuua­ ak-saawn --f.   xt message '111n",
+    "en": "bpaak mouth bbfl:J..l",
+    "page": 35
+  },
+  {
+    "id": 217,
+    "roman_no_tones": "ja-muuk",
+    "en": "I nose",
+    "page": 35
+  },
+  {
+    "id": 218,
+    "roman_no_tones": "sa-mut-ban-thuek",
+    "en": "notebook",
+    "page": 36
+  },
+  {
+    "id": 219,
+    "roman_no_tones": "din-saaw",
+    "en": "pencil",
+    "page": 36
+  },
+  {
+    "id": 220,
+    "roman_no_tones": "yaang-/6p",
+    "en": "eraser",
+    "page": 36
+  },
+  {
+    "id": 222,
+    "roman_no_tones": "sTi-daaeng",
+    "en": "red",
+    "page": 36
+  },
+  {
+    "id": 225,
+    "roman_no_tones": "r6oem",
+    "en": "start mnF.JbiJu",
+    "page": 37
+  },
+  {
+    "id": 226,
+    "roman_no_tones": "glaai-bpen",
+    "en": "become q G'l'lH'I",
+    "page": 37
+  },
+  {
+    "id": 227,
+    "roman_no_tones": "sip-sii",
+    "en": "fourteen G'l'lJ'Vil",
+    "page": 37
+  },
+  {
+    "id": 228,
+    "roman_no_tones": "sip-haa",
+    "en": "fteen q G'l'lJ'Vi n",
+    "page": 37
+  },
+  {
+    "id": 229,
+    "roman_no_tones": "sip-hok",
+    "en": "sixteen",
+    "page": 37
+  },
+  {
+    "id": 230,
+    "roman_no_tones": "thoo-ra-sap",
+    "en": "I telephone",
+    "page": 37
+  },
+  {
+    "id": 233,
+    "roman_no_tones": "rim-fTi-bpaak",
+    "en": "lip",
+    "page": 38
+  },
+  {
+    "id": 234,
+    "roman_no_tones": "ga-saan",
+    "en": "copy machine",
+    "page": 38
+  },
+  {
+    "id": 236,
+    "roman_no_tones": "nang-suue",
+    "en": "book",
+    "page": 38
+  },
+  {
+    "id": 237,
+    "roman_no_tones": "bpaak-gaa",
+    "en": "pen",
+    "page": 38
+  },
+  {
+    "id": 238,
+    "roman_no_tones": "gaan bprai-sa-nii",
+    "en": "post office",
+    "page": 38
+  },
+  {
+    "id": 239,
+    "roman_no_tones": "hawng-sa-mut",
+    "en": "library ctJctJ cl 6li b el'a:I..Jl'abn",
+    "page": 39
+  },
+  {
+    "id": 240,
+    "roman_no_tones": "sup-bpooe-maa-get",
+    "en": "supermarket 6l11 FJ",
+    "page": 39
+  },
+  {
+    "id": 244,
+    "roman_no_tones": "sip-jet",
+    "en": "I seventeen i1 'lJ bb ctJ",
+    "page": 39
+  },
+  {
+    "id": 245,
+    "roman_no_tones": "sip-bpaaet",
+    "en": "I eighteen",
+    "page": 39
+  },
+  {
+    "id": 246,
+    "roman_no_tones": "sip-gaao",
+    "en": "nineteen",
+    "page": 40
+  },
+  {
+    "id": 247,
+    "roman_no_tones": "yfi-sip",
+    "en": "twenty",
+    "page": 40
+  },
+  {
+    "id": 251,
+    "roman_no_tones": "ph6m",
+    "en": "hair",
+    "page": 40
+  },
+  {
+    "id": 252,
+    "roman_no_tones": "phuu-khao",
+    "en": "I mountain",
+    "page": 40
+  },
+  {
+    "id": 253,
+    "roman_no_tones": "chaai-haat",
+    "en": "beach",
+    "page": 41
+  },
+  {
+    "id": 254,
+    "roman_no_tones": "bpaa-t6n",
+    "en": "rainforest",
+    "page": 41
+  },
+  {
+    "id": 259,
+    "roman_no_tones": "sTi-s6m",
+    "en": "I orange",
+    "page": 41
+  },
+  {
+    "id": 261,
+    "roman_no_tones": "naa-buuea",
+    "en": "boring",
+    "page": 42
+  },
+  {
+    "id": 262,
+    "roman_no_tones": "naa-dtuuen-dten",
+    "en": "exciting",
+    "page": 42
+  },
+  {
+    "id": 263,
+    "roman_no_tones": "mii-khwaam-sam-khan",
+    "en": "portant",
+    "page": 42
+  },
+  {
+    "id": 264,
+    "roman_no_tones": "bat-khree-dit",
+    "en": "credit card",
+    "page": 42
+  },
+  {
+    "id": 265,
+    "roman_no_tones": "gun-jaae",
+    "en": "I key",
+    "page": 42
+  },
+  {
+    "id": 266,
+    "roman_no_tones": "bai-khap-khii",
+    "en": "I driver's license",
+    "page": 42
+  },
+  {
+    "id": 268,
+    "roman_no_tones": "maae-nam",
+    "en": "river",
+    "page": 43
+  },
+  {
+    "id": 272,
+    "roman_no_tones": "khaawm-phf u-dt6oe",
+    "en": "computer",
+    "page": 43
+  },
+  {
+    "id": 274,
+    "roman_no_tones": "bprin-dt6oe",
+    "en": "printer",
+    "page": 44
+  },
+  {
+    "id": 275,
+    "roman_no_tones": "din-saaw-got",
+    "en": "mechanical pencil 1 aj",
+    "page": 44
+  },
+  {
+    "id": 277,
+    "roman_no_tones": "bpaak-gaa maak-g6oe",
+    "en": "marker",
+    "page": 44
+  },
+  {
+    "id": 278,
+    "roman_no_tones": "tha-naa-khaan",
+    "en": "bank",
+    "page": 44
+  },
+  {
+    "id": 279,
+    "roman_no_tones": "raan sa-duuak-suue",
+    "en": "convenience store",
+    "page": 44
+  },
+  {
+    "id": 280,
+    "roman_no_tones": "roong-pha-yaa-baan",
+    "en": "I hospital",
+    "page": 44
+  },
+  {
+    "id": 281,
+    "roman_no_tones": "gra-bpao-sa-dtaang",
+    "en": "wallet iJ",
+    "page": 45
+  },
+  {
+    "id": 282,
+    "roman_no_tones": "gra-bpao-thtJue",
+    "en": "purse",
+    "page": 45
+  },
+  {
+    "id": 285,
+    "roman_no_tones": "tha-lee-saai",
+    "en": "desert",
+    "page": 45
+  },
+  {
+    "id": 287,
+    "roman_no_tones": "sam-nak-ngaan",
+    "en": "I office",
+    "page": 45
+  },
+  {
+    "id": 288,
+    "roman_no_tones": "phtJuean-nJuam-ngaan",
+    "en": "coworker",
+    "page": 46
+  },
+  {
+    "id": 289,
+    "roman_no_tones": "gaan bpra-chum",
+    "en": "meeting",
+    "page": 46
+  },
+  {
+    "id": 290,
+    "roman_no_tones": "sa-thaa-nii dtam-ruuat",
+    "en": "police station",
+    "page": 46
+  },
+  {
+    "id": 292,
+    "roman_no_tones": "raan kha-n6m-bpang",
+    "en": "bakery",
+    "page": 46
+  },
+  {
+    "id": 293,
+    "roman_no_tones": "roong-nang",
+    "en": "movie theater fll';ib<\\l';ii\\11 gaan jee-ra-jaa negotiation",
+    "page": 46
+  },
+  {
+    "id": 295,
+    "roman_no_tones": "san-yaa",
+    "en": "contract",
+    "page": 47
+  },
+  {
+    "id": 296,
+    "roman_no_tones": "thu-ra-git",
+    "en": "business 611 el",
+    "page": 47
+  },
+  {
+    "id": 297,
+    "roman_no_tones": "khaaw-dtok-/ong",
+    "en": "deal tN",
+    "page": 47
+  },
+  {
+    "id": 301,
+    "roman_no_tones": "jao-naai",
+    "en": "I superior",
+    "page": 47
+  },
+  {
+    "id": 302,
+    "roman_no_tones": "baaw-ri-sat",
+    "en": "company b {I 'U, b (91 el",
+    "page": 48
+  },
+  {
+    "id": 303,
+    "roman_no_tones": "ngooen-duuean",
+    "en": "salary I",
+    "page": 48
+  },
+  {
+    "id": 304,
+    "roman_no_tones": "wft-tha-yu",
+    "en": "radio",
+    "page": 48
+  },
+  {
+    "id": 307,
+    "roman_no_tones": "nang-suue-phim",
+    "en": "newspaper",
+    "page": 48
+  },
+  {
+    "id": 308,
+    "roman_no_tones": "chaawng-khaao",
+    "en": "I news channel",
+    "page": 48
+  },
+  {
+    "id": 309,
+    "roman_no_tones": "khnJueang-don-dtrii",
+    "en": "musical instrument cfll'W11 + phaap-waat painting roong-/a-khaawn theater /a-khaawn-phleeng la-khaawn-oo-phee-raa opera phaawn-khlaai I relax",
+    "page": 49
+  },
+  {
+    "id": 315,
+    "roman_no_tones": "gra-daan-wai-baawt",
+    "en": "whiteboard",
+    "page": 49
+  },
+  {
+    "id": 316,
+    "roman_no_tones": "gra-daan-dam",
+    "en": "blackboard 611 eH'I el",
+    "page": 50
+  },
+  {
+    "id": 317,
+    "roman_no_tones": "khaaw-saawp",
+    "en": "test 'Vi 'U,\\l 61 el b ';i FJ it,",
+    "page": 50
+  },
+  {
+    "id": 318,
+    "roman_no_tones": "nang-stJue-riian",
+    "en": "textbook",
+    "page": 50
+  },
+  {
+    "id": 321,
+    "roman_no_tones": "baaw-dii",
+    "en": "president el",
+    "page": 50
+  },
+  {
+    "id": 322,
+    "roman_no_tones": "ut-saa-ha-gam",
+    "en": "I industry",
+    "page": 50
+  },
+  {
+    "id": 323,
+    "roman_no_tones": "khem-khat",
+    "en": "belt b'Vi'aFHY",
+    "page": 51
+  },
+  {
+    "id": 327,
+    "roman_no_tones": "bai-jaaeng-nfi",
+    "en": "bill n1-at;hF.Jcfll'W gaan-thaai-phaap I photography",
+    "page": 51
+  },
+  {
+    "id": 330,
+    "roman_no_tones": "hawng-naawn",
+    "en": "bedroom",
+    "page": 52
+  },
+  {
+    "id": 331,
+    "roman_no_tones": "hawng-khruua",
+    "en": "kitchen",
+    "page": 52
+  },
+  {
+    "id": 332,
+    "roman_no_tones": "hawng-aap-nam",
+    "en": "bathroom fll'a6'fl b'a\"1 fll'a fl'lfl",
+    "page": 52
+  },
+  {
+    "id": 335,
+    "roman_no_tones": "wan-khr6p-raawp",
+    "en": "I anniversary",
+    "page": 52
+  },
+  {
+    "id": 336,
+    "roman_no_tones": "ngaan-sop",
+    "en": "I funeral",
+    "page": 52
+  },
+  {
+    "id": 337,
+    "roman_no_tones": "ngaan-dtaaeng-ngaan",
+    "en": "wedding elfi'lJlFJ",
+    "page": 53
+  },
+  {
+    "id": 339,
+    "roman_no_tones": "daan-lang",
+    "en": "back",
+    "page": 53
+  },
+  {
+    "id": 341,
+    "roman_no_tones": "nek-thai",
+    "en": "I necktie",
+    "page": 53
+  },
+  {
+    "id": 343,
+    "roman_no_tones": "raawng-thao-phaa-bai",
+    "en": "sneaker",
+    "page": 53
+  },
+  {
+    "id": 345,
+    "roman_no_tones": "twenty-two",
+    "en": "I 611 a.J ii 'lH'll a.J saam-sip-saam",
+    "page": 54
+  },
+  {
+    "id": 346,
+    "roman_no_tones": "thirty-three 6'16'1'l.16'1",
+    "en": "qq sii-sip-sii",
+    "page": 54
+  },
+  {
+    "id": 348,
+    "roman_no_tones": "fifty-five",
+    "en": "'Uinb'aFJ'Ui nak-riian",
+    "page": 54
+  },
+  {
+    "id": 351,
+    "roman_no_tones": "hawng-riian",
+    "en": "classroom l, 'a-3 b . fJ",
+    "page": 55
+  },
+  {
+    "id": 352,
+    "roman_no_tones": "roong-riian",
+    "en": "school ., q q bnlelb'afJ'U,",
+    "page": 55
+  },
+  {
+    "id": 353,
+    "roman_no_tones": "gao-fi-riian",
+    "en": "school chair",
+    "page": 55
+  },
+  {
+    "id": 354,
+    "roman_no_tones": "dt6-riian \bhooldesk",
+    "en": "cl",
+    "page": 55
+  },
+  {
+    "id": 356,
+    "roman_no_tones": "thft-ntJuea",
+    "en": "north n",
+    "page": 55
+  },
+  {
+    "id": 358,
+    "roman_no_tones": "aap-naam",
+    "en": "bathe",
+    "page": 56
+  },
+  {
+    "id": 360,
+    "roman_no_tones": "thft-dtai",
+    "en": "south 6)j (91 'U, el",
+    "page": 56
+  },
+  {
+    "id": 361,
+    "roman_no_tones": "chut-naawn \u0004amas",
+    "en": "b , el FJ",
+    "page": 56
+  },
+  {
+    "id": 362,
+    "roman_no_tones": "suuea-y6k-song",
+    "en": "brassiere - 'U, 'U, el",
+    "page": 56
+  },
+  {
+    "id": 363,
+    "roman_no_tones": "dtuuen-naawn",
+    "en": "I wake up b",
+    "page": 56
+  },
+  {
+    "id": 364,
+    "roman_no_tones": "dooen-thaang",
+    "en": "I commute",
+    "page": 56
+  },
+  {
+    "id": 367,
+    "roman_no_tones": "wan-na-gam",
+    "en": "literature",
+    "page": 57
+  },
+  {
+    "id": 370,
+    "roman_no_tones": "kham-dtaawp",
+    "en": "answer",
+    "page": 57
+  },
+  {
+    "id": 374,
+    "roman_no_tones": "gaan-gooet",
+    "en": "birth",
+    "page": 58
+  },
+  {
+    "id": 379,
+    "roman_no_tones": "khao-nJuam",
+    "en": "attend",
+    "page": 59
+  },
+  {
+    "id": 380,
+    "roman_no_tones": "thft-dta-wan-dtok",
+    "en": "west",
+    "page": 59
+  },
+  {
+    "id": 383,
+    "roman_no_tones": "!aang",
+    "en": "wash",
+    "page": 59
+  },
+  {
+    "id": 390,
+    "roman_no_tones": "nueng-raauy",
+    "en": "one hundred 'Vi el\\l 'lM b61 it,",
+    "page": 60
+  },
+  {
+    "id": 391,
+    "roman_no_tones": "hawng-nang-/en",
+    "en": "living room 'Vi el\\! ell",
+    "page": 60
+  },
+  {
+    "id": 392,
+    "roman_no_tones": "hawng-aa-haan",
+    "en": "I dining room",
+    "page": 60
+  },
+  {
+    "id": 393,
+    "roman_no_tones": "thaang-dooen",
+    "en": "hallway cl cl el 'Wl'a@l b:J.J",
+    "page": 61
+  },
+  {
+    "id": 399,
+    "roman_no_tones": "wan-gooet",
+    "en": "I birthday",
+    "page": 61
+  },
+  {
+    "id": 400,
+    "roman_no_tones": "ga-sTian",
+    "en": "retire 6111'3UeJ n",
+    "page": 63
+  },
+  {
+    "id": 408,
+    "roman_no_tones": "sa-buu",
+    "en": "soap",
+    "page": 64
+  },
+  {
+    "id": 409,
+    "roman_no_tones": "bpraaeng-sTi-fan",
+    "en": "toothbrush F.ll",
+    "page": 64
+  },
+  {
+    "id": 410,
+    "roman_no_tones": "yaa-sTi-fan",
+    "en": "toothpaste",
+    "page": 64
+  },
+  {
+    "id": 411,
+    "roman_no_tones": "sa-ph6m",
+    "en": "shampoo 611 el",
+    "page": 64
+  },
+  {
+    "id": 412,
+    "roman_no_tones": "khaaw-muun",
+    "en": "information bffit",
+    "page": 64
+  },
+  {
+    "id": 413,
+    "roman_no_tones": "ga-seet-dtra-gaawn",
+    "en": "farmer",
+    "page": 64
+  },
+  {
+    "id": 414,
+    "roman_no_tones": "!ee-khaa-nu-gaan",
+    "en": "secretary 'U,lFJii'U,l &l'a naai-tha-naa-khaan banker 'U,nb6UFJ'U, nak-khTian writer 'W F.11 F.11 a.J",
+    "page": 65
+  },
+  {
+    "id": 417,
+    "roman_no_tones": "pha-yaa-yaam",
+    "en": "try",
+    "page": 65
+  },
+  {
+    "id": 424,
+    "roman_no_tones": "n6k-phf-raap -fgeon 'Viit,-3 61 elit, 1 b'YlfJ1 nang-stJue nam-thfiao",
+    "en": "guidebook",
+    "page": 66
+  },
+  {
+    "id": 426,
+    "roman_no_tones": "thaang-khao",
+    "en": "entrance",
+    "page": 66
+  },
+  {
+    "id": 427,
+    "roman_no_tones": "mak-khu-theet",
+    "en": "tour guide",
+    "page": 66
+  },
+  {
+    "id": 430,
+    "roman_no_tones": "wt-chaa wtt-tha-yaa-gaan khawm-phtu-dt6oe",
+    "en": "I computer science cl wf-chaa",
+    "page": 67
+  },
+  {
+    "id": 432,
+    "roman_no_tones": "ruu-suek",
+    "en": "feel",
+    "page": 67
+  },
+  {
+    "id": 434,
+    "roman_no_tones": "phaaen-gaan",
+    "en": "plan",
+    "page": 67
+  },
+  {
+    "id": 436,
+    "roman_no_tones": "ch6p-bpfng",
+    "en": "shopping qq 'YI 61 thfi sii fourth",
+    "page": 68
+  },
+  {
+    "id": 441,
+    "roman_no_tones": "khriim-ntJuat-ph6m",
+    "en": "conditioner",
+    "page": 68
+  },
+  {
+    "id": 442,
+    "roman_no_tones": "ltJuk-g/fng-ra-ngap-glin-",
+    "en": "gaai deodorant 61 'ii b",
+    "page": 69
+  },
+  {
+    "id": 443,
+    "roman_no_tones": "sa-buu leeo",
+    "en": "liquid soap biJ f",
+    "page": 69
+  },
+  {
+    "id": 446,
+    "roman_no_tones": "ma-/aaeng-saap",
+    "en": "cockroach",
+    "page": 69
+  },
+  {
+    "id": 449,
+    "roman_no_tones": "maae-baan",
+    "en": "housewife",
+    "page": 69
+  },
+  {
+    "id": 450,
+    "roman_no_tones": "naam-khaeng",
+    "en": "ice wf-chaa",
+    "page": 70
+  },
+  {
+    "id": 452,
+    "roman_no_tones": "wf-chaa phuu-mf-saat",
+    "en": "geography",
+    "page": 70
+  },
+  {
+    "id": 454,
+    "roman_no_tones": "dta-Jaat",
+    "en": "market",
+    "page": 70
+  },
+  {
+    "id": 455,
+    "roman_no_tones": "raa-khaa",
+    "en": "I price",
+    "page": 70
+  },
+  {
+    "id": 456,
+    "roman_no_tones": "khuu-bpawng",
+    "en": "I coupon",
+    "page": 70
+  },
+  {
+    "id": 457,
+    "roman_no_tones": "chawng thaang-dooen",
+    "en": "aisle",
+    "page": 71
+  },
+  {
+    "id": 459,
+    "roman_no_tones": "phaap-thaai",
+    "en": "photograph naam-at-lom 'Ylbnl thfi gaao ninth qq 'YI i;l'lJ thfi sip tenth thfi bpaaet eighth",
+    "page": 71
+  },
+  {
+    "id": 464,
+    "roman_no_tones": "mfit-goon",
+    "en": "shaving razor 4J N16ll it, 'Vi it, b",
+    "page": 72
+  },
+  {
+    "id": 465,
+    "roman_no_tones": "phaa-khan-ntJu chet-",
+    "en": "naa washcloth I",
+    "page": 72
+  },
+  {
+    "id": 466,
+    "roman_no_tones": "phaa-khan-ntJu",
+    "en": "towel 6)j el",
+    "page": 72
+  },
+  {
+    "id": 472,
+    "roman_no_tones": "m6t",
+    "en": "ant I",
+    "page": 73
+  },
+  {
+    "id": 475,
+    "roman_no_tones": "nak-aawk-baaep",
+    "en": "designer \u00046'111'U, sTn-Ja-bpin artist",
+    "page": 73
+  },
+  {
+    "id": 477,
+    "roman_no_tones": "tha-haan",
+    "en": "soldier",
+    "page": 73
+  },
+  {
+    "id": 478,
+    "roman_no_tones": "phtJu-bpra-gaawp-gaan",
+    "en": "entrepreneur",
+    "page": 74
+  },
+  {
+    "id": 479,
+    "roman_no_tones": "rtJueang-san",
+    "en": "short story bbcv!:JJ",
+    "page": 74
+  },
+  {
+    "id": 485,
+    "roman_no_tones": "thaang-aawk",
+    "en": "exit bbN'Ui'YI",
+    "page": 75
+  },
+  {
+    "id": 486,
+    "roman_no_tones": "phaaen-thfi --f ap",
+    "en": "f f a hbiJl",
+    "page": 75
+  },
+  {
+    "id": 488,
+    "roman_no_tones": "nak-thawng-thfiao",
+    "en": "tourist cl",
+    "page": 75
+  },
+  {
+    "id": 489,
+    "roman_no_tones": "rat-tha-saat",
+    "en": "politics",
+    "page": 75
+  },
+  {
+    "id": 490,
+    "roman_no_tones": "wi-chaa chii-wa-wit- tha-yaa",
+    "en": "biology 16lilb ka..J",
+    "page": 75
+  },
+  {
+    "id": 491,
+    "roman_no_tones": "wi-chaa khee-mii",
+    "en": "chemistry",
+    "page": 75
+  },
+  {
+    "id": 492,
+    "roman_no_tones": "wf-chaa ff-sik",
+    "en": "physics",
+    "page": 76
+  },
+  {
+    "id": 493,
+    "roman_no_tones": "wf-chaa seet-tha-saat",
+    "en": "economics",
+    "page": 76
+  },
+  {
+    "id": 495,
+    "roman_no_tones": "jam-dai",
+    "en": "member f;l el",
+    "page": 76
+  },
+  {
+    "id": 499,
+    "roman_no_tones": "nang dta-/ok",
+    "en": "comedy na-wa-nf-yaai novel I 1n1n 900-960 cocoa naam-at-lom nam-ph6n-/a-maai juice chan-nang-stJue I bookshelf b \u0007 tl-3 'Ui el 'U, dtiiang-naawn I bed",
+    "page": 77
+  },
+  {
+    "id": 506,
+    "roman_no_tones": "gra-jok",
+    "en": "mirror dttJu-lf n-chak sai",
+    "page": 78
+  },
+  {
+    "id": 507,
+    "roman_no_tones": "stJuea-phaa",
+    "en": "dresser n-n",
+    "page": 78
+  },
+  {
+    "id": 512,
+    "roman_no_tones": "faa-ren-hai",
+    "en": "I Fahrenheit",
+    "page": 78
+  },
+  {
+    "id": 513,
+    "roman_no_tones": "un-ha-phuum",
+    "en": "temperature",
+    "page": 79
+  },
+  {
+    "id": 516,
+    "roman_no_tones": "sa-naam-dek-/en",
+    "en": "playground",
+    "page": 79
+  },
+  {
+    "id": 517,
+    "roman_no_tones": "sa-naam",
+    "en": "pool b",
+    "page": 79
+  },
+  {
+    "id": 518,
+    "roman_no_tones": "then-nit",
+    "en": "tennis",
+    "page": 79
+  },
+  {
+    "id": 519,
+    "roman_no_tones": "baat-get-baawn",
+    "en": "basketball",
+    "page": 79
+  },
+  {
+    "id": 520,
+    "roman_no_tones": "/ft",
+    "en": "liter",
+    "page": 80
+  },
+  {
+    "id": 522,
+    "roman_no_tones": "kha-n6m-bpang",
+    "en": "bread",
+    "page": 80
+  },
+  {
+    "id": 524,
+    "roman_no_tones": "gtJuai-dtTiao",
+    "en": "noodle",
+    "page": 80
+  },
+  {
+    "id": 525,
+    "roman_no_tones": "naa-lf-gaa bpluk",
+    "en": "alarm clock",
+    "page": 80
+  },
+  {
+    "id": 526,
+    "roman_no_tones": "bpra-dtuu",
+    "en": "I door",
+    "page": 80
+  },
+  {
+    "id": 527,
+    "roman_no_tones": "rii-moot",
+    "en": "remote control",
+    "page": 81
+  },
+  {
+    "id": 529,
+    "roman_no_tones": "mee-nuu-aa-haan",
+    "en": "menu",
+    "page": 81
+  },
+  {
+    "id": 530,
+    "roman_no_tones": "nft-dta-ya-saan",
+    "en": "fagazine 'Vi 'U,\\l 6'I el b",
+    "page": 81
+  },
+  {
+    "id": 531,
+    "roman_no_tones": "nang-stJue-sTiang",
+    "en": "audiobook qq1 1 0 elbna-J",
+    "page": 81
+  },
+  {
+    "id": 532,
+    "roman_no_tones": "wf-dii-oo-geem",
+    "en": "video game",
+    "page": 81
+  },
+  {
+    "id": 535,
+    "roman_no_tones": "jai-dii",
+    "en": "kind I 'U, l'Vi11(91 fl",
+    "page": 82
+  },
+  {
+    "id": 536,
+    "roman_no_tones": "naa-waat-gluua",
+    "en": "scary",
+    "page": 82
+  },
+  {
+    "id": 541,
+    "roman_no_tones": "khwaam jep-khai",
+    "en": "illness",
+    "page": 83
+  },
+  {
+    "id": 543,
+    "roman_no_tones": "aa-gaan baat-jep",
+    "en": "injury tn",
+    "page": 83
+  },
+  {
+    "id": 545,
+    "roman_no_tones": "khwaam jep-bpuuat",
+    "en": "pain ti khai I fever",
+    "page": 83
+  },
+  {
+    "id": 547,
+    "roman_no_tones": "naa-dtaang",
+    "en": "I window",
+    "page": 83
+  },
+  {
+    "id": 549,
+    "roman_no_tones": "aa-haan",
+    "en": "meal 'Vi:J..J e1 n",
+    "page": 84
+  },
+  {
+    "id": 552,
+    "roman_no_tones": "phaa-yu-t6n-taa-kha-",
+    "en": "naawng thunderstorm cla., q q a.,",
+    "page": 84
+  },
+  {
+    "id": 553,
+    "roman_no_tones": "phf-phft-tha-phan sat-",
+    "en": "nam aquarium cv!",
+    "page": 84
+  },
+  {
+    "id": 554,
+    "roman_no_tones": "fut-baawn",
+    "en": "I soccer",
+    "page": 84
+  },
+  {
+    "id": 555,
+    "roman_no_tones": "suuan-sat",
+    "en": "zoo 9,t(91 ti",
+    "page": 85
+  },
+  {
+    "id": 556,
+    "roman_no_tones": "khaa-dooi-saan",
+    "en": "fare iJ1t1':i b:J-JJ",
+    "page": 85
+  },
+  {
+    "id": 557,
+    "roman_no_tones": "bpaai-r6t-mee",
+    "en": "bus stop ni':J-J",
+    "page": 85
+  },
+  {
+    "id": 560,
+    "roman_no_tones": "gi-/oo-meet",
+    "en": "kilometer",
+    "page": 85
+  },
+  {
+    "id": 561,
+    "roman_no_tones": "bpuuat-huua",
+    "en": "I headache",
+    "page": 85
+  },
+  {
+    "id": 562,
+    "roman_no_tones": "rook thaawng-sTia",
+    "en": "diarrhea",
+    "page": 86
+  },
+  {
+    "id": 563,
+    "roman_no_tones": "aa-gaan",
+    "en": "symptom I ell",
+    "page": 86
+  },
+  {
+    "id": 564,
+    "roman_no_tones": "aa-gaan bpuuat-",
+    "en": "thaawng stomachache",
+    "page": 86
+  },
+  {
+    "id": 569,
+    "roman_no_tones": "sii-yaaek",
+    "en": "intersection",
+    "page": 87
+  },
+  {
+    "id": 570,
+    "roman_no_tones": "thaang-luuang",
+    "en": "highway",
+    "page": 87
+  },
+  {
+    "id": 571,
+    "roman_no_tones": "tha-n6n",
+    "en": "road",
+    "page": 87
+  },
+  {
+    "id": 573,
+    "roman_no_tones": "naa-s6n-jai",
+    "en": "interesting",
+    "page": 87
+  },
+  {
+    "id": 574,
+    "roman_no_tones": "jai-raai",
+    "en": "mean 'a6'1 fl b'lHl'Vi'U, ltl",
+    "page": 87
+  },
+  {
+    "id": 575,
+    "roman_no_tones": "ruu-suek buuea-naai",
+    "en": "I bored",
+    "page": 87
+  },
+  {
+    "id": 576,
+    "roman_no_tones": "jet-raauy",
+    "en": "seven hundred bb'iJ",
+    "page": 88
+  },
+  {
+    "id": 577,
+    "roman_no_tones": "bpaaet-raauy",
+    "en": "eight hundred 61 el\\! 'a el fJ",
+    "page": 88
+  },
+  {
+    "id": 578,
+    "roman_no_tones": "saawng-raauy",
+    "en": "two hundred",
+    "page": 88
+  },
+  {
+    "id": 580,
+    "roman_no_tones": "hok-raauy",
+    "en": "six hundred it 1 e1 e1 n",
+    "page": 88
+  },
+  {
+    "id": 583,
+    "roman_no_tones": "aa-gaat",
+    "en": "weather report",
+    "page": 89
+  },
+  {
+    "id": 584,
+    "roman_no_tones": "seeo-sfiat",
+    "en": "Celsius qq 'al FJ",
+    "page": 89
+  },
+  {
+    "id": 585,
+    "roman_no_tones": "raai-gaan thii-wii",
+    "en": "TV show n1\"a1\\l g e1 n",
+    "page": 89
+  },
+  {
+    "id": 586,
+    "roman_no_tones": "gaan wfng-jawk-gfng --fgging",
+    "en": "el 1 'Vil 'a g 1 'U, (911 it,",
+    "page": 89
+  },
+  {
+    "id": 587,
+    "roman_no_tones": "aa-haan Jaan duuan",
+    "en": "fast food",
+    "page": 89
+  },
+  {
+    "id": 588,
+    "roman_no_tones": "stJuan-saa-thaa-ra-na",
+    "en": "I park ltyqpmlcw g\"alg'a san-yaan-fai",
+    "page": 89
+  },
+  {
+    "id": 593,
+    "roman_no_tones": "haa-raauy",
+    "en": "e hundred bnl'aelfJ bfll G'l'i.lbfll",
+    "page": 90
+  },
+  {
+    "id": 594,
+    "roman_no_tones": "gao-raauy-gao-sip-gao",
+    "en": "nine hundred ninety nine 'Vi 'U,-3 'a el £1 b el",
+    "page": 90
+  },
+  {
+    "id": 595,
+    "roman_no_tones": "nueng-raauy-et",
+    "en": "one hundred and one",
+    "page": 90
+  },
+  {
+    "id": 596,
+    "roman_no_tones": "sii-raauy",
+    "en": "I four hundred",
+    "page": 90
+  },
+  {
+    "id": 597,
+    "roman_no_tones": "gao-raauy",
+    "en": "nine hundred",
+    "page": 92
+  },
+  {
+    "id": 600,
+    "roman_no_tones": "sen-dti-meet",
+    "en": "centimeter ., ';il 'U, el",
+    "page": 92
+  },
+  {
+    "id": 601,
+    "roman_no_tones": "raan-aa-haan",
+    "en": "restaurant",
+    "page": 92
+  },
+  {
+    "id": 602,
+    "roman_no_tones": "khaa-fee",
+    "en": "cafe",
+    "page": 92
+  },
+  {
+    "id": 603,
+    "roman_no_tones": "raan gaa-faae",
+    "en": "I coffee shop",
+    "page": 92
+  },
+  {
+    "id": 605,
+    "roman_no_tones": "fooe-nf-j6oe",
+    "en": "furniture G'l'Uila..l'Viijp",
+    "page": 93
+  },
+  {
+    "id": 606,
+    "roman_no_tones": "sa-naam-yaa",
+    "en": "grass",
+    "page": 93
+  },
+  {
+    "id": 609,
+    "roman_no_tones": "gaawn-hTn",
+    "en": "rock",
+    "page": 93
+  },
+  {
+    "id": 610,
+    "roman_no_tones": "dt6n-mai",
+    "en": "I tree",
+    "page": 93
+  },
+  {
+    "id": 611,
+    "roman_no_tones": "tat-thf-dtao",
+    "en": "Taoism",
+    "page": 94
+  },
+  {
+    "id": 612,
+    "roman_no_tones": "kham-phii bai-b6en",
+    "en": "Bible",
+    "page": 94
+  },
+  {
+    "id": 613,
+    "roman_no_tones": "kham-phii gun-ra-aan",
+    "en": "Quran",
+    "page": 94
+  },
+  {
+    "id": 615,
+    "roman_no_tones": "saat-sa-naa yiu",
+    "en": "Judaism",
+    "page": 94
+  },
+  {
+    "id": 616,
+    "roman_no_tones": "nueng-phan",
+    "en": "I one thousand 61 el-:l'W'U,",
+    "page": 94
+  },
+  {
+    "id": 617,
+    "roman_no_tones": "saawng-phan",
+    "en": "I two thousand",
+    "page": 94
+  },
+  {
+    "id": 618,
+    "roman_no_tones": "bpaaet-phan",
+    "en": "eight thousand 'Vi 'U,-3 'Vi a..!",
+    "page": 95
+  },
+  {
+    "id": 619,
+    "roman_no_tones": "nueng-muuen",
+    "en": "ten thousand",
+    "page": 95
+  },
+  {
+    "id": 620,
+    "roman_no_tones": "sii-phan",
+    "en": "four thousand",
+    "page": 95
+  },
+  {
+    "id": 622,
+    "roman_no_tones": "haaw-phak",
+    "en": "I dormitory cl cl 01 fl el 'Wl'a 01 ba.J",
+    "page": 95
+  },
+  {
+    "id": 626,
+    "roman_no_tones": "khltJuen sue-naa-mf",
+    "en": "tsunami",
+    "page": 96
+  },
+  {
+    "id": 627,
+    "roman_no_tones": "hi-ma tha-/om",
+    "en": "avalanche",
+    "page": 96
+  },
+  {
+    "id": 629,
+    "roman_no_tones": "phaen-din-wai",
+    "en": "earthquake 'Wl ti 'Yl'al ti",
+    "page": 96
+  },
+  {
+    "id": 630,
+    "roman_no_tones": "phaa-yu-saai",
+    "en": "sandstorm f;Nl:J-1 el",
+    "page": 96
+  },
+  {
+    "id": 631,
+    "roman_no_tones": "thtJng-muue",
+    "en": "glove",
+    "page": 96
+  },
+  {
+    "id": 634,
+    "roman_no_tones": "khaaen-yaao long-sleeved",
+    "en": "bb 611 'U, 61 it, khaaen-san short-sleeved b",
+    "page": 97
+  },
+  {
+    "id": 636,
+    "roman_no_tones": "jep-bpuuat",
+    "en": "painful 611 ell fJ",
+    "page": 97
+  },
+  {
+    "id": 637,
+    "roman_no_tones": "khfi-aai",
+    "en": "shy",
+    "page": 97
+  },
+  {
+    "id": 638,
+    "roman_no_tones": "bpra-maa",
+    "en": "I nervous",
+    "page": 97
+  },
+  {
+    "id": 639,
+    "roman_no_tones": "dtuuen-dten",
+    "en": "excited ';H'ln el 'lHll fJ",
+    "page": 98
+  },
+  {
+    "id": 640,
+    "roman_no_tones": "ruu-suek ap-aai",
+    "en": "embarrassed",
+    "page": 98
+  },
+  {
+    "id": 641,
+    "roman_no_tones": "chon-na-bot",
+    "en": "country 'Vi :J..l 'lJ 1 'U, I IV",
+    "page": 98
+  },
+  {
+    "id": 642,
+    "roman_no_tones": "muu-baan",
+    "en": "+: \u0005age b:J..l",
+    "page": 98
+  },
+  {
+    "id": 644,
+    "roman_no_tones": "chaan-muueang",
+    "en": "I suburb",
+    "page": 98
+  },
+  {
+    "id": 646,
+    "roman_no_tones": "phlaae tai-mai",
+    "en": "burn 'Vi:J..Jlf f an",
+    "page": 99
+  },
+  {
+    "id": 647,
+    "roman_no_tones": "maak-ruk",
+    "en": "chess",
+    "page": 99
+  },
+  {
+    "id": 648,
+    "roman_no_tones": "phaa-saa",
+    "en": "language",
+    "page": 99
+  },
+  {
+    "id": 650,
+    "roman_no_tones": "bpawng-gan-dtuua",
+    "en": "martial arts",
+    "page": 99
+  },
+  {
+    "id": 651,
+    "roman_no_tones": "phaaw-jai",
+    "en": "satisfied",
+    "page": 99
+  },
+  {
+    "id": 652,
+    "roman_no_tones": "sa-ngop",
+    "en": "I calm",
+    "page": 99
+  },
+  {
+    "id": 655,
+    "roman_no_tones": "mai phaaw-Jai",
+    "en": "dissatisfied",
+    "page": 100
+  },
+  {
+    "id": 656,
+    "roman_no_tones": "haa-phan",
+    "en": "ethousand",
+    "page": 100
+  },
+  {
+    "id": 657,
+    "roman_no_tones": "saam-phan",
+    "en": "three thousand 'Vifl'W'Ui hok-phan I six thousand",
+    "page": 100
+  },
+  {
+    "id": 659,
+    "roman_no_tones": "Jet-phan",
+    "en": "I seven thousand",
+    "page": 100
+  },
+  {
+    "id": 660,
+    "roman_no_tones": "gao-phan",
+    "en": "nine thousand n'Vi",
+    "page": 101
+  },
+  {
+    "id": 661,
+    "roman_no_tones": "gu-taap",
+    "en": "rose",
+    "page": 101
+  },
+  {
+    "id": 662,
+    "roman_no_tones": "daawk-mai",
+    "en": "flower (91 el fl",
+    "page": 101
+  },
+  {
+    "id": 664,
+    "roman_no_tones": "daawk-thaan-dta-wan",
+    "en": "sunflower (91 el flbb (91 'U, ? b 61 el el",
+    "page": 101
+  },
+  {
+    "id": 665,
+    "roman_no_tones": "daawk-daaen-di-lai-",
+    "en": "aawn dandelion fll'ab",
+    "page": 101
+  },
+  {
+    "id": 667,
+    "roman_no_tones": "aawk-gam-lang-gaai",
+    "en": "exercising",
+    "page": 102
+  },
+  {
+    "id": 668,
+    "roman_no_tones": "gaan aawk-gam-lang­",
+    "en": "gaai workout I",
+    "page": 102
+  },
+  {
+    "id": 671,
+    "roman_no_tones": "dttJm-htJu",
+    "en": "earring",
+    "page": 102
+  },
+  {
+    "id": 672,
+    "roman_no_tones": "sauy-khaaw",
+    "en": "necklace",
+    "page": 102
+  },
+  {
+    "id": 674,
+    "roman_no_tones": "s6oe",
+    "en": "boxer shorts",
+    "page": 103
+  },
+  {
+    "id": 675,
+    "roman_no_tones": "gra-bproong",
+    "en": "skirt bbe1:J..J b'lJ el'ab n el'a",
+    "page": 103
+  },
+  {
+    "id": 676,
+    "roman_no_tones": "haaem-booe-g6oe",
+    "en": "hamburger 01 161 b'lJ el'abn el'a -f heeseburger",
+    "page": 103
+  },
+  {
+    "id": 678,
+    "roman_no_tones": "phft-saa",
+    "en": "pizza",
+    "page": 103
+  },
+  {
+    "id": 679,
+    "roman_no_tones": "hawt-dawk",
+    "en": "hot dog",
+    "page": 103
+  },
+  {
+    "id": 681,
+    "roman_no_tones": "naam-thtJuam",
+    "en": "flood 'WlF.Jbi Nit,",
+    "page": 104
+  },
+  {
+    "id": 682,
+    "roman_no_tones": "phaa-yu-dtai-fun",
+    "en": "typhoon efq",
+    "page": 104
+  },
+  {
+    "id": 683,
+    "roman_no_tones": "phaa-yu-hooe-rf-kheen",
+    "en": "hurricane",
+    "page": 104
+  },
+  {
+    "id": 687,
+    "roman_no_tones": "saat-sa-naa khrft nf­ gaai bproo-dtaaet­",
+    "en": "dtaen Protestantism",
+    "page": 104
+  },
+  {
+    "id": 688,
+    "roman_no_tones": "gaai roo-man khaa­ thaaw-lik",
+    "en": "Catholicism",
+    "page": 105
+  },
+  {
+    "id": 689,
+    "roman_no_tones": "saat-sa-naa hin-duu",
+    "en": "Hinduism",
+    "page": 105
+  },
+  {
+    "id": 690,
+    "roman_no_tones": "saat-sa-naa phut",
+    "en": "Buddhism 611 el b",
+    "page": 105
+  },
+  {
+    "id": 691,
+    "roman_no_tones": "khaaw-thaao",
+    "en": "ankle 611 e) He) fl",
+    "page": 105
+  },
+  {
+    "id": 692,
+    "roman_no_tones": "khaaw-saawk",
+    "en": "elbow 611 e) a..J",
+    "page": 105
+  },
+  {
+    "id": 693,
+    "roman_no_tones": "khaaw-muue",
+    "en": "wrist",
+    "page": 105
+  },
+  {
+    "id": 694,
+    "roman_no_tones": "htJua-khao",
+    "en": "knee",
+    "page": 105
+  },
+  {
+    "id": 695,
+    "roman_no_tones": "phTu-nang",
+    "en": "skin",
+    "page": 106
+  },
+  {
+    "id": 697,
+    "roman_no_tones": "phaaw-khruua",
+    "en": "chef",
+    "page": 106
+  },
+  {
+    "id": 701,
+    "roman_no_tones": "tham-dtaaek",
+    "en": "break",
+    "page": 106
+  },
+  {
+    "id": 705,
+    "roman_no_tones": "dttJu-yen",
+    "en": "refrigerator khrtJueang-duut-fun uum cleaner b 'Vi-3 el el el n",
+    "page": 107
+  },
+  {
+    "id": 709,
+    "roman_no_tones": "maai-/eek hawng-phak",
+    "en": "I room number",
+    "page": 107
+  },
+  {
+    "id": 710,
+    "roman_no_tones": "gun-jaae hawng-phak",
+    "en": "room key",
+    "page": 108
+  },
+  {
+    "id": 715,
+    "roman_no_tones": "chom-phuu",
+    "en": "pink",
+    "page": 108
+  },
+  {
+    "id": 718,
+    "roman_no_tones": "raat-booe-rfi",
+    "en": "raspberry",
+    "page": 109
+  },
+  {
+    "id": 719,
+    "roman_no_tones": "aa-gaan ai",
+    "en": "cough n':i Ub'YIF.Ja.J",
+    "page": 109
+  },
+  {
+    "id": 720,
+    "roman_no_tones": "gra-thiiam",
+    "en": "garlic",
+    "page": 109
+  },
+  {
+    "id": 722,
+    "roman_no_tones": "khrtJueang-sak-phaa",
+    "en": "washing machine b",
+    "page": 109
+  },
+  {
+    "id": 728,
+    "roman_no_tones": "yom-dt6n",
+    "en": "middle school l, ';i-3 b j £1 it, :JJ irn :J-1 'iJ 611 £1 roong-riian mat-tha­ yom-bplaai high school :J-1 'Vi11 'VI £11 o",
+    "page": 110
+  },
+  {
+    "id": 730,
+    "roman_no_tones": "ma-haa-wft-tha-yaa-/ai",
+    "en": "university pdl'Viw",
+    "page": 110
+  },
+  {
+    "id": 731,
+    "roman_no_tones": "khruu-yai",
+    "en": "principal",
+    "page": 110
+  },
+  {
+    "id": 732,
+    "roman_no_tones": "sa-waang",
+    "en": "bright bb",
+    "page": 111
+  },
+  {
+    "id": 733,
+    "roman_no_tones": "laep-thawp",
+    "en": "laptop computer I b:J..116'1 mao mouse 6l11'W'3 lam-phoong eaker",
+    "page": 111
+  },
+  {
+    "id": 736,
+    "roman_no_tones": "wep-khaem",
+    "en": "webcam",
+    "page": 111
+  },
+  {
+    "id": 737,
+    "roman_no_tones": "mai-khroo-foon",
+    "en": "microphone",
+    "page": 111
+  },
+  {
+    "id": 738,
+    "roman_no_tones": "dtang-dt6",
+    "en": "I desktop computer",
+    "page": 111
+  },
+  {
+    "id": 739,
+    "roman_no_tones": "phrfk-khfi-ntJu",
+    "en": "I chili pepper",
+    "page": 112
+  },
+  {
+    "id": 740,
+    "roman_no_tones": "khaao-phoot",
+    "en": "corn",
+    "page": 112
+  },
+  {
+    "id": 741,
+    "roman_no_tones": "dtiiang-diiao",
+    "en": "single bed",
+    "page": 112
+  },
+  {
+    "id": 742,
+    "roman_no_tones": "dtiiang-khtJu",
+    "en": "double bed l'a\\l bb'a:J.J",
+    "page": 112
+  },
+  {
+    "id": 743,
+    "roman_no_tones": "roong-raaem",
+    "en": "hotel I NlfJ01elit,i''lJ61fl l 4J faai dtaawn-rap",
+    "page": 112
+  },
+  {
+    "id": 748,
+    "roman_no_tones": "tha-wfip awt-dtree-liia",
+    "en": "Australia cl <:! ciJ 'Yl1 bbe)'U, Hl'anHnl",
+    "page": 113
+  },
+  {
+    "id": 749,
+    "roman_no_tones": "tha-wfip aaen-dtaak- dti-gaa",
+    "en": "Antarctica <:! ciJ 'Y11 bel b6li FJ",
+    "page": 113
+  },
+  {
+    "id": 750,
+    "roman_no_tones": "tha-wfip ee-chiia",
+    "en": "Asia",
+    "page": 113
+  },
+  {
+    "id": 751,
+    "roman_no_tones": "tha-wfip aaep-fri-gaa",
+    "en": "I Africa 'YI 1 ciJ FJ 1 'a ciJ",
+    "page": 113
+  },
+  {
+    "id": 752,
+    "roman_no_tones": "tha-wfip yu-roop",
+    "en": "Europe",
+    "page": 113
+  },
+  {
+    "id": 758,
+    "roman_no_tones": "naa-ram-khaan",
+    "en": "annoying lam-dtuua torso",
+    "page": 114
+  },
+  {
+    "id": 760,
+    "roman_no_tones": "naa-ak",
+    "en": "breast",
+    "page": 115
+  },
+  {
+    "id": 761,
+    "roman_no_tones": "gra-bpao-sa-phaai-lang",
+    "en": "backpack",
+    "page": 115
+  },
+  {
+    "id": 762,
+    "roman_no_tones": "sai-din-saaw",
+    "en": "pencil lead",
+    "page": 115
+  },
+  {
+    "id": 764,
+    "roman_no_tones": "khrtJueang-khft-leek",
+    "en": "calculator",
+    "page": 115
+  },
+  {
+    "id": 765,
+    "roman_no_tones": "gap tao din-saaw",
+    "en": "pencil sharpener",
+    "page": 115
+  },
+  {
+    "id": 770,
+    "roman_no_tones": "aep-bpri-khawt",
+    "en": "\" ricot 61 'lJ 'l1 g;';j sap-bpa-r6t pineapple",
+    "page": 116
+  },
+  {
+    "id": 772,
+    "roman_no_tones": "mee-lawn",
+    "en": "melon",
+    "page": 116
+  },
+  {
+    "id": 773,
+    "roman_no_tones": "ph6n ma-duuea",
+    "en": "fig",
+    "page": 116
+  },
+  {
+    "id": 775,
+    "roman_no_tones": "ga-Jam-daawk",
+    "en": "cauliflower",
+    "page": 117
+  },
+  {
+    "id": 776,
+    "roman_no_tones": "ga-Jam-bpJii",
+    "en": "cabbage ma-khtJuea eggplant",
+    "page": 117
+  },
+  {
+    "id": 779,
+    "roman_no_tones": "thuua-ngaawk",
+    "en": "bean sprout el'IJ 0l b",
+    "page": 117
+  },
+  {
+    "id": 781,
+    "roman_no_tones": "mii khwaam-wang",
+    "en": "hopeful 61 fl",
+    "page": 117
+  },
+  {
+    "id": 785,
+    "roman_no_tones": "yaak-jon",
+    "en": "poor",
+    "page": 118
+  },
+  {
+    "id": 786,
+    "roman_no_tones": "naa-jaaw",
+    "en": "fonitor bbiJWw:J-Jcw'",
+    "page": 118
+  },
+  {
+    "id": 788,
+    "roman_no_tones": "huu-fang",
+    "en": "headphones",
+    "page": 118
+  },
+  {
+    "id": 789,
+    "roman_no_tones": "sa-uek",
+    "en": "I hiccup",
+    "page": 118
+  },
+  {
+    "id": 790,
+    "roman_no_tones": "ph6n-bluu-booe-rfi",
+    "en": "blueberry",
+    "page": 119
+  },
+  {
+    "id": 791,
+    "roman_no_tones": "ltJuk-phrun",
+    "en": "prune a..J",
+    "page": 119
+  },
+  {
+    "id": 792,
+    "roman_no_tones": "ma-mtJuang",
+    "en": "mango a..J",
+    "page": 119
+  },
+  {
+    "id": 793,
+    "roman_no_tones": "ma-naao",
+    "en": "lemon ., nu",
+    "page": 119
+  },
+  {
+    "id": 796,
+    "roman_no_tones": "glaam-nuuea",
+    "en": "muscle",
+    "page": 119
+  },
+  {
+    "id": 797,
+    "roman_no_tones": "gra-duuk",
+    "en": "bone",
+    "page": 121
+  },
+  {
+    "id": 799,
+    "roman_no_tones": "man-theet",
+    "en": "sweet potato",
+    "page": 121
+  },
+  {
+    "id": 801,
+    "roman_no_tones": "mai sam-khan",
+    "en": "insignificant",
+    "page": 121
+  },
+  {
+    "id": 802,
+    "roman_no_tones": "mii chtJue-sTiang",
+    "en": "famous",
+    "page": 121
+  },
+  {
+    "id": 804,
+    "roman_no_tones": "rnai bpen thaang-gaan",
+    "en": "casual q n",
+    "page": 122
+  },
+  {
+    "id": 805,
+    "roman_no_tones": "gii-dtaa",
+    "en": "guitar",
+    "page": 122
+  },
+  {
+    "id": 806,
+    "roman_no_tones": "haai-Jai",
+    "en": "breathe ci :JJ it,",
+    "page": 122
+  },
+  {
+    "id": 807,
+    "roman_no_tones": "thorn narn-/aai",
+    "en": "it 'Vi :JJ el",
+    "page": 122
+  },
+  {
+    "id": 808,
+    "roman_no_tones": "rnaaw-fan",
+    "en": "dentist",
+    "page": 122
+  },
+  {
+    "id": 810,
+    "roman_no_tones": "r6ok-huuet-haawp",
+    "en": "I asthma",
+    "page": 122
+  },
+  {
+    "id": 811,
+    "roman_no_tones": "r6ok-phuum-phaae",
+    "en": "allergy",
+    "page": 123
+  },
+  {
+    "id": 812,
+    "roman_no_tones": "baawt-dfng-phaat",
+    "en": "boarding pass I n1';i cn'lfl gaan suek-saa",
+    "page": 123
+  },
+  {
+    "id": 814,
+    "roman_no_tones": "phaa-saa ang-grit",
+    "en": "English",
+    "page": 123
+  },
+  {
+    "id": 815,
+    "roman_no_tones": "nf-dti-saat",
+    "en": "law",
+    "page": 123
+  },
+  {
+    "id": 817,
+    "roman_no_tones": "pha-naaek ai thii",
+    "en": "I IT department",
+    "page": 123
+  },
+  {
+    "id": 818,
+    "roman_no_tones": "bpai dtit-dtaaw thu-ra­",
+    "en": "git business trip",
+    "page": 124
+  },
+  {
+    "id": 820,
+    "roman_no_tones": "bpen thfi nf-yam",
+    "en": "I popular fl 1 'a 'lJ gy",
+    "page": 124
+  },
+  {
+    "id": 821,
+    "roman_no_tones": "gaan ban-shii",
+    "en": "accounting",
+    "page": 124
+  },
+  {
+    "id": 822,
+    "roman_no_tones": "ngaaen-baa-nat",
+    "en": "bonus b'lJl",
+    "page": 124
+  },
+  {
+    "id": 824,
+    "roman_no_tones": "thrawm-baan",
+    "en": "trombone",
+    "page": 124
+  },
+  {
+    "id": 825,
+    "roman_no_tones": "khaa-aawk",
+    "en": "departure",
+    "page": 125
+  },
+  {
+    "id": 826,
+    "roman_no_tones": "khaa-khao",
+    "en": "arrival I",
+    "page": 125
+  },
+  {
+    "id": 827,
+    "roman_no_tones": "wai-oo-lin",
+    "en": "violin cl\"!, 1 'VI F.11 516'I 4';i'W it,",
+    "page": 125
+  },
+  {
+    "id": 828,
+    "roman_no_tones": "wft-tha-yaa-saat phuuen-phf-ph6p",
+    "en": "rth science cl",
+    "page": 125
+  },
+  {
+    "id": 829,
+    "roman_no_tones": "wft-tha-yaa-saat",
+    "en": "science",
+    "page": 125
+  },
+  {
+    "id": 830,
+    "roman_no_tones": "bai-sang-yaa",
+    "en": "prescription",
+    "page": 125
+  },
+  {
+    "id": 831,
+    "roman_no_tones": "sam-phaa-ra",
+    "en": "I luggage",
+    "page": 125
+  },
+  {
+    "id": 832,
+    "roman_no_tones": "phaa-phan-phlaae",
+    "en": "bandage uto-u",
+    "page": 126
+  },
+  {
+    "id": 833,
+    "roman_no_tones": "khon-khai",
+    "en": "patient bbNUn",
+    "page": 126
+  },
+  {
+    "id": 834,
+    "roman_no_tones": "pha-naaek",
+    "en": "department",
+    "page": 126
+  },
+  {
+    "id": 835,
+    "roman_no_tones": "nak-ban-shii",
+    "en": "ccountant",
+    "page": 126
+  },
+  {
+    "id": 836,
+    "roman_no_tones": "tha-naai-khwaam",
+    "en": "lawyer",
+    "page": 126
+  },
+  {
+    "id": 837,
+    "roman_no_tones": "khaa-raaeng",
+    "en": "I wage b1] fJ 1, it,",
+    "page": 126
+  },
+  {
+    "id": 838,
+    "roman_no_tones": "bpiia-noo",
+    "en": "I piano",
+    "page": 126
+  },
+  {
+    "id": 846,
+    "roman_no_tones": "dtaawn-rap ban khnJueang-bin",
+    "en": "flight attendant",
+    "page": 128
+  },
+  {
+    "id": 847,
+    "roman_no_tones": "thfi-nang",
+    "en": "seat",
+    "page": 128
+  },
+  {
+    "id": 849,
+    "roman_no_tones": "chan-bpra-yat",
+    "en": "economy class b 'YI FJ 1 'lJ it,",
+    "page": 128
+  },
+  {
+    "id": 850,
+    "roman_no_tones": "thfiaa-bin",
+    "en": "flight",
+    "page": 128
+  },
+  {
+    "id": 851,
+    "roman_no_tones": "saek-saa-faan",
+    "en": "saxophone fl",
+    "page": 128
+  },
+  {
+    "id": 853,
+    "roman_no_tones": "hiip-phleeng-bpaak",
+    "en": "harmonica baaw-rf-gaan nai",
+    "page": 129
+  },
+  {
+    "id": 854,
+    "roman_no_tones": "hawng-phak",
+    "en": "room service",
+    "page": 129
+  },
+  {
+    "id": 855,
+    "roman_no_tones": "bai-set-rap-ngoen",
+    "en": "receipt",
+    "page": 129
+  },
+  {
+    "id": 858,
+    "roman_no_tones": "saawng-jot-maai",
+    "en": "envelope f f",
+    "page": 129
+  },
+  {
+    "id": 859,
+    "roman_no_tones": "gra-daat",
+    "en": "paper",
+    "page": 129
+  },
+  {
+    "id": 861,
+    "roman_no_tones": "khii-baawt",
+    "en": "keyboard",
+    "page": 130
+  },
+  {
+    "id": 863,
+    "roman_no_tones": "aa-gaan khltJuen-sai",
+    "en": "nausea",
+    "page": 130
+  },
+  {
+    "id": 865,
+    "roman_no_tones": "bping-bpawng",
+    "en": "ping pong",
+    "page": 130
+  },
+  {
+    "id": 867,
+    "roman_no_tones": "dii-wii-dii",
+    "en": "DVD",
+    "page": 130
+  },
+  {
+    "id": 868,
+    "roman_no_tones": "ltJuat-yep-gra-daat",
+    "en": "staple 'VI UJ 'lJ f f a",
+    "page": 131
+  },
+  {
+    "id": 869,
+    "roman_no_tones": "thfi-yep-gra-daat",
+    "en": "stapler bb",
+    "page": 131
+  },
+  {
+    "id": 870,
+    "roman_no_tones": "dtaeng-ngaan",
+    "en": "marry",
+    "page": 131
+  },
+  {
+    "id": 872,
+    "roman_no_tones": "aa-gaan khan",
+    "en": "itch b'\\l'lJ Ael",
+    "page": 131
+  },
+  {
+    "id": 873,
+    "roman_no_tones": "jep-khaaw",
+    "en": "I sore throat b 'lJ 61 'lJ el",
+    "page": 131
+  },
+  {
+    "id": 874,
+    "roman_no_tones": "beet-bawn",
+    "en": "I baseball",
+    "page": 131
+  },
+  {
+    "id": 875,
+    "roman_no_tones": "hawk-gfi-nam-khaeng",
+    "en": "ice hockey",
+    "page": 132
+  },
+  {
+    "id": 876,
+    "roman_no_tones": "gaan len-sa-gii",
+    "en": "skiing",
+    "page": 132
+  },
+  {
+    "id": 877,
+    "roman_no_tones": "ltJuat-niip-gra-daat",
+    "en": "paper clip",
+    "page": 132
+  },
+  {
+    "id": 880,
+    "roman_no_tones": "maa-drit",
+    "en": "I Madrid a-iu",
+    "page": 132
+  },
+  {
+    "id": 881,
+    "roman_no_tones": "mii nam-mtJuk",
+    "en": "I runny nose",
+    "page": 132
+  },
+  {
+    "id": 882,
+    "roman_no_tones": "wiian sTi-sa",
+    "en": "dizzy",
+    "page": 133
+  },
+  {
+    "id": 883,
+    "roman_no_tones": "khat ja-muuk",
+    "en": "stuffy nose",
+    "page": 133
+  },
+  {
+    "id": 884,
+    "roman_no_tones": "wawn-fee-bawn",
+    "en": "volleyball",
+    "page": 133
+  },
+  {
+    "id": 887,
+    "roman_no_tones": "dooen-thaang",
+    "en": "I travel",
+    "page": 133
+  },
+  {
+    "id": 888,
+    "roman_no_tones": "jop gaan-suek-saa",
+    "en": "I graduate",
+    "page": 133
+  },
+  {
+    "id": 890,
+    "roman_no_tones": "niu-dee-lii",
+    "en": "New Delhi 61 el",
+    "page": 134
+  },
+  {
+    "id": 891,
+    "roman_no_tones": "lawp-bfi",
+    "en": "lobby",
+    "page": 134
+  },
+  {
+    "id": 893,
+    "roman_no_tones": "haawng sa-wiit",
+    "en": "suite 'Ui fl'aF.ll'Ui",
+    "page": 134
+  },
+  {
+    "id": 894,
+    "roman_no_tones": "bpan jak-gra-yaan",
+    "en": "cycling",
+    "page": 134
+  },
+  {
+    "id": 895,
+    "roman_no_tones": "khaeng r6t",
+    "en": "I auto racing",
+    "page": 134
+  },
+  {
+    "id": 896,
+    "roman_no_tones": "sa-gawt-theep",
+    "en": "Scotch tape bn A",
+    "page": 135
+  },
+  {
+    "id": 900,
+    "roman_no_tones": "dtoo-giiao",
+    "en": "Tokyo ctln",
+    "page": 135
+  },
+  {
+    "id": 901,
+    "roman_no_tones": "bpak-ging",
+    "en": "Beijing 61 el it, el it,",
+    "page": 135
+  },
+  {
+    "id": 902,
+    "roman_no_tones": "lawn-dawn",
+    "en": "I London",
+    "page": 135
+  },
+  {
+    "id": 903,
+    "roman_no_tones": "bpaa-rfit",
+    "en": "Paris ,;fq b",
+    "page": 136
+  },
+  {
+    "id": 904,
+    "roman_no_tones": "booe-lin",
+    "en": "Berlin I",
+    "page": 136
+  },
+  {
+    "id": 905,
+    "roman_no_tones": "niu-yaawk",
+    "en": "New York",
+    "page": 136
+  },
+  {
+    "id": 907,
+    "roman_no_tones": "maawt-goo",
+    "en": "Moscow",
+    "page": 136
+  },
+  {
+    "id": 910,
+    "roman_no_tones": "r6t-fai duuan",
+    "en": "I express train",
+    "page": 136
+  },
+  {
+    "id": 911,
+    "roman_no_tones": "r6t-fai tham-ma-daa",
+    "en": "local train",
+    "page": 137
+  },
+  {
+    "id": 912,
+    "roman_no_tones": "dtaa-raang-wee-laa",
+    "en": "timetable I",
+    "page": 137
+  },
+  {
+    "id": 913,
+    "roman_no_tones": "gaan dtruuat-dtuua",
+    "en": "ticket inspection",
+    "page": 137
+  },
+  {
+    "id": 914,
+    "roman_no_tones": "bpra-dtuu-dtruuat-",
+    "en": "dtaua",
+    "page": 137
+  },
+  {
+    "id": 915,
+    "roman_no_tones": "chaan-chaa-laa",
+    "en": "platform ct, b",
+    "page": 137
+  },
+  {
+    "id": 916,
+    "roman_no_tones": "khnJueang-jam-naai-",
+    "en": "dtaua ticket machine 'lJ 'Yl6lll fJ",
+    "page": 137
+  },
+  {
+    "id": 917,
+    "roman_no_tones": "buut-khaai-dtuua",
+    "en": "I ticket booth",
+    "page": 137
+  },
+  {
+    "id": 919,
+    "roman_no_tones": "dtii-phim",
+    "en": "publish",
+    "page": 138
+  },
+  {
+    "id": 920,
+    "roman_no_tones": "phaen-phap",
+    "en": "pamphlet cilfJ'Ylel",
+    "page": 138
+  },
+  {
+    "id": 922,
+    "roman_no_tones": "phtJu-jat-phim nang­ stJue-phim",
+    "en": "newspaper publisher I",
+    "page": 138
+  },
+  {
+    "id": 923,
+    "roman_no_tones": "raai-ngaan",
+    "en": "report",
+    "page": 138
+  },
+  {
+    "id": 927,
+    "roman_no_tones": "dtruuat-gae",
+    "en": "edit",
+    "page": 139
+  },
+  {
+    "id": 929,
+    "roman_no_tones": "gaan-aawk-aa-gaat",
+    "en": "broadcast",
+    "page": 139
+  },
+  {
+    "id": 933,
+    "roman_no_tones": "sing-phim",
+    "en": "printing n'a'allnl'a",
+    "page": 140
+  },
+  {
+    "id": 934,
+    "roman_no_tones": "hawng bpra-chum kha- na gam-ma-gaan",
+    "en": "boardroom 'lhg; iil",
+    "page": 140
+  },
+  {
+    "id": 935,
+    "roman_no_tones": "bpra-thaan",
+    "en": "chairman",
+    "page": 140
+  },
+  {
+    "id": 937,
+    "roman_no_tones": "nak-bplaae",
+    "en": "translator \"rn n6U 'lJ 6lJ u",
+    "page": 140
+  },
+  {
+    "id": 938,
+    "roman_no_tones": "dta-/ok khop-khan",
+    "en": "I humorous",
+    "page": 140
+  },
+  {
+    "id": 939,
+    "roman_no_tones": "phtJut dta-/ok",
+    "en": "joke",
+    "page": 141
+  },
+  {
+    "id": 940,
+    "roman_no_tones": "khwaam bpra-thap-jai",
+    "en": "impression",
+    "page": 141
+  },
+  {
+    "id": 941,
+    "roman_no_tones": "wf-thii khft",
+    "en": "way of thinking",
+    "page": 141
+  },
+  {
+    "id": 943,
+    "roman_no_tones": "gra-bprfi-gra-bprao",
+    "en": "energetic _ l.;i fl 1 'a '1J 'a ff'lfl 'Vil 'a el gaan bpruek-saa",
+    "page": 141
+  },
+  {
+    "id": 946,
+    "roman_no_tones": "rak-saa",
+    "en": "maintain",
+    "page": 142
+  },
+  {
+    "id": 948,
+    "roman_no_tones": "dtat-sTn-jai",
+    "en": "decide",
+    "page": 142
+  },
+  {
+    "id": 949,
+    "roman_no_tones": "dtaaw-dtaan",
+    "en": "pose b 'Vi it, (911 ti",
+    "page": 142
+  },
+  {
+    "id": 950,
+    "roman_no_tones": "hen-dtJuai",
+    "en": "agree",
+    "page": 142
+  },
+  {
+    "id": 951,
+    "roman_no_tones": "bpra-gaat",
+    "en": "announce",
+    "page": 142
+  },
+  {
+    "id": 952,
+    "roman_no_tones": "jat-bpra-chum",
+    "en": "I hold a meeting",
+    "page": 142
+  },
+  {
+    "id": 954,
+    "roman_no_tones": "wf-jaan",
+    "en": "criticize I U'l'U,el",
+    "page": 143
+  },
+  {
+    "id": 955,
+    "roman_no_tones": "sa-n6oe",
+    "en": "put forward 61u'\" 61u u",
+    "page": 143
+  },
+  {
+    "id": 956,
+    "roman_no_tones": "sa-nap-sa-ntJn",
+    "en": "o rt pp b6li el",
+    "page": 143
+  },
+  {
+    "id": 958,
+    "roman_no_tones": "gaan-wf-jai",
+    "en": "research",
+    "page": 143
+  },
+  {
+    "id": 959,
+    "roman_no_tones": "kham-khaaw",
+    "en": "I request",
+    "page": 143
+  },
+  {
+    "id": 960,
+    "roman_no_tones": "jee-ra-jaa dtaaw-",
+    "en": "raawng negotiate",
+    "page": 144
+  },
+  {
+    "id": 961,
+    "roman_no_tones": "ph6p",
+    "en": "meet",
+    "page": 144
+  },
+  {
+    "id": 962,
+    "roman_no_tones": "gaae-khai",
+    "en": "revise N el 1 'U, 1 F.Jn",
+    "page": 144
+  },
+  {
+    "id": 964,
+    "roman_no_tones": "roong-ngaan",
+    "en": "factory N 61 N",
+    "page": 144
+  },
+  {
+    "id": 965,
+    "roman_no_tones": "ph6n-pha-lit",
+    "en": "output bb",
+    "page": 144
+  },
+  {
+    "id": 966,
+    "roman_no_tones": "raaeng-ngaan",
+    "en": "I workforce",
+    "page": 144
+  },
+  {
+    "id": 967,
+    "roman_no_tones": "wat-sa-du",
+    "en": "material chf n-suuan part",
+    "page": 145
+  },
+  {
+    "id": 969,
+    "roman_no_tones": "khnJueang-jak",
+    "en": "machine cl '1J it, 6li b a..!",
+    "page": 145
+  },
+  {
+    "id": 970,
+    "roman_no_tones": "bpuun-sii-men -fement",
+    "en": "tl 1 'Ui : it,",
+    "page": 145
+  },
+  {
+    "id": 971,
+    "roman_no_tones": "thaan-hTn",
+    "en": "coal",
+    "page": 145
+  },
+  {
+    "id": 974,
+    "roman_no_tones": "fai-faa",
+    "en": "electricity 'Vl';J'WfJl fl'afll';iN il01 sap-pha-yaa-gaawn",
+    "page": 146
+  },
+  {
+    "id": 975,
+    "roman_no_tones": "gaan pha-lit",
+    "en": "input",
+    "page": 146
+  },
+  {
+    "id": 976,
+    "roman_no_tones": "gaan-jap-bplaa",
+    "en": "fishing fll'a'VI el-3 b",
+    "page": 146
+  },
+  {
+    "id": 978,
+    "roman_no_tones": "song-aawk",
+    "en": "export",
+    "page": 146
+  },
+  {
+    "id": 979,
+    "roman_no_tones": "nam-khao",
+    "en": "import r6t-yon I automobile",
+    "page": 146
+  },
+  {
+    "id": 983,
+    "roman_no_tones": "phaa-phan-khaaw",
+    "en": "scarf bb1'Ui@ll fl'Uibb",
+    "page": 147
+  },
+  {
+    "id": 985,
+    "roman_no_tones": "mai-khwa.aen-stJuea",
+    "en": "hanger Nl",
+    "page": 147
+  },
+  {
+    "id": 987,
+    "roman_no_tones": "stJuea-kh6ot",
+    "en": "I coat",
+    "page": 147
+  },
+  {
+    "id": 992,
+    "roman_no_tones": "stJuea-gak",
+    "en": "vest cl fll\\l b fl\\! FJ",
+    "page": 148
+  },
+  {
+    "id": 993,
+    "roman_no_tones": "gaang-geeng-yiin",
+    "en": "I jeans",
+    "page": 148
+  },
+  {
+    "id": 994,
+    "roman_no_tones": "stJuea-phaa",
+    "en": "I clothes",
+    "page": 148
+  },
+  {
+    "id": 995,
+    "roman_no_tones": "gra-bpao",
+    "en": "pocket n-a g; (91 a..i",
+    "page": 150
+  },
+  {
+    "id": 996,
+    "roman_no_tones": "gra-dum",
+    "en": "button",
+    "page": 150
+  },
+  {
+    "id": 997,
+    "roman_no_tones": "yaang-ytJuet",
+    "en": "elastic band",
+    "page": 150
+  },
+  {
+    "id": 999,
+    "roman_no_tones": "bpok-stJuea",
+    "en": "collar",
+    "page": 150
+  },
+  {
+    "id": 1001,
+    "roman_no_tones": "laawng-stJuam",
+    "en": "I try on",
+    "page": 150
+  },
+  {
+    "id": 1003,
+    "roman_no_tones": "dtat-gan",
+    "en": "clash",
+    "page": 151
+  },
+  {
+    "id": 1004,
+    "roman_no_tones": "sak-phaa",
+    "en": "wash clothes UJ'lJ yep sew",
+    "page": 151
+  },
+  {
+    "id": 1009,
+    "roman_no_tones": "wat-dtuua",
+    "en": "fit a garment",
+    "page": 152
+  },
+  {
+    "id": 1010,
+    "roman_no_tones": "mai-khiit tai",
+    "en": "match iu",
+    "page": 152
+  },
+  {
+    "id": 1012,
+    "roman_no_tones": "khaawp-jai",
+    "en": "Thanks.",
+    "page": 161
+  },
+  {
+    "id": 1014,
+    "roman_no_tones": "sa-dtai",
+    "en": "I style",
+    "page": 152
+  },
+  {
+    "id": 1015,
+    "roman_no_tones": "bpen thfi nf-yom",
+    "en": "I fashionable",
+    "page": 152
+  },
+  {
+    "id": 1018,
+    "roman_no_tones": "rfiap-raauy",
+    "en": "neat b'Vi:J..J",
+    "page": 153
+  },
+  {
+    "id": 1022,
+    "roman_no_tones": "yai phf-seet (ek-aaeo)",
+    "en": "I extra Large",
+    "page": 153
+  },
+  {
+    "id": 1023,
+    "roman_no_tones": "tham-muue",
+    "en": "handmade ehfJ",
+    "page": 154
+  },
+  {
+    "id": 1025,
+    "roman_no_tones": "khan-sat",
+    "en": "wool q q",
+    "page": 154
+  },
+  {
+    "id": 1027,
+    "roman_no_tones": "chut-yaao",
+    "en": "gown",
+    "page": 154
+  },
+  {
+    "id": 1028,
+    "roman_no_tones": "chut-thak-sf-doo",
+    "en": "I tuxedo ';iel-3 b'Vll bb",
+    "page": 154
+  },
+  {
+    "id": 1029,
+    "roman_no_tones": "raawng-thaao-dtae",
+    "en": "I sandal",
+    "page": 154
+  },
+  {
+    "id": 1030,
+    "roman_no_tones": "raawng-thaao buut",
+    "en": "boot 'ael-3 b 'Yll 6'11:JJ b J'U,b",
+    "page": 155
+  },
+  {
+    "id": 1031,
+    "roman_no_tones": "raawng-thaao-suuam- dooen-nai-baan",
+    "en": "slipper b",
+    "page": 155
+  },
+  {
+    "id": 1032,
+    "roman_no_tones": "khnJueang-sam-aang",
+    "en": "makeup",
+    "page": 155
+  },
+  {
+    "id": 1033,
+    "roman_no_tones": "If p-sa-dtik",
+    "en": "lipstick ell ti 61'Uib 'Uiel'a cl cl",
+    "page": 155
+  },
+  {
+    "id": 1034,
+    "roman_no_tones": "aai-laai-n6oe",
+    "en": "eyeliner qiJ",
+    "page": 155
+  },
+  {
+    "id": 1035,
+    "roman_no_tones": "thfi-bpat-gaaem",
+    "en": "blush tll'Yll",
+    "page": 155
+  },
+  {
+    "id": 1036,
+    "roman_no_tones": "yaa-thaa-lep",
+    "en": "I nail polish",
+    "page": 155
+  },
+  {
+    "id": 1037,
+    "roman_no_tones": "stJuea-sap-nai",
+    "en": "undershirt 6)j (91 'U, el",
+    "page": 156
+  },
+  {
+    "id": 1038,
+    "roman_no_tones": "chut-naawn",
+    "en": "nightgown",
+    "page": 156
+  },
+  {
+    "id": 1039,
+    "roman_no_tones": "gaang-geeng-nai",
+    "en": "panties 6li (9111 fJ it,",
+    "page": 156
+  },
+  {
+    "id": 1040,
+    "roman_no_tones": "chut-waai-nam",
+    "en": "imsuit b",
+    "page": 156
+  },
+  {
+    "id": 1041,
+    "roman_no_tones": "stJuea-sat-dtrii",
+    "en": "blouse n':i 3l:ih-3 iu",
+    "page": 156
+  },
+  {
+    "id": 1048,
+    "roman_no_tones": "thfiang-khuuen thueng thfiang-wan",
+    "en": "AM b 'YI ti\\! thfiang",
+    "page": 157
+  },
+  {
+    "id": 1051,
+    "roman_no_tones": "iik sip-haa naa-thii fa",
+    "en": "quarter to",
+    "page": 158
+  },
+  {
+    "id": 1053,
+    "roman_no_tones": "dtang-dtaae thfiang­ wan jon-thtJeng thfiang-khuuen",
+    "en": "PM 61 'lJ 'Vil it,",
+    "page": 158
+  },
+  {
+    "id": 1054,
+    "roman_no_tones": "sip-haa-naa-thii",
+    "en": "quarter after",
+    "page": 158
+  },
+  {
+    "id": 1058,
+    "roman_no_tones": "khao-r6p",
+    "en": "respect 611 e) 'lJ H ru,",
+    "page": 159
+  },
+  {
+    "id": 1059,
+    "roman_no_tones": "khaawp-khun",
+    "en": "thank I",
+    "page": 159
+  },
+  {
+    "id": 1067,
+    "roman_no_tones": "gii-moong laaeo",
+    "en": "What time is it? il, 'U, 61 'lJl FJ",
+    "page": 160
+  },
+  {
+    "id": 1069,
+    "roman_no_tones": "sut-yaawt",
+    "en": "Awesome! it 'U, 6)j el",
+    "page": 160
+  },
+  {
+    "id": 1074,
+    "roman_no_tones": "mai dtawng gang-won",
+    "en": "Don't worry.",
+    "page": 161
+  },
+  {
+    "id": 1075,
+    "roman_no_tones": "mai mii bpan-haa",
+    "en": "o problem.",
+    "page": 161
+  },
+  {
+    "id": 1078,
+    "roman_no_tones": "ga-ru-naa",
+    "en": "I Please.",
+    "page": 161
+  },
+  {
+    "id": 1084,
+    "roman_no_tones": "tham aa-haan",
+    "en": "cook",
+    "page": 162
+  },
+  {
+    "id": 1085,
+    "roman_no_tones": "gaan chaae-nam",
+    "en": "I bath",
+    "page": 162
+  },
+  {
+    "id": 1087,
+    "roman_no_tones": "nueng-/aan-/aan",
+    "en": "one trillion",
+    "page": 163
+  },
+  {
+    "id": 1089,
+    "roman_no_tones": "nueng-/aan",
+    "en": "million",
+    "page": 163
+  },
+  {
+    "id": 1090,
+    "roman_no_tones": "nueng saaen-/aan",
+    "en": "one hundred billion 'Vi it,\\! 'Vi a.J it,",
+    "page": 163
+  },
+  {
+    "id": 1091,
+    "roman_no_tones": "nueng-muuen-/aan",
+    "en": "ten billion 'Vi 'U,\\l ';j el ti",
+    "page": 163
+  },
+  {
+    "id": 1092,
+    "roman_no_tones": "nueng-raauy-/aan",
+    "en": "I one hundred million",
+    "page": 163
+  },
+  {
+    "id": 1093,
+    "roman_no_tones": "nueng raauy-/aan-/aan",
+    "en": "one hundred trillion",
+    "page": 164
+  },
+  {
+    "id": 1094,
+    "roman_no_tones": "sip-/aan-/aan",
+    "en": "ten trillion I",
+    "page": 164
+  },
+  {
+    "id": 1095,
+    "roman_no_tones": "laai-dtaa-raang-maak­",
+    "en": "ruk checkered",
+    "page": 164
+  },
+  {
+    "id": 1100,
+    "roman_no_tones": "laai-khwaa ng",
+    "en": "striped",
+    "page": 165
+  },
+  {
+    "id": 1101,
+    "roman_no_tones": "laai-sa-gawt",
+    "en": "plaid",
+    "page": 165
+  },
+  {
+    "id": 1102,
+    "roman_no_tones": "thfi bpen lawn-khltJuean",
+    "en": "wavy",
+    "page": 165
+  },
+  {
+    "id": 1103,
+    "roman_no_tones": "bat bpra-jam-dtuua",
+    "en": "entification",
+    "page": 165
+  },
+  {
+    "id": 1104,
+    "roman_no_tones": "tham-mai",
+    "en": "why",
+    "page": 165
+  },
+  {
+    "id": 1105,
+    "roman_no_tones": "yaang-rai",
+    "en": "I how",
+    "page": 165
+  },
+  {
+    "id": 1106,
+    "roman_no_tones": "mtJuea-rai",
+    "en": "I when",
+    "page": 165
+  },
+  {
+    "id": 1111,
+    "roman_no_tones": "waa-ngai",
+    "en": "What's up? mu..J",
+    "page": 166
+  },
+  {
+    "id": 1114,
+    "roman_no_tones": "naa-thuep",
+    "en": "dense",
+    "page": 167
+  },
+  {
+    "id": 1115,
+    "roman_no_tones": "gwaang-yai",
+    "en": "vast",
+    "page": 167
+  },
+  {
+    "id": 1116,
+    "roman_no_tones": "song sii-liiam jat-dtu-rat",
+    "en": "square",
+    "page": 167
+  },
+  {
+    "id": 1118,
+    "roman_no_tones": "ta-iiat",
+    "en": "fine wan",
+    "page": 167
+  },
+  {
+    "id": 1121,
+    "roman_no_tones": "ttJuk-baat",
+    "en": "cube",
+    "page": 168
+  },
+  {
+    "id": 1122,
+    "roman_no_tones": "khaawng-khwan",
+    "en": "present",
+    "page": 168
+  },
+  {
+    "id": 1123,
+    "roman_no_tones": "ltJuk-khaa",
+    "en": "customer hti",
+    "page": 168
+  },
+  {
+    "id": 1124,
+    "roman_no_tones": "khaa-chai-jaai -fast",
+    "en": "6'11'U,61 a",
+    "page": 168
+  },
+  {
+    "id": 1125,
+    "roman_no_tones": "suuan-/6t",
+    "en": "discount b",
+    "page": 168
+  },
+  {
+    "id": 1126,
+    "roman_no_tones": "ngoen-sot",
+    "en": "I cash",
+    "page": 168
+  },
+  {
+    "id": 1127,
+    "roman_no_tones": "chai-ngoen",
+    "en": "spend money",
+    "page": 168
+  },
+  {
+    "id": 1128,
+    "roman_no_tones": "raan-khaai-stJuea-phaa",
+    "en": "clothing store",
+    "page": 169
+  },
+  {
+    "id": 1129,
+    "roman_no_tones": "haang-sap-pa-srn-khaa",
+    "en": "department store",
+    "page": 169
+  },
+  {
+    "id": 1130,
+    "roman_no_tones": "raan buu-dtik",
+    "en": "boutique 'al 'U, 6lJ 1 ti 'a el\\! b",
+    "page": 169
+  },
+  {
+    "id": 1132,
+    "roman_no_tones": "raan-khaai-khrtJueng- phet-phlaauy",
+    "en": "jewelry store",
+    "page": 169
+  },
+  {
+    "id": 1134,
+    "roman_no_tones": "dtuua-yaang",
+    "en": "I sample",
+    "page": 169
+  },
+  {
+    "id": 1135,
+    "roman_no_tones": "dtuua-ak-saawn",
+    "en": "text",
+    "page": 170
+  },
+  {
+    "id": 1137,
+    "roman_no_tones": "rai-saai",
+    "en": "wireless",
+    "page": 170
+  },
+  {
+    "id": 1139,
+    "roman_no_tones": "wep-sai-khruuea-khaai- sang-khom-aawn-/aai",
+    "en": "social networking site 1 'lh bb",
+    "page": 170
+  },
+  {
+    "id": 1140,
+    "roman_no_tones": "bproo-graaem-kh6n­",
+    "en": "haa search engine fll'ab6111 fN el'U,b 'YI el'ab 'U,@l gaan-khao-thueng",
+    "page": 170
+  },
+  {
+    "id": 1143,
+    "roman_no_tones": "thaa-ra-sap-saa-thaa­ ra-na",
+    "en": "public phone fll'a b 'Vl'a p'lAJ'Vlcfll F.l b",
+    "page": 171
+  },
+  {
+    "id": 1144,
+    "roman_no_tones": "gaan thaa-ra-sap phai­ nai phuuen-thfi",
+    "en": "local phone call",
+    "page": 171
+  },
+  {
+    "id": 1145,
+    "roman_no_tones": "mun maai-/eek thaa-ra­",
+    "en": "sap dial",
+    "page": 171
+  },
+  {
+    "id": 1146,
+    "roman_no_tones": "maai-/eek thaa-ra-sap",
+    "en": "phone number",
+    "page": 171
+  },
+  {
+    "id": 1147,
+    "roman_no_tones": "thaa-ra-sap",
+    "en": "operator fll'a 1 'Vl'a w'lAJx'Vllyb fl",
+    "page": 171
+  },
+  {
+    "id": 1148,
+    "roman_no_tones": "gaan thaa-ra-sap thaang-glai",
+    "en": "I long-distance call",
+    "page": 171
+  },
+  {
+    "id": 1149,
+    "roman_no_tones": "dtaawn-yen",
+    "en": "evening",
+    "page": 172
+  },
+  {
+    "id": 1150,
+    "roman_no_tones": "dtaawn-chaao",
+    "en": "morning",
+    "page": 172
+  },
+  {
+    "id": 1151,
+    "roman_no_tones": "thang-wan",
+    "en": "all day chtJuang-wee-faa",
+    "page": 172
+  },
+  {
+    "id": 1152,
+    "roman_no_tones": "gfaang-khuuen",
+    "en": "ghttime r J u 6l11\\l b 1 ,n mn{ chtJuang wee-faa",
+    "page": 172
+  },
+  {
+    "id": 1153,
+    "roman_no_tones": "gfaang-wan",
+    "en": "daytime",
+    "page": 172
+  },
+  {
+    "id": 1155,
+    "roman_no_tones": "nap-dtaae-nfi-bpai",
+    "en": "I from now on",
+    "page": 172
+  },
+  {
+    "id": 1163,
+    "roman_no_tones": "rue-duu bai-mai-nJuang",
+    "en": "fall ti-1 u 'Vi it fl",
+    "page": 174
+  },
+  {
+    "id": 1164,
+    "roman_no_tones": "f6n-nak",
+    "en": "heavy rain bbi-:1 z1mn£Jbi1uil:1bbi-:J khaeng dtuua glaai",
+    "page": 174
+  },
+  {
+    "id": 1165,
+    "roman_no_tones": "bpen nam-khaeng",
+    "en": "freeze",
+    "page": 174
+  },
+  {
+    "id": 1167,
+    "roman_no_tones": "taa-taep",
+    "en": "lightning",
+    "page": 174
+  },
+  {
+    "id": 1168,
+    "roman_no_tones": "taa-sai",
+    "en": "clear sky",
+    "page": 174
+  },
+  {
+    "id": 1169,
+    "roman_no_tones": "f6n-phram",
+    "en": "shower",
+    "page": 174
+  },
+  {
+    "id": 1170,
+    "roman_no_tones": "f6n-bpraauy",
+    "en": "drizzle",
+    "page": 175
+  },
+  {
+    "id": 1171,
+    "roman_no_tones": "khwaam-chuuen",
+    "en": "humidity I",
+    "page": 175
+  },
+  {
+    "id": 1172,
+    "roman_no_tones": "/om",
+    "en": "wind",
+    "page": 175
+  },
+  {
+    "id": 1174,
+    "roman_no_tones": "mii nam-khaeng gaw",
+    "en": "ice over",
+    "page": 175
+  },
+  {
+    "id": 1175,
+    "roman_no_tones": "sTiang-faa-raawng",
+    "en": "thunder el'lJ",
+    "page": 175
+  },
+  {
+    "id": 1176,
+    "roman_no_tones": "op-aao",
+    "en": "muggy",
+    "page": 175
+  },
+  {
+    "id": 1177,
+    "roman_no_tones": "dtam-gwaa jut-yuueak­",
+    "en": "khaeng below freezing Y11a.J'Vi'U,11<\\llfl Gia..!",
+    "page": 176
+  },
+  {
+    "id": 1178,
+    "roman_no_tones": "khwaam-naao jaak !om",
+    "en": "wind chill",
+    "page": 176
+  },
+  {
+    "id": 1180,
+    "roman_no_tones": "sot-sai khuen",
+    "en": "clear up",
+    "page": 176
+  },
+  {
+    "id": 1181,
+    "roman_no_tones": "khwaam-raawn suung",
+    "en": "extreme heat it, 1 Y 1\\1 bb",
+    "page": 176
+  },
+  {
+    "id": 1182,
+    "roman_no_tones": "nam-khaang-khaeng",
+    "en": "frost bpliian-bpen mii",
+    "page": 176
+  },
+  {
+    "id": 1184,
+    "roman_no_tones": "phaa-ytJ sai-khloon",
+    "en": "cyclone fll';i11 I",
+    "page": 177
+  },
+  {
+    "id": 1186,
+    "roman_no_tones": "rtJup-gae-sa- /ak",
+    "en": "sculpture",
+    "page": 177
+  },
+  {
+    "id": 1187,
+    "roman_no_tones": "nak-khTian",
+    "en": "author",
+    "page": 177
+  },
+  {
+    "id": 1188,
+    "roman_no_tones": "nak-sa-daaeng-chaai",
+    "en": "actor I",
+    "page": 177
+  },
+  {
+    "id": 1189,
+    "roman_no_tones": "nak-sa-daaeng-yTng",
+    "en": "actress N fl1 fl'lJ",
+    "page": 177
+  },
+  {
+    "id": 1190,
+    "roman_no_tones": "phtJu-gam-gap",
+    "en": "director",
+    "page": 177
+  },
+  {
+    "id": 1192,
+    "roman_no_tones": "khroong-nJueang",
+    "en": "plot b",
+    "page": 178
+  },
+  {
+    "id": 1193,
+    "roman_no_tones": "phleeng-bpawp",
+    "en": "pop music",
+    "page": 178
+  },
+  {
+    "id": 1196,
+    "roman_no_tones": "phleeng-khlaat-sik",
+    "en": "classical music b 'W 61-3 bb u'iJ",
+    "page": 178
+  },
+  {
+    "id": 1197,
+    "roman_no_tones": "phleeng-raep",
+    "en": "I rap music",
+    "page": 178
+  },
+  {
+    "id": 1198,
+    "roman_no_tones": "wong-don-dtrii",
+    "en": "band",
+    "page": 180
+  },
+  {
+    "id": 1199,
+    "roman_no_tones": "huu-fang",
+    "en": "earphones",
+    "page": 180
+  },
+  {
+    "id": 1200,
+    "roman_no_tones": "glawng-thaai-nJu p",
+    "en": "camera",
+    "page": 180
+  },
+  {
+    "id": 1204,
+    "roman_no_tones": "khrtJueang-bprung",
+    "en": "I condiment",
+    "page": 180
+  },
+  {
+    "id": 1206,
+    "roman_no_tones": "nam-dtaan",
+    "en": "sugar it,",
+    "page": 181
+  },
+  {
+    "id": 1207,
+    "roman_no_tones": "nam-s6m-saai-chuu",
+    "en": "vinegar",
+    "page": 181
+  },
+  {
+    "id": 1209,
+    "roman_no_tones": "saawt-phrfk",
+    "en": "hot sauce 6li el 61:J..J:t b6ll el b 'YI F",
+    "page": 181
+  },
+  {
+    "id": 1210,
+    "roman_no_tones": "saawt-ma-khuuea-theet",
+    "en": "ketchup ct a..J6'10ll'a J",
+    "page": 181
+  },
+  {
+    "id": 1212,
+    "roman_no_tones": "saawt thaa-baat-960",
+    "en": "Tabasco sauce cwinb'YIF.I",
+    "page": 182
+  },
+  {
+    "id": 1213,
+    "roman_no_tones": "phrfk-thai",
+    "en": "pepper",
+    "page": 182
+  },
+  {
+    "id": 1214,
+    "roman_no_tones": "aa-haan tha-/ee",
+    "en": "seafood b",
+    "page": 182
+  },
+  {
+    "id": 1217,
+    "roman_no_tones": "pha-s6m",
+    "en": "I mix",
+    "page": 182
+  },
+  {
+    "id": 1219,
+    "roman_no_tones": "bot  ...  hai ta-iiat",
+    "en": "mince el'lJ",
+    "page": 183
+  },
+  {
+    "id": 1221,
+    "roman_no_tones": "dt6m",
+    "en": "boil ntJeng steam",
+    "page": 184
+  },
+  {
+    "id": 1231,
+    "roman_no_tones": "baa-bii-khiu",
+    "en": "barbecue b'Vi61116'1n I whiskey",
+    "page": 184
+  },
+  {
+    "id": 1234,
+    "roman_no_tones": "nam ph6n-Ja-mai",
+    "en": "fruit juice",
+    "page": 185
+  },
+  {
+    "id": 1235,
+    "roman_no_tones": "chaa-dam",
+    "en": "black tea",
+    "page": 185
+  },
+  {
+    "id": 1237,
+    "roman_no_tones": "gaa-faae Jaa-dtee",
+    "en": "caffe latte @l }bnFJ'lJ dta-giiap chopsticks",
+    "page": 185
+  },
+  {
+    "id": 1239,
+    "roman_no_tones": "up-bpa-gaawn nai gaan rap-bpra-thaan aa-haan",
+    "en": "I eating utensil",
+    "page": 185
+  },
+  {
+    "id": 1240,
+    "roman_no_tones": "mfit han nuuea sa-dtek",
+    "en": "steak knife a.J",
+    "page": 186
+  },
+  {
+    "id": 1245,
+    "roman_no_tones": "kh6m",
+    "en": "I bitter",
+    "page": 186
+  },
+  {
+    "id": 1248,
+    "roman_no_tones": "khaao-saa-/ii",
+    "en": "wheat I",
+    "page": 187
+  },
+  {
+    "id": 1249,
+    "roman_no_tones": "khaao-stJuai",
+    "en": "cooked rice 61111 'lJ l'a urn",
+    "page": 187
+  },
+  {
+    "id": 1252,
+    "roman_no_tones": "kha-n6m-waan",
+    "en": "I sweets",
+    "page": 187
+  },
+  {
+    "id": 1253,
+    "roman_no_tones": "!tJuk-gwaat",
+    "en": "I candy",
+    "page": 187
+  },
+  {
+    "id": 1254,
+    "roman_no_tones": "greep-frut",
+    "en": "grapefruit ,J,l. bb 'a'U,b'lJ el'a'a",
+    "page": 188
+  },
+  {
+    "id": 1255,
+    "roman_no_tones": "khraaen-booe-rfi",
+    "en": "cranberry",
+    "page": 188
+  },
+  {
+    "id": 1258,
+    "roman_no_tones": "khnJueang-theet",
+    "en": "spice",
+    "page": 188
+  },
+  {
+    "id": 1260,
+    "roman_no_tones": "nam-man-phtJuet",
+    "en": "I vegetable oil",
+    "page": 188
+  },
+  {
+    "id": 1262,
+    "roman_no_tones": "suuan-pha-s6m",
+    "en": "ingredient",
+    "page": 189
+  },
+  {
+    "id": 1269,
+    "roman_no_tones": "gap-khaaa-baan",
+    "en": "home cooking",
+    "page": 190
+  },
+  {
+    "id": 1270,
+    "roman_no_tones": "khaawng-waang",
+    "en": "snack",
+    "page": 190
+  },
+  {
+    "id": 1271,
+    "roman_no_tones": "khaawng-waang-muue­",
+    "en": "duek midnight snack",
+    "page": 190
+  },
+  {
+    "id": 1273,
+    "roman_no_tones": "kha-n6m-waan",
+    "en": "dessert # el'a61 ell'Vil'a",
+    "page": 190
+  },
+  {
+    "id": 1274,
+    "roman_no_tones": "khaawt aa-haan",
+    "en": "course meal",
+    "page": 190
+  },
+  {
+    "id": 1275,
+    "roman_no_tones": "bup-tee",
+    "en": "buffet",
+    "page": 191
+  },
+  {
+    "id": 1278,
+    "roman_no_tones": "thuua-/f-s6ng",
+    "en": "f eanut b:J..l S:J..l",
+    "page": 191
+  },
+  {
+    "id": 1279,
+    "roman_no_tones": "met ma-mtJuang hTm­ ma-phaan",
+    "en": "cashew nut",
+    "page": 191
+  },
+  {
+    "id": 1283,
+    "roman_no_tones": "sang aa-haan",
+    "en": "order food",
+    "page": 192
+  },
+  {
+    "id": 1284,
+    "roman_no_tones": "aa-haan-fa-rang",
+    "en": "Western food ell 'Vil 'a el 011 b iUJ it,",
+    "page": 192
+  },
+  {
+    "id": 1286,
+    "roman_no_tones": "aa-haan-jiin",
+    "en": "Chinese food",
+    "page": 192
+  },
+  {
+    "id": 1289,
+    "roman_no_tones": "bplaa-saeo-mawn",
+    "en": "I salmon",
+    "page": 192
+  },
+  {
+    "id": 1290,
+    "roman_no_tones": "bplaa-thuu-naa",
+    "en": "tuna n-a",
+    "page": 193
+  },
+  {
+    "id": 1291,
+    "roman_no_tones": "gra-buuai",
+    "en": "ladle I",
+    "page": 193
+  },
+  {
+    "id": 1292,
+    "roman_no_tones": "mai-jfm-tan",
+    "en": "toothpick",
+    "page": 193
+  },
+  {
+    "id": 1295,
+    "roman_no_tones": "gaaeo-nam",
+    "en": "I drinking glass f,)1 F.l fl1 bb 4 'Yl'l-:1615 bb 'ii 'ii aj",
+    "page": 193
+  },
+  {
+    "id": 1296,
+    "roman_no_tones": "thuuai gaa-faae song suung baaep mii huu-jap",
+    "en": "coffee mug",
+    "page": 193
+  },
+  {
+    "id": 1297,
+    "roman_no_tones": "thtJuai-chaa",
+    "en": "teacup b'Virrnn",
+    "page": 194
+  },
+  {
+    "id": 1299,
+    "roman_no_tones": "maaw-chaa",
+    "en": "teapot bbf f",
+    "page": 194
+  },
+  {
+    "id": 1301,
+    "roman_no_tones": "maaw gaa-faae",
+    "en": "coffee pot",
+    "page": 194
+  },
+  {
+    "id": 1302,
+    "roman_no_tones": "htJua-phak-gaat",
+    "en": "turnip",
+    "page": 194
+  },
+  {
+    "id": 1303,
+    "roman_no_tones": "gra-duuk-san-/ang",
+    "en": "I backbone",
+    "page": 194
+  },
+  {
+    "id": 1307,
+    "roman_no_tones": "8 ise",
+    "en": "ne's hand fJ fl ... 611 it, y6k ... khtJen",
+    "page": 195
+  },
+  {
+    "id": 1316,
+    "roman_no_tones": "khroong-raang",
+    "en": "I build a.J 6'16Ucfll'W F",
+    "page": 196
+  },
+  {
+    "id": 1317,
+    "roman_no_tones": "mii suk-kha-phaap dii",
+    "en": "x ealthy",
+    "page": 196
+  },
+  {
+    "id": 1320,
+    "roman_no_tones": "4J",
+    "en": "stJung tall",
+    "page": 197
+  },
+  {
+    "id": 1322,
+    "roman_no_tones": "bpra-pheet rtJup-raang",
+    "en": "body type",
+    "page": 197
+  },
+  {
+    "id": 1323,
+    "roman_no_tones": "rtJup-raang",
+    "en": "figure",
+    "page": 197
+  },
+  {
+    "id": 1326,
+    "roman_no_tones": "nam-/aai",
+    "en": "saliva I",
+    "page": 198
+  },
+  {
+    "id": 1327,
+    "roman_no_tones": "raawng-hai",
+    "en": "cry",
+    "page": 198
+  },
+  {
+    "id": 1328,
+    "roman_no_tones": "nam-dtaa",
+    "en": "ar",
+    "page": 198
+  },
+  {
+    "id": 1332,
+    "roman_no_tones": "naa-phaak",
+    "en": "forehead N a..J 'lH'I el it,",
+    "page": 199
+  },
+  {
+    "id": 1333,
+    "roman_no_tones": "ph6m blaawn",
+    "en": "blonde hair ()J a..J",
+    "page": 199
+  },
+  {
+    "id": 1334,
+    "roman_no_tones": "ph6m dam",
+    "en": "black hair",
+    "page": 199
+  },
+  {
+    "id": 1335,
+    "roman_no_tones": "ph6m sTi-nam-dtaan",
+    "en": "T own hair N a..J U bb",
+    "page": 199
+  },
+  {
+    "id": 1336,
+    "roman_no_tones": "ph6m sTi-daaeng",
+    "en": "red hair",
+    "page": 199
+  },
+  {
+    "id": 1338,
+    "roman_no_tones": "rfu-raauy",
+    "en": "I wrinkle",
+    "page": 199
+  },
+  {
+    "id": 1340,
+    "roman_no_tones": "bpfuueak-dtaa",
+    "en": "eyelid 61J'U, Dll",
+    "page": 200
+  },
+  {
+    "id": 1341,
+    "roman_no_tones": "kh6n-dtaa",
+    "en": "eyelash 611 w\" u\\ 11 'Vi ii, 1 kh6n ban bai-naa",
+    "page": 200
+  },
+  {
+    "id": 1344,
+    "roman_no_tones": "dtum-rap-r6t",
+    "en": "I taste bud ';j Fa.J fl",
+    "page": 200
+  },
+  {
+    "id": 1345,
+    "roman_no_tones": "ruu ja-muuk",
+    "en": "I nostril",
+    "page": 200
+  },
+  {
+    "id": 1346,
+    "roman_no_tones": "dt6n-khaa",
+    "en": "thigh",
+    "page": 201
+  },
+  {
+    "id": 1348,
+    "roman_no_tones": "tep-thaao",
+    "en": "toenail",
+    "page": 201
+  },
+  {
+    "id": 1349,
+    "roman_no_tones": "s6n-thaao",
+    "en": "heel",
+    "page": 201
+  },
+  {
+    "id": 1351,
+    "roman_no_tones": "gra-duuk-sa-baa",
+    "en": "kneecap 6111 'Vi it,",
+    "page": 201
+  },
+  {
+    "id": 1352,
+    "roman_no_tones": "khaa-niip",
+    "en": "groin",
+    "page": 201
+  },
+  {
+    "id": 1353,
+    "roman_no_tones": "en-raauy-waai",
+    "en": "Achilles' heel 'iJ 611 tlbb",
+    "page": 202
+  },
+  {
+    "id": 1354,
+    "roman_no_tones": "bplaai-khaaen",
+    "en": "forearm",
+    "page": 202
+  },
+  {
+    "id": 1355,
+    "roman_no_tones": "niu-bp6ong",
+    "en": "thumb",
+    "page": 202
+  },
+  {
+    "id": 1356,
+    "roman_no_tones": "niu-gauy",
+    "en": "pinkie",
+    "page": 202
+  },
+  {
+    "id": 1357,
+    "roman_no_tones": "niu-glaang",
+    "en": "middle finger",
+    "page": 202
+  },
+  {
+    "id": 1358,
+    "roman_no_tones": "niu-chii",
+    "en": "index finger",
+    "page": 202
+  },
+  {
+    "id": 1359,
+    "roman_no_tones": "niu-naang",
+    "en": "ring finger",
+    "page": 202
+  },
+  {
+    "id": 1360,
+    "roman_no_tones": "sfi-khroong",
+    "en": "rib",
+    "page": 203
+  },
+  {
+    "id": 1361,
+    "roman_no_tones": "chawng-thaawng",
+    "en": "I abdomen",
+    "page": 203
+  },
+  {
+    "id": 1364,
+    "roman_no_tones": "gra-duuk-sa-bak",
+    "en": "shoulder blade",
+    "page": 203
+  },
+  {
+    "id": 1365,
+    "roman_no_tones": "gan-grai",
+    "en": "scissors",
+    "page": 203
+  },
+  {
+    "id": 1366,
+    "roman_no_tones": "chai-Jaaeo-thing",
+    "en": "disposable gloves",
+    "page": 203
+  },
+  {
+    "id": 1367,
+    "roman_no_tones": "khiim-niip",
+    "en": "tweezers",
+    "page": 204
+  },
+  {
+    "id": 1368,
+    "roman_no_tones": "phlaat-dt6oe  yaa",
+    "en": "bandaid b'Yl'UflTJ'W'U,bbN61 theep-gaao phan",
+    "page": 204
+  },
+  {
+    "id": 1371,
+    "roman_no_tones": "wat un-ha-phuum",
+    "en": "take one's temperature",
+    "page": 204
+  },
+  {
+    "id": 1372,
+    "roman_no_tones": "gaan-phaa-dtat",
+    "en": "operation",
+    "page": 204
+  },
+  {
+    "id": 1373,
+    "roman_no_tones": "wat chfip-pha-jaawn",
+    "en": "I take one's pulse",
+    "page": 204
+  },
+  {
+    "id": 1374,
+    "roman_no_tones": "hawng-chuk-ch6oen",
+    "en": "emergency room il,(91 fJl",
+    "page": 205
+  },
+  {
+    "id": 1376,
+    "roman_no_tones": "bpra-wat gaan-rak-saa",
+    "en": "medical history",
+    "page": 205
+  },
+  {
+    "id": 1377,
+    "roman_no_tones": "bpra-gan -fsurance",
+    "en": "cl cl cfll'W bel",
+    "page": 205
+  },
+  {
+    "id": 1379,
+    "roman_no_tones": "gaan-dtruuat-ltJueat",
+    "en": "I blood test 'YI 1-3 'Vi 61 el (91 b 61 el (91 (911 thaang laawt ltJueat",
+    "page": 205
+  },
+  {
+    "id": 1382,
+    "roman_no_tones": "bpa-raawt-wat-khai",
+    "en": "thermometer",
+    "page": 206
+  },
+  {
+    "id": 1383,
+    "roman_no_tones": "khem-chiit-yaa",
+    "en": "needle",
+    "page": 206
+  },
+  {
+    "id": 1384,
+    "roman_no_tones": "aap-nam nai aang",
+    "en": "ke a bath",
+    "page": 206
+  },
+  {
+    "id": 1386,
+    "roman_no_tones": "yaa-nam-gaae-ai",
+    "en": "I cough syrup",
+    "page": 206
+  },
+  {
+    "id": 1387,
+    "roman_no_tones": "aaet-phai-rin",
+    "en": "I aspirin",
+    "page": 206
+  },
+  {
+    "id": 1388,
+    "roman_no_tones": "yaa bpa-dti-chii-wa-na",
+    "en": "antibiotic",
+    "page": 207
+  },
+  {
+    "id": 1389,
+    "roman_no_tones": "wak-siin",
+    "en": "vaccine",
+    "page": 207
+  },
+  {
+    "id": 1390,
+    "roman_no_tones": "yaa-gaae-wat",
+    "en": "cold medicine",
+    "page": 207
+  },
+  {
+    "id": 1392,
+    "roman_no_tones": "dt6 khaang dtiiang",
+    "en": "nightstand",
+    "page": 207
+  },
+  {
+    "id": 1393,
+    "roman_no_tones": "dt6 gaa-faae",
+    "en": "coffee table",
+    "page": 207
+  },
+  {
+    "id": 1394,
+    "roman_no_tones": "soo-faa",
+    "en": "I sofa",
+    "page": 207
+  },
+  {
+    "id": 1395,
+    "roman_no_tones": "gao-fi",
+    "en": "chair l,i Ti''lJV';iT'Yll'Uiell'Vil';i UJ'Ui",
+    "page": 209
+  },
+  {
+    "id": 1396,
+    "roman_no_tones": "dt6 rap-bpra-thaan  aa- haan-yen",
+    "en": "dinner table l,i T",
+    "page": 209
+  },
+  {
+    "id": 1397,
+    "roman_no_tones": "dt6",
+    "en": "table 'Vi el-3 b 6lJ FJ it, 'Vi'Ui-3 61 el",
+    "page": 209
+  },
+  {
+    "id": 1398,
+    "roman_no_tones": "hawng-kh Tian-nang-",
+    "en": "stJue study ie1-3\\01 Vu",
+    "page": 209
+  },
+  {
+    "id": 1399,
+    "roman_no_tones": "hawng-dtai-din",
+    "en": "basement",
+    "page": 209
+  },
+  {
+    "id": 1412,
+    "roman_no_tones": "jaaw-ra-khee",
+    "en": "alligator",
+    "page": 211
+  },
+  {
+    "id": 1413,
+    "roman_no_tones": "dtuua ak-saawn",
+    "en": "alphabet",
+    "page": 211
+  },
+  {
+    "id": 1414,
+    "roman_no_tones": "aae-nf-mee-chan",
+    "en": "imation",
+    "page": 211
+  },
+  {
+    "id": 1415,
+    "roman_no_tones": "dtuua-gin-m6t",
+    "en": "anteater",
+    "page": 211
+  },
+  {
+    "id": 1416,
+    "roman_no_tones": "wf-dtok",
+    "en": "anxious",
+    "page": 211
+  },
+  {
+    "id": 1417,
+    "roman_no_tones": "muu-gaw",
+    "en": "I archipelago",
+    "page": 211
+  },
+  {
+    "id": 1419,
+    "roman_no_tones": "aa-jeen-dti-naa",
+    "en": "Argentina",
+    "page": 212
+  },
+  {
+    "id": 1422,
+    "roman_no_tones": "thfi-khiia-bu-rii",
+    "en": "ashtray a..! el 'lJ 'Vi a..! 1 ti",
+    "page": 212
+  },
+  {
+    "id": 1423,
+    "roman_no_tones": "maawp-maai",
+    "en": "assign",
+    "page": 212
+  },
+  {
+    "id": 1424,
+    "roman_no_tones": "nak-gii-/aa",
+    "en": "I athlete",
+    "page": 212
+  },
+  {
+    "id": 1425,
+    "roman_no_tones": "khao fang gaan-ban­",
+    "en": "yaai attend a lecture",
+    "page": 213
+  },
+  {
+    "id": 1426,
+    "roman_no_tones": "haawng-dtai-lang-khaa",
+    "en": "attic",
+    "page": 213
+  },
+  {
+    "id": 1427,
+    "roman_no_tones": "bpra-dtuu Jang baan",
+    "en": "back door",
+    "page": 213
+  },
+  {
+    "id": 1428,
+    "roman_no_tones": "suuan-lang-baan",
+    "en": "backyard",
+    "page": 213
+  },
+  {
+    "id": 1429,
+    "roman_no_tones": "baet-min-dtan",
+    "en": "badminton",
+    "page": 213
+  },
+  {
+    "id": 1430,
+    "roman_no_tones": "ra-biiang",
+    "en": "balcony",
+    "page": 213
+  },
+  {
+    "id": 1431,
+    "roman_no_tones": "bpaak-gaa-ltJuk-ltJuen",
+    "en": "ballpoint pen",
+    "page": 213
+  },
+  {
+    "id": 1432,
+    "roman_no_tones": "grung-theep",
+    "en": "Bangkok",
+    "page": 214
+  },
+  {
+    "id": 1433,
+    "roman_no_tones": "khaang-khaao",
+    "en": "bat",
+    "page": 214
+  },
+  {
+    "id": 1434,
+    "roman_no_tones": "baet-dtooe-rfi",
+    "en": "battery",
+    "page": 214
+  },
+  {
+    "id": 1437,
+    "roman_no_tones": "bii-w6oe",
+    "en": "I beaver",
+    "page": 214
+  },
+  {
+    "id": 1439,
+    "roman_no_tones": "phaa-hom",
+    "en": "blanket 'lJl'U, baan bloom",
+    "page": 215
+  },
+  {
+    "id": 1443,
+    "roman_no_tones": "thfi-bpooet-khuuat",
+    "en": "bottle opener",
+    "page": 215
+  },
+  {
+    "id": 1445,
+    "roman_no_tones": "braa-siu",
+    "en": "I Brazil",
+    "page": 215
+  },
+  {
+    "id": 1446,
+    "roman_no_tones": "sa-phaan",
+    "en": "bridge 11 e:i u \u0002 el'-:i mpt",
+    "page": 216
+  },
+  {
+    "id": 1447,
+    "roman_no_tones": "baawn ang-grit",
+    "en": "British Pound",
+    "page": 216
+  },
+  {
+    "id": 1451,
+    "roman_no_tones": "ma-laaeng",
+    "en": "I bug",
+    "page": 216
+  },
+  {
+    "id": 1455,
+    "roman_no_tones": "nak-thu-ra-git",
+    "en": "businessman haawng-dooi-saan bin ';Hl l\\l b",
+    "page": 217
+  },
+  {
+    "id": 1457,
+    "roman_no_tones": "r6t-raang-fai-faa",
+    "en": "cable car thoo-ra-sap-phit",
+    "page": 217
+  },
+  {
+    "id": 1459,
+    "roman_no_tones": "gaan khat laai-muue",
+    "en": "I calligraphy",
+    "page": 217
+  },
+  {
+    "id": 1460,
+    "roman_no_tones": "thfi bpooet gra-bpawng",
+    "en": "can opener bb",
+    "page": 218
+  },
+  {
+    "id": 1461,
+    "roman_no_tones": "khaae-naa-daa",
+    "en": "Canada",
+    "page": 218
+  },
+  {
+    "id": 1462,
+    "roman_no_tones": "y6k-/6oek",
+    "en": "cancel b'Vltl'U,",
+    "page": 218
+  },
+  {
+    "id": 1465,
+    "roman_no_tones": "gaa-dtuun",
+    "en": "I cartoon 'Vi it, el it, N U'I el",
+    "page": 218
+  },
+  {
+    "id": 1466,
+    "roman_no_tones": "naawn-phTi-suuea",
+    "en": "I caterpillar",
+    "page": 218
+  },
+  {
+    "id": 1467,
+    "roman_no_tones": "dt6n-s6n-sii-daa",
+    "en": "cedar tree b",
+    "page": 219
+  },
+  {
+    "id": 1468,
+    "roman_no_tones": "phee-daan",
+    "en": "ceiling qq",
+    "page": 219
+  },
+  {
+    "id": 1469,
+    "roman_no_tones": "phf-thii",
+    "en": "ceremony",
+    "page": 219
+  },
+  {
+    "id": 1470,
+    "roman_no_tones": "jot-maai long tha-biian",
+    "en": "certified mail",
+    "page": 219
+  },
+  {
+    "id": 1472,
+    "roman_no_tones": "phtJu-cha-na-!6oet",
+    "en": "champion nl';ibb6U..:161J'U,6H..:16l1'U, :bil; gaan-khaeng-khan",
+    "page": 219
+  },
+  {
+    "id": 1473,
+    "roman_no_tones": "ching-cha-na-!6oet",
+    "en": "championship contest",
+    "page": 219
+  },
+  {
+    "id": 1480,
+    "roman_no_tones": "Jak-ga-Jan",
+    "en": "I cicada",
+    "page": 220
+  },
+  {
+    "id": 1481,
+    "roman_no_tones": "chan-riian",
+    "en": "class b 'W el",
+    "page": 221
+  },
+  {
+    "id": 1482,
+    "roman_no_tones": "phtJuean-nJuam-chan",
+    "en": "classmate",
+    "page": 221
+  },
+  {
+    "id": 1483,
+    "roman_no_tones": "pha-nak-ngaan",
+    "en": "clerk",
+    "page": 221
+  },
+  {
+    "id": 1485,
+    "roman_no_tones": "dttJu stJuea-phaa",
+    "en": "closet vi ., b:J..J",
+    "page": 221
+  },
+  {
+    "id": 1486,
+    "roman_no_tones": "mai-khwaaen-stJuea",
+    "en": "I coat hanger",
+    "page": 221
+  },
+  {
+    "id": 1487,
+    "roman_no_tones": "sa-s6m sa-dtaem",
+    "en": "I collect stamps",
+    "page": 221
+  },
+  {
+    "id": 1488,
+    "roman_no_tones": "wft-tha-yaa-/ai",
+    "en": "college 'WU fl\\11 it, 'lJ i'lt'YI",
+    "page": 222
+  },
+  {
+    "id": 1489,
+    "roman_no_tones": "rf-sat",
+    "en": "company worker",
+    "page": 222
+  },
+  {
+    "id": 1490,
+    "roman_no_tones": "gaan-khaeng-khan",
+    "en": "competition phtJu-khtJuap-khum",
+    "page": 222
+  },
+  {
+    "id": 1492,
+    "roman_no_tones": "yuuen-yan",
+    "en": "confirm",
+    "page": 222
+  },
+  {
+    "id": 1494,
+    "roman_no_tones": "yin-dii dtJuai",
+    "en": "I Congratulations!",
+    "page": 222
+  },
+  {
+    "id": 1495,
+    "roman_no_tones": "phtJu-rap",
+    "en": "consignee 611 el\\l@l el\\! 'Vil a..!",
+    "page": 223
+  },
+  {
+    "id": 1499,
+    "roman_no_tones": "thuuk-dtawng",
+    "en": "correct",
+    "page": 223
+  },
+  {
+    "id": 1500,
+    "roman_no_tones": "n6k-gra-riian",
+    "en": "I crane",
+    "page": 223
+  },
+  {
+    "id": 1501,
+    "roman_no_tones": "jf ng-riit",
+    "en": "I cricket",
+    "page": 223
+  },
+  {
+    "id": 1502,
+    "roman_no_tones": "jaaw-ra-khee",
+    "en": "crocodile naa-naen bpai duuai",
+    "page": 224
+  },
+  {
+    "id": 1503,
+    "roman_no_tones": "phuu-khon",
+    "en": "crowded 'Vi 6l nbb 'Vi 61 a..J",
+    "page": 224
+  },
+  {
+    "id": 1504,
+    "roman_no_tones": "!ak-/aaem",
+    "en": "cunning",
+    "page": 224
+  },
+  {
+    "id": 1505,
+    "roman_no_tones": "sa-gun-ngoen -furrency fll' Vbb61 fl b'iJ WFJ'U,bX'U,Y'al",
+    "en": "Zl\\'iJ'a[b'YI` gaan-laaek-bpliian",
+    "page": 224
+  },
+  {
+    "id": 1506,
+    "roman_no_tones": "en-dtraa dtaang-bpra­",
+    "en": "theet currency exchange Nl:J..ll'U,",
+    "page": 224
+  },
+  {
+    "id": 1507,
+    "roman_no_tones": "phaa-maan",
+    "en": "curtain ` 61 fl1 fl'a",
+    "page": 224
+  },
+  {
+    "id": 1508,
+    "roman_no_tones": "sun-la-gaa-gaawn",
+    "en": "I customs",
+    "page": 224
+  },
+  {
+    "id": 1510,
+    "roman_no_tones": "ltJuk-saao",
+    "en": "daughter I bil 611 bb(91-:i Gla-Jcfll';i:i; bai-sam-daaeng-sam-",
+    "page": 225
+  },
+  {
+    "id": 1511,
+    "roman_no_tones": "phaa-ra",
+    "en": "declaration form",
+    "page": 225
+  },
+  {
+    "id": 1512,
+    "roman_no_tones": "sam-daaeng",
+    "en": "declare",
+    "page": 225
+  },
+  {
+    "id": 1514,
+    "roman_no_tones": "thaai ut-jaa-ra",
+    "en": "defecate",
+    "page": 225
+  },
+  {
+    "id": 1515,
+    "roman_no_tones": "ong-saa",
+    "en": "degree",
+    "page": 225
+  },
+  {
+    "id": 1516,
+    "roman_no_tones": "chaa gwaa gam-not",
+    "en": "delayed",
+    "page": 226
+  },
+  {
+    "id": 1519,
+    "roman_no_tones": "dttJu-sa-biiang",
+    "en": "dining car",
+    "page": 226
+  },
+  {
+    "id": 1520,
+    "roman_no_tones": "thft-thaang",
+    "en": "directions",
+    "page": 226
+  },
+  {
+    "id": 1521,
+    "roman_no_tones": "khrtJueang-laang-jaan",
+    "en": "dishwasher 1, aJ",
+    "page": 226
+  },
+  {
+    "id": 1523,
+    "roman_no_tones": "kha-dii",
+    "en": "documentary 'Yll-3 b 6111 el el fl",
+    "page": 227
+  },
+  {
+    "id": 1524,
+    "roman_no_tones": "thaang-khao-aawk",
+    "en": "doorway",
+    "page": 227
+  },
+  {
+    "id": 1525,
+    "roman_no_tones": "chan-/aang",
+    "en": "downstairs",
+    "page": 227
+  },
+  {
+    "id": 1527,
+    "roman_no_tones": "khon-khap-r6t",
+    "en": "driver",
+    "page": 227
+  },
+  {
+    "id": 1528,
+    "roman_no_tones": "duu-bai",
+    "en": "Dubai",
+    "page": 227
+  },
+  {
+    "id": 1529,
+    "roman_no_tones": "thang kha-ya",
+    "en": "I dumpster",
+    "page": 227
+  },
+  {
+    "id": 1530,
+    "roman_no_tones": "bplaawt-phaa-sTi duty-free",
+    "en": "u n elU'Vl'a",
+    "page": 228
+  },
+  {
+    "id": 1532,
+    "roman_no_tones": "seet-tha-git",
+    "en": "economy q \"'11 ,J elFJ",
+    "page": 228
+  },
+  {
+    "id": 1533,
+    "roman_no_tones": "ii-yip",
+    "en": "Egypt",
+    "page": 228
+  },
+  {
+    "id": 1534,
+    "roman_no_tones": "cha-raa",
+    "en": "elderly",
+    "page": 228
+  },
+  {
+    "id": 1535,
+    "roman_no_tones": "bplak-fai",
+    "en": "electric plug",
+    "page": 228
+  },
+  {
+    "id": 1536,
+    "roman_no_tones": "maaw-hung-khaao-fai­",
+    "en": "faa electric rice cooker",
+    "page": 228
+  },
+  {
+    "id": 1541,
+    "roman_no_tones": "n6k-ii-muu",
+    "en": "emu i-:inq'lt",
+    "page": 229
+  },
+  {
+    "id": 1542,
+    "roman_no_tones": "ang-grit",
+    "en": "I England b'W i;l(9'1 b'W i;l'U,fl'il-:ll'U, el",
+    "page": 229
+  },
+  {
+    "id": 1543,
+    "roman_no_tones": "phl6oet-phlooen gap",
+    "en": "ngaan a-di-reek I enjoy a hobby",
+    "page": 229
+  },
+  {
+    "id": 1544,
+    "roman_no_tones": "git-ja-gaan",
+    "en": "enterprise ell'Vil'a'\\ll'U,'Vi i;\\' fl",
+    "page": 230
+  },
+  {
+    "id": 1545,
+    "roman_no_tones": "aa-haan-jaan-/ak",
+    "en": "entree I 'IJ0l'a6lllb 6 lll",
+    "page": 230
+  },
+  {
+    "id": 1546,
+    "roman_no_tones": "bat-khaa-khao",
+    "en": "entry card",
+    "page": 230
+  },
+  {
+    "id": 1548,
+    "roman_no_tones": "ban-dai-ltJuean",
+    "en": "escalator",
+    "page": 230
+  },
+  {
+    "id": 1549,
+    "roman_no_tones": "yuu-roo",
+    "en": "I Euro",
+    "page": 230
+  },
+  {
+    "id": 1551,
+    "roman_no_tones": "bprai-sa-nii duuan",
+    "en": "express mail",
+    "page": 231
+  },
+  {
+    "id": 1552,
+    "roman_no_tones": "waen-saai-dtaa",
+    "en": "eyeglasses I cw u n,n u 1 ';i-:l-:ll U pha-nak-ngaan roong-",
+    "page": 231
+  },
+  {
+    "id": 1555,
+    "roman_no_tones": "ruuea-khaam-faak",
+    "en": "ferry b'Vl +n161 theet-sa-gaan",
+    "page": 231
+  },
+  {
+    "id": 1559,
+    "roman_no_tones": "!6oek ngaan",
+    "en": "finish work 'Yll-:l'Vi'U, b",
+    "page": 232
+  },
+  {
+    "id": 1560,
+    "roman_no_tones": "thaang-nTi-fai",
+    "en": "fire escape pha-nak-ngaan",
+    "page": 232
+  },
+  {
+    "id": 1561,
+    "roman_no_tones": "dap-phlooeng",
+    "en": "firefighter 'Vi-:1 'Vi el fJ",
+    "page": 232
+  },
+  {
+    "id": 1562,
+    "roman_no_tones": "hing-hauy",
+    "en": "firefly",
+    "page": 232
+  },
+  {
+    "id": 1563,
+    "roman_no_tones": "chan-nueng",
+    "en": "first class",
+    "page": 232
+  },
+  {
+    "id": 1565,
+    "roman_no_tones": "up-bpa-gaawn chtJuai",
+    "en": "laauy dtuua flotation device",
+    "page": 233
+  },
+  {
+    "id": 1566,
+    "roman_no_tones": "suuan daawk-mai",
+    "en": "flower garden",
+    "page": 233
+  },
+  {
+    "id": 1567,
+    "roman_no_tones": "ma-laaeng-wan",
+    "en": "fly el ba..JiflU'W 0l'lJ el",
+    "page": 233
+  },
+  {
+    "id": 1569,
+    "roman_no_tones": "laaek-bpliian ngoen-dtraa dtaang-bpra-theet",
+    "en": "foreign exchange 61 u 611 '\\l-:l !\\lei n",
+    "page": 233
+  },
+  {
+    "id": 1570,
+    "roman_no_tones": "su-nak-jfng-jaawk",
+    "en": "fox",
+    "page": 233
+  },
+  {
+    "id": 1571,
+    "roman_no_tones": "fa-rang-seet",
+    "en": "France",
+    "page": 233
+  },
+  {
+    "id": 1573,
+    "roman_no_tones": "maaeo-nam kh6n bpui",
+    "en": "fur seal",
+    "page": 234
+  },
+  {
+    "id": 1574,
+    "roman_no_tones": "gaan-khaeng-khan",
+    "en": "game",
+    "page": 234
+  },
+  {
+    "id": 1577,
+    "roman_no_tones": "yii-raap",
+    "en": "I giraffe",
+    "page": 234
+  },
+  {
+    "id": 1579,
+    "roman_no_tones": "dtuua-rin",
+    "en": "gnat",
+    "page": 235
+  },
+  {
+    "id": 1580,
+    "roman_no_tones": "khao-gan",
+    "en": "go with",
+    "page": 235
+  },
+  {
+    "id": 1582,
+    "roman_no_tones": "sa-wat-dii dtaawn baai",
+    "en": "food afternoon.",
+    "page": 235
+  },
+  {
+    "id": 1583,
+    "roman_no_tones": "sa-wat-dii dtaawn yen",
+    "en": "Good evening. 6'116'1 10lel'U,b6lil sa-wat-dii dtaawn",
+    "page": 235
+  },
+  {
+    "id": 1585,
+    "roman_no_tones": "ling-gaaw-rin-laa",
+    "en": "I gorilla",
+    "page": 235
+  },
+  {
+    "id": 1588,
+    "roman_no_tones": "thCmg-yaa",
+    "en": "grassland",
+    "page": 236
+  },
+  {
+    "id": 1590,
+    "roman_no_tones": "roong-gii-laa",
+    "en": "gym",
+    "page": 236
+  },
+  {
+    "id": 1591,
+    "roman_no_tones": "yim-naat-dtik",
+    "en": "gymnastics",
+    "page": 236
+  },
+  {
+    "id": 1592,
+    "roman_no_tones": "khrtJueang-bpao-ph6m",
+    "en": "I hair dryer",
+    "page": 236
+  },
+  {
+    "id": 1594,
+    "roman_no_tones": "thii-nang sam-rap phuu­",
+    "en": "thup-phon-/a-phaap handicapped seating",
+    "page": 237
+  },
+  {
+    "id": 1595,
+    "roman_no_tones": "roong-gep-khruueang-bin",
+    "en": "hangar wat-dii Hi.",
+    "page": 237
+  },
+  {
+    "id": 1597,
+    "roman_no_tones": "nooen-khao",
+    "en": "hill",
+    "page": 237
+  },
+  {
+    "id": 1598,
+    "roman_no_tones": "gaw-raao-jap",
+    "en": "hold onto the handrail",
+    "page": 237
+  },
+  {
+    "id": 1600,
+    "roman_no_tones": "gaan-baan",
+    "en": "homework",
+    "page": 239
+  },
+  {
+    "id": 1601,
+    "roman_no_tones": "suue-sat",
+    "en": "honest",
+    "page": 239
+  },
+  {
+    "id": 1602,
+    "roman_no_tones": "khii-maa",
+    "en": "horseback riding eHl@lb:J..161 hawt-meo",
+    "page": 239
+  },
+  {
+    "id": 1603,
+    "roman_no_tones": "-f   otmail bb:J..l'ill'U,",
+    "en": "I 0, maae-baan",
+    "page": 239
+  },
+  {
+    "id": 1606,
+    "roman_no_tones": "khun aa-yu thao-rai",
+    "en": "I How old are you?",
+    "page": 239
+  },
+  {
+    "id": 1607,
+    "roman_no_tones": "saa-mii",
+    "en": "husband",
+    "page": 240
+  },
+  {
+    "id": 1609,
+    "roman_no_tones": "chan mai khao-Jai",
+    "en": "I don't understand. ili",
+    "page": 240
+  },
+  {
+    "id": 1610,
+    "roman_no_tones": "chan chaawp sing-nfi",
+    "en": "--f ike this. <it 'U,eJ F.Jl",
+    "page": 240
+  },
+  {
+    "id": 1612,
+    "roman_no_tones": "chan sa-baai dii",
+    "en": "I I'm fine. fll';ibi;l'U,i;I bfl @l'U, 1 bb6ll\\l Co Co",
+    "page": 240
+  },
+  {
+    "id": 1613,
+    "roman_no_tones": "gaan-/en sa-get nam­",
+    "en": "khaaeng I ice skating",
+    "page": 240
+  },
+  {
+    "id": 1614,
+    "roman_no_tones": "phit got-maai",
+    "en": "illegal",
+    "page": 241
+  },
+  {
+    "id": 1616,
+    "roman_no_tones": "mai thuuk-dtawng",
+    "en": "incorrect",
+    "page": 241
+  },
+  {
+    "id": 1618,
+    "roman_no_tones": "dtruuat-saawp",
+    "en": "inspect i",
+    "page": 241
+  },
+  {
+    "id": 1619,
+    "roman_no_tones": "ruu-suek s6n-jai",
+    "en": "interested tll",
+    "page": 241
+  },
+  {
+    "id": 1623,
+    "roman_no_tones": "stJuea-jaa-gtJua",
+    "en": "jaguar",
+    "page": 242
+  },
+  {
+    "id": 1625,
+    "roman_no_tones": "yen yfi-bpun",
+    "en": "Japanese Yen",
+    "page": 242
+  },
+  {
+    "id": 1626,
+    "roman_no_tones": "gra-doot",
+    "en": "I jump",
+    "page": 242
+  },
+  {
+    "id": 1627,
+    "roman_no_tones": "jing-j6o",
+    "en": "I kangaroo",
+    "page": 242
+  },
+  {
+    "id": 1629,
+    "roman_no_tones": "dt6 nai khruua",
+    "en": "kitchen table",
+    "page": 243
+  },
+  {
+    "id": 1633,
+    "roman_no_tones": "khoom-fai",
+    "en": "lamp",
+    "page": 243
+  },
+  {
+    "id": 1634,
+    "roman_no_tones": "!ong-jaawt",
+    "en": "I land",
+    "page": 243
+  },
+  {
+    "id": 1635,
+    "roman_no_tones": "ph6k-phaa",
+    "en": "laptop",
+    "page": 244
+  },
+  {
+    "id": 1637,
+    "roman_no_tones": "baaw-ri-gaan sak rfit",
+    "en": "laundry service",
+    "page": 244
+  },
+  {
+    "id": 1639,
+    "roman_no_tones": "bai-mai",
+    "en": "leaf nl';)'lJ';j';)F.Jl FJ",
+    "page": 244
+  },
+  {
+    "id": 1640,
+    "roman_no_tones": "gaan-ban-yaai",
+    "en": "lecture b 61 F.116lil FJ",
+    "page": 244
+  },
+  {
+    "id": 1642,
+    "roman_no_tones": "bot-riian",
+    "en": "lesson",
+    "page": 245
+  },
+  {
+    "id": 1643,
+    "roman_no_tones": "jot-maai",
+    "en": "letter",
+    "page": 245
+  },
+  {
+    "id": 1646,
+    "roman_no_tones": "!aawt-fai",
+    "en": "light bulb",
+    "page": 245
+  },
+  {
+    "id": 1647,
+    "roman_no_tones": "fai-chaek",
+    "en": "I lighter",
+    "page": 245
+  },
+  {
+    "id": 1649,
+    "roman_no_tones": "phaa-saa-saat",
+    "en": "linguistics",
+    "page": 246
+  },
+  {
+    "id": 1650,
+    "roman_no_tones": "sTng-dtoo",
+    "en": "lion",
+    "page": 246
+  },
+  {
+    "id": 1651,
+    "roman_no_tones": "sTng-dtoo dtuua-miia",
+    "en": "lioness",
+    "page": 246
+  },
+  {
+    "id": 1652,
+    "roman_no_tones": "mii chii-wft-chii-waa",
+    "en": "ely fl\\! fll",
+    "page": 246
+  },
+  {
+    "id": 1653,
+    "roman_no_tones": "gf ng-gaa",
+    "en": "lizard",
+    "page": 246
+  },
+  {
+    "id": 1656,
+    "roman_no_tones": "r6t-ban-thuk",
+    "en": "lorry 61 eH'I",
+    "page": 247
+  },
+  {
+    "id": 1657,
+    "roman_no_tones": "laawt-aaen-jee-lft",
+    "en": "Los Angeles bb'W",
+    "page": 247
+  },
+  {
+    "id": 1660,
+    "roman_no_tones": "/ao",
+    "en": "lounge fll'a0l'a1'\\l fl'a :biJl b;'U,'Vll-3 gaan-dtruuat gra-bpao",
+    "page": 247
+  },
+  {
+    "id": 1661,
+    "roman_no_tones": "dooen-thaang",
+    "en": "luggage check 'Vl'a'lJ fl'a : b'1Jl .ti thfi rap gra-bpao",
+    "page": 247
+  },
+  {
+    "id": 1663,
+    "roman_no_tones": "bprai-sa-nii",
+    "en": "mail dttJu-jot-maai",
+    "page": 248
+  },
+  {
+    "id": 1665,
+    "roman_no_tones": "bu-rut-bprai-sa-nii",
+    "en": "mailman phaen-din-yai",
+    "page": 248
+  },
+  {
+    "id": 1667,
+    "roman_no_tones": "dtaeng bpra-yook",
+    "en": "make a sentence tham dtuua dtaam sa-",
+    "page": 248
+  },
+  {
+    "id": 1669,
+    "roman_no_tones": "dt6n-mee-bp6en",
+    "en": "maple tree",
+    "page": 248
+  },
+  {
+    "id": 1670,
+    "roman_no_tones": "maa-raa-thaawn",
+    "en": "marathon",
+    "page": 249
+  },
+  {
+    "id": 1674,
+    "roman_no_tones": "chang-khrtJueang",
+    "en": "mechanic",
+    "page": 249
+  },
+  {
+    "id": 1675,
+    "roman_no_tones": "r6t-tai-dtai-din",
+    "en": "metro",
+    "page": 249
+  },
+  {
+    "id": 1676,
+    "roman_no_tones": "mek-sf-goo",
+    "en": "Mexico",
+    "page": 249
+  },
+  {
+    "id": 1677,
+    "roman_no_tones": "mek-sf-goo sf-dtfi",
+    "en": "Mexico City",
+    "page": 250
+  },
+  {
+    "id": 1680,
+    "roman_no_tones": "r6t-fai-faa-raang-diiao",
+    "en": "monorail ';H;l '\\I f f ;i fJ 1 'U, fJ it,",
+    "page": 250
+  },
+  {
+    "id": 1681,
+    "roman_no_tones": "r6t-jak-gra-yaan-yon kha-naat-lek",
+    "en": "moped",
+    "page": 250
+  },
+  {
+    "id": 1682,
+    "roman_no_tones": "mat-sa-yft",
+    "en": "mosque ell",
+    "page": 250
+  },
+  {
+    "id": 1683,
+    "roman_no_tones": "aa-gaan  mao  r6t",
+    "en": "motion sickness ';if;l'\\l fl'afJl'U,fJ'U,",
+    "page": 250
+  },
+  {
+    "id": 1684,
+    "roman_no_tones": "r6t-jak-gra-yaan-yon",
+    "en": "I motorbike",
+    "page": 250
+  },
+  {
+    "id": 1685,
+    "roman_no_tones": "thtJueak-khao",
+    "en": "mountain range",
+    "page": 251
+  },
+  {
+    "id": 1689,
+    "roman_no_tones": "nang-luek-/ap",
+    "en": "mystery",
+    "page": 251
+  },
+  {
+    "id": 1690,
+    "roman_no_tones": "san-chaat",
+    "en": "nationality b'Wel'U,'iJl'U,",
+    "page": 251
+  },
+  {
+    "id": 1691,
+    "roman_no_tones": "phtJuean-baan",
+    "en": "neighbor",
+    "page": 251
+  },
+  {
+    "id": 1692,
+    "roman_no_tones": "mai-khooei",
+    "en": "never 'Vll';in bb ';in b fl",
+    "page": 252
+  },
+  {
+    "id": 1693,
+    "roman_no_tones": "thaa-r6k raaek-gooet",
+    "en": "newborn baby cl",
+    "page": 252
+  },
+  {
+    "id": 1697,
+    "roman_no_tones": "dt6n-6ok",
+    "en": "oak tree",
+    "page": 252
+  },
+  {
+    "id": 1699,
+    "roman_no_tones": "phfi-chaai",
+    "en": "older brother",
+    "page": 253
+  },
+  {
+    "id": 1700,
+    "roman_no_tones": "phfi-saao",
+    "en": "older sister",
+    "page": 253
+  },
+  {
+    "id": 1701,
+    "roman_no_tones": "oo-lim-bpik",
+    "en": "Olympics",
+    "page": 253
+  },
+  {
+    "id": 1704,
+    "roman_no_tones": "doot-den",
+    "en": "outstanding b Wlel'lJ",
+    "page": 253
+  },
+  {
+    "id": 1705,
+    "roman_no_tones": "dtao-op",
+    "en": "I oven",
+    "page": 253
+  },
+  {
+    "id": 1706,
+    "roman_no_tones": "chaang-jao-gfi-jao-gaan",
+    "en": "overbearing 'YI bn'il",
+    "page": 254
+  },
+  {
+    "id": 1708,
+    "roman_no_tones": "thaang-dooen nuuea sTi-sa",
+    "en": "overhead walkway",
+    "page": 254
+  },
+  {
+    "id": 1709,
+    "roman_no_tones": "sa-phaan-khaam",
+    "en": "overpass",
+    "page": 254
+  },
+  {
+    "id": 1710,
+    "roman_no_tones": "ngaan-ltJuang-wee-laa",
+    "en": "overtime umrn",
+    "page": 254
+  },
+  {
+    "id": 1711,
+    "roman_no_tones": "n6k-htJuk",
+    "en": "owl",
+    "page": 254
+  },
+  {
+    "id": 1713,
+    "roman_no_tones": "phat-sa-du",
+    "en": "parcel",
+    "page": 255
+  },
+  {
+    "id": 1714,
+    "roman_no_tones": "hCm-suuan",
+    "en": "partner l)h u n",
+    "page": 255
+  },
+  {
+    "id": 1715,
+    "roman_no_tones": "phaan gaan-saawp",
+    "en": "pass a test",
+    "page": 255
+  },
+  {
+    "id": 1716,
+    "roman_no_tones": "phaai-lom -fassgas",
+    "en": "Nl,",
+    "page": 255
+  },
+  {
+    "id": 1717,
+    "roman_no_tones": "phtJu-dooi-saan",
+    "en": "passenger I",
+    "page": 255
+  },
+  {
+    "id": 1718,
+    "roman_no_tones": "jaai-ngoen",
+    "en": "I pay money",
+    "page": 255
+  },
+  {
+    "id": 1719,
+    "roman_no_tones": "sTia phaa-sTi",
+    "en": "pay taxes",
+    "page": 255
+  },
+  {
+    "id": 1720,
+    "roman_no_tones": "n6k-yuung",
+    "en": "peacock",
+    "page": 256
+  },
+  {
+    "id": 1722,
+    "roman_no_tones": "wa-/ii",
+    "en": "phrase FJ n",
+    "page": 256
+  },
+  {
+    "id": 1724,
+    "roman_no_tones": "gaan bpai bpfk-nfk",
+    "en": "picnic",
+    "page": 256
+  },
+  {
+    "id": 1726,
+    "roman_no_tones": "nak-bin",
+    "en": "I pilot",
+    "page": 256
+  },
+  {
+    "id": 1727,
+    "roman_no_tones": "dt6n-s6n",
+    "en": "pine tree",
+    "page": 257
+  },
+  {
+    "id": 1728,
+    "roman_no_tones": "dtuua-khrtJueang-bin",
+    "en": "plane ticket",
+    "page": 257
+  },
+  {
+    "id": 1729,
+    "roman_no_tones": "dtuua-dtun bpaak-bpet",
+    "en": "platypus",
+    "page": 257
+  },
+  {
+    "id": 1730,
+    "roman_no_tones": "fen khrtJueang-don-dtrii",
+    "en": "-fay a musical instrument u:i u 'Vi a..n n-a n",
+    "page": 257
+  },
+  {
+    "id": 1731,
+    "roman_no_tones": "fen maak-ruk",
+    "en": "play chess",
+    "page": 257
+  },
+  {
+    "id": 1733,
+    "roman_no_tones": "nak-gii-faa",
+    "en": "I player",
+    "page": 257
+  },
+  {
+    "id": 1734,
+    "roman_no_tones": "phai bp6ok-g6oe",
+    "en": "poker",
+    "page": 258
+  },
+  {
+    "id": 1735,
+    "roman_no_tones": "su-phaap",
+    "en": "polite I",
+    "page": 258
+  },
+  {
+    "id": 1736,
+    "roman_no_tones": "sa-nam",
+    "en": "pond 1 11 h",
+    "page": 258
+  },
+  {
+    "id": 1738,
+    "roman_no_tones": "song jot-maai",
+    "en": "post a letter",
+    "page": 258
+  },
+  {
+    "id": 1739,
+    "roman_no_tones": "dtao-jaai-tai",
+    "en": "power outlet",
+    "page": 258
+  },
+  {
+    "id": 1740,
+    "roman_no_tones": "tham aa-haan",
+    "en": "prepare",
+    "page": 258
+  },
+  {
+    "id": 1742,
+    "roman_no_tones": "nak gii-laa aa-chfip",
+    "en": "professional athlete",
+    "page": 259
+  },
+  {
+    "id": 1743,
+    "roman_no_tones": "aa-jaan",
+    "en": "professor",
+    "page": 259
+  },
+  {
+    "id": 1744,
+    "roman_no_tones": "khnJueang-chaai",
+    "en": "+ ojector cfla'.J",
+    "page": 259
+  },
+  {
+    "id": 1745,
+    "roman_no_tones": "phuum-jai",
+    "en": "proud",
+    "page": 259
+  },
+  {
+    "id": 1746,
+    "roman_no_tones": "n6k-gra-thaa",
+    "en": "I quail fll'afl fl fl'U,",
+    "page": 259
+  },
+  {
+    "id": 1747,
+    "roman_no_tones": "gaan-gak-gan",
+    "en": "I quarantine",
+    "page": 259
+  },
+  {
+    "id": 1748,
+    "roman_no_tones": "kham-thaam",
+    "en": "question fll';H'I el 'lJ FJ el FJ",
+    "page": 260
+  },
+  {
+    "id": 1750,
+    "roman_no_tones": "raek-khuun",
+    "en": "raccoon b'lJ e)'U,f,lJl @l fl i['}J b6Ul b:il",
+    "page": 260
+  },
+  {
+    "id": 1753,
+    "roman_no_tones": "htJu-thoo-ra-sap",
+    "en": "receiver",
+    "page": 260
+  },
+  {
+    "id": 1754,
+    "roman_no_tones": "phtJu-rap",
+    "en": "recipient",
+    "page": 260
+  },
+  {
+    "id": 1756,
+    "roman_no_tones": "tai-daaeng",
+    "en": "red light IV",
+    "page": 261
+  },
+  {
+    "id": 1757,
+    "roman_no_tones": "ruu-suek phaawn-khJaai",
+    "en": "relaxed",
+    "page": 261
+  },
+  {
+    "id": 1758,
+    "roman_no_tones": "saat-sa-naa -fligion",
+    "en": "it,",
+    "page": 261
+  },
+  {
+    "id": 1759,
+    "roman_no_tones": "naa-thtJeng",
+    "en": "remarkable",
+    "page": 261
+  },
+  {
+    "id": 1767,
+    "roman_no_tones": "gao-fi yook",
+    "en": "I rocking chair nang",
+    "page": 262
+  },
+  {
+    "id": 1768,
+    "roman_no_tones": "maaen-dtik",
+    "en": "I romantic comedy",
+    "page": 262
+  },
+  {
+    "id": 1769,
+    "roman_no_tones": "gai dtuua-phtJu",
+    "en": "rooster",
+    "page": 263
+  },
+  {
+    "id": 1771,
+    "roman_no_tones": "wong-wiian",
+    "en": "roundabout",
+    "page": 263
+  },
+  {
+    "id": 1775,
+    "roman_no_tones": "rat-siia",
+    "en": "I Russia",
+    "page": 263
+  },
+  {
+    "id": 1776,
+    "roman_no_tones": "pha-nak-ngaan-khaai",
+    "en": "salesperson",
+    "page": 264
+  },
+  {
+    "id": 1778,
+    "roman_no_tones": "ruu-suek waat-gluua",
+    "en": "scared",
+    "page": 264
+  },
+  {
+    "id": 1779,
+    "roman_no_tones": "wan-yut khaawng roong-riian",
+    "en": "school holiday",
+    "page": 264
+  },
+  {
+    "id": 1780,
+    "roman_no_tones": "bpii-gaan-suek-saa",
+    "en": "school year",
+    "page": 264
+  },
+  {
+    "id": 1781,
+    "roman_no_tones": "dta-bpuu-khuuang",
+    "en": "screw",
+    "page": 264
+  },
+  {
+    "id": 1782,
+    "roman_no_tones": "khai-khuuang",
+    "en": "screwdriver",
+    "page": 264
+  },
+  {
+    "id": 1784,
+    "roman_no_tones": "n6k-naang-nuuan",
+    "en": "seagull",
+    "page": 265
+  },
+  {
+    "id": 1785,
+    "roman_no_tones": "chaai-tha-lee",
+    "en": "seaside b6lla..16ll \\'Ui'acfltl Co'",
+    "page": 265
+  },
+  {
+    "id": 1786,
+    "roman_no_tones": "khem-khat-nf-ra-phai",
+    "en": "I seat belt 'Via..Jltl b",
+    "page": 265
+  },
+  {
+    "id": 1787,
+    "roman_no_tones": "maai-leek thfi-nang",
+    "en": "seat number",
+    "page": 265
+  },
+  {
+    "id": 1788,
+    "roman_no_tones": "ma-let",
+    "en": "I seed raawp raawng",
+    "page": 265
+  },
+  {
+    "id": 1789,
+    "roman_no_tones": "l6oet",
+    "en": "I semi-final",
+    "page": 265
+  },
+  {
+    "id": 1790,
+    "roman_no_tones": "wu-s6a",
+    "en": "senior citizen",
+    "page": 266
+  },
+  {
+    "id": 1791,
+    "roman_no_tones": "bpra-yoak",
+    "en": "sentence",
+    "page": 266
+  },
+  {
+    "id": 1794,
+    "roman_no_tones": "groat-ngaai short-tempered",
+    "en": "fNellb",
+    "page": 266
+  },
+  {
+    "id": 1795,
+    "roman_no_tones": "thtJng-aa-jiian",
+    "en": "sick bag 'Vil\\! b",
+    "page": 266
+  },
+  {
+    "id": 1796,
+    "roman_no_tones": "thaang-thaaa",
+    "en": "sidewalk",
+    "page": 266
+  },
+  {
+    "id": 1797,
+    "roman_no_tones": "thfiao-chom",
+    "en": "sightsee 'a el\\! b",
+    "page": 268
+  },
+  {
+    "id": 1799,
+    "roman_no_tones": "sTng-kha-bpoo",
+    "en": "Singapore",
+    "page": 268
+  },
+  {
+    "id": 1801,
+    "roman_no_tones": "sa-gai",
+    "en": "Skype",
+    "page": 268
+  },
+  {
+    "id": 1802,
+    "roman_no_tones": "dtuek-ra-faa",
+    "en": "I skyscraper fl'am",
+    "page": 268
+  },
+  {
+    "id": 1803,
+    "roman_no_tones": "ga-ru-naa chaa gwaa",
+    "en": "nfi I Slower, please.",
+    "page": 268
+  },
+  {
+    "id": 1805,
+    "roman_no_tones": "baeng-yauy",
+    "en": "small bill I",
+    "page": 269
+  },
+  {
+    "id": 1806,
+    "roman_no_tones": "ltJuk-chaai",
+    "en": "son",
+    "page": 269
+  },
+  {
+    "id": 1807,
+    "roman_no_tones": "khaaw-th6ot thfi tham",
+    "en": "hai raaw Sorry to keep you waiting.",
+    "page": 269
+  },
+  {
+    "id": 1808,
+    "roman_no_tones": "gao-!Ti-dtai",
+    "en": "South Korea a..J'Vil",
+    "page": 269
+  },
+  {
+    "id": 1809,
+    "roman_no_tones": "ma-haa-sa-mut-dtai",
+    "en": "Southern Ocean",
+    "page": 269
+  },
+  {
+    "id": 1810,
+    "roman_no_tones": "sa-bpeen",
+    "en": "Spain",
+    "page": 269
+  },
+  {
+    "id": 1811,
+    "roman_no_tones": "khwaam-reo jam-gat",
+    "en": "speed limit",
+    "page": 270
+  },
+  {
+    "id": 1812,
+    "roman_no_tones": "maaeng-mum",
+    "en": "spider",
+    "page": 270
+  },
+  {
+    "id": 1813,
+    "roman_no_tones": "gra-duuk-san-/ang",
+    "en": "spine",
+    "page": 270
+  },
+  {
+    "id": 1815,
+    "roman_no_tones": "gii-laa",
+    "en": "sports",
+    "page": 270
+  },
+  {
+    "id": 1816,
+    "roman_no_tones": "sa-naam-gii-/aa",
+    "en": "stadium",
+    "page": 270
+  },
+  {
+    "id": 1818,
+    "roman_no_tones": "sa-dtaem",
+    "en": "stamp",
+    "page": 271
+  },
+  {
+    "id": 1819,
+    "roman_no_tones": "daa-raa",
+    "en": "star",
+    "page": 271
+  },
+  {
+    "id": 1820,
+    "roman_no_tones": "khnJueang-khTian",
+    "en": "stationery",
+    "page": 271
+  },
+  {
+    "id": 1821,
+    "roman_no_tones": "nJup-bpan --+-6;atue",
+    "en": "11611 f f ;i:l:b'il it,",
+    "page": 271
+  },
+  {
+    "id": 1822,
+    "roman_no_tones": "bplaa-gra-bee n",
+    "en": "stingray",
+    "page": 271
+  },
+  {
+    "id": 1823,
+    "roman_no_tones": "bpaai-hai-yut",
+    "en": "I stop sign",
+    "page": 271
+  },
+  {
+    "id": 1824,
+    "roman_no_tones": "chawng-khaaep",
+    "en": "I strait",
+    "page": 271
+  },
+  {
+    "id": 1825,
+    "roman_no_tones": "khem-ngtJuat",
+    "en": "strict",
+    "page": 272
+  },
+  {
+    "id": 1826,
+    "roman_no_tones": "khap-ban-chaa",
+    "en": "subordinate",
+    "page": 272
+  },
+  {
+    "id": 1828,
+    "roman_no_tones": "roong-riian phaak-rue­ duu-raawn",
+    "en": "summer school iJ tb'VI el:J-lcfllu qvieliti bpit-thooem phaak-",
+    "page": 272
+  },
+  {
+    "id": 1829,
+    "roman_no_tones": "rue-duu-raawn",
+    "en": "summer vacation N",
+    "page": 272
+  },
+  {
+    "id": 1830,
+    "roman_no_tones": "phtJu-duu-laae",
+    "en": "superintendent",
+    "page": 272
+  },
+  {
+    "id": 1831,
+    "roman_no_tones": "khtJuap-khum-duu-laae",
+    "en": "supervise 'VI el\\! el 'Ui b 'VI el 'a b 'Ui w cl",
+    "page": 272
+  },
+  {
+    "id": 1833,
+    "roman_no_tones": "nang suuep-stJuan­ saawp-stJuan",
+    "en": "suspense",
+    "page": 273
+  },
+  {
+    "id": 1835,
+    "roman_no_tones": "waai-nam",
+    "en": "swimming",
+    "page": 273
+  },
+  {
+    "id": 1840,
+    "roman_no_tones": "dta-lap-meet",
+    "en": "tape measure 'VI a..J",
+    "page": 274
+  },
+  {
+    "id": 1844,
+    "roman_no_tones": "aa-khaan-phtJu-dooi­",
+    "en": "saan terminal",
+    "page": 274
+  },
+  {
+    "id": 1845,
+    "roman_no_tones": "khaawp-khun maak",
+    "en": "I Thank you very much. 611 el",
+    "page": 274
+  },
+  {
+    "id": 1846,
+    "roman_no_tones": "khaawp-khun",
+    "en": "I Thank you!",
+    "page": 274
+  },
+  {
+    "id": 1852,
+    "roman_no_tones": "khaawng wee-laa",
+    "en": "time difference gra-daat thft-chtJu",
+    "page": 275
+  },
+  {
+    "id": 1855,
+    "roman_no_tones": "gra-daat-cham-ra",
+    "en": "toilet paper glawng",
+    "page": 276
+  },
+  {
+    "id": 1858,
+    "roman_no_tones": "thawng-thfiao",
+    "en": "tour",
+    "page": 276
+  },
+  {
+    "id": 1859,
+    "roman_no_tones": "r6t-thuua",
+    "en": "tour bus i;l f;ll'U,'Yl'Ylel-3 b'YW1 sa-thaan thfi",
+    "page": 276
+  },
+  {
+    "id": 1862,
+    "roman_no_tones": "grii-thaa",
+    "en": "track and field gaan",
+    "page": 277
+  },
+  {
+    "id": 1865,
+    "roman_no_tones": "raang-r6t-fai",
+    "en": "train track b11 XfJ'U,",
+    "page": 277
+  },
+  {
+    "id": 1868,
+    "roman_no_tones": "baaw-ri-sat thuua",
+    "en": "travel agency",
+    "page": 278
+  },
+  {
+    "id": 1869,
+    "roman_no_tones": "chek-dooen-thaang",
+    "en": "traveler's check",
+    "page": 278
+  },
+  {
+    "id": 1870,
+    "roman_no_tones": "r6t-raang-fai-faa",
+    "en": "trolley car",
+    "page": 278
+  },
+  {
+    "id": 1872,
+    "roman_no_tones": "khaa-/ao-riian",
+    "en": "tuition b",
+    "page": 278
+  },
+  {
+    "id": 1873,
+    "roman_no_tones": "gai-nguuang",
+    "en": "I turkey",
+    "page": 278
+  },
+  {
+    "id": 1874,
+    "roman_no_tones": "/fiao",
+    "en": "I turn",
+    "page": 278
+  },
+  {
+    "id": 1875,
+    "roman_no_tones": "lfiao dtrong htJua-mum",
+    "en": "turn a corner",
+    "page": 279
+  },
+  {
+    "id": 1876,
+    "roman_no_tones": "khiit-sen-dtai",
+    "en": "underline",
+    "page": 279
+  },
+  {
+    "id": 1877,
+    "roman_no_tones": "dawn-/aa-sa-ha-rat",
+    "en": "United States Dollar",
+    "page": 279
+  },
+  {
+    "id": 1879,
+    "roman_no_tones": "mai phaaw-jai",
+    "en": "unsatisfied cl",
+    "page": 279
+  },
+  {
+    "id": 1880,
+    "roman_no_tones": "aa-rom-sTia",
+    "en": "upset",
+    "page": 279
+  },
+  {
+    "id": 1881,
+    "roman_no_tones": "hauy-men",
+    "en": "I urchin",
+    "page": 279
+  },
+  {
+    "id": 1883,
+    "roman_no_tones": "wan-yut",
+    "en": "vacation I b 56ei-:i'JJUl1 m 'Vl'l11 \u0004 lei",
+    "page": 280
+  },
+  {
+    "id": 1884,
+    "roman_no_tones": "theep-wf-dii-oo",
+    "en": "VCR",
+    "page": 280
+  },
+  {
+    "id": 1885,
+    "roman_no_tones": "yaan-phaa-ha-na",
+    "en": "vehicle 9lf f :Wl kham gri-yaa",
+    "page": 280
+  },
+  {
+    "id": 1889,
+    "roman_no_tones": "nak-phaak",
+    "en": "voice actor",
+    "page": 281
+  },
+  {
+    "id": 1890,
+    "roman_no_tones": "n6k-raaeng",
+    "en": "vulture",
+    "page": 281
+  },
+  {
+    "id": 1892,
+    "roman_no_tones": "gam-phaaeng",
+    "en": "fall",
+    "page": 281
+  },
+  {
+    "id": 1893,
+    "roman_no_tones": "naa-tf-gaa khwaaen pha-nang",
+    "en": "wall clock",
+    "page": 281
+  },
+  {
+    "id": 1894,
+    "roman_no_tones": "waaw-ching-dtan dii-sii",
+    "en": "Washington, D.C.",
+    "page": 281
+  },
+  {
+    "id": 1895,
+    "roman_no_tones": "thfi-din r6k-raang",
+    "en": "waang bptao I wasteland",
+    "page": 281
+  },
+  {
+    "id": 1896,
+    "roman_no_tones": "nam-dtok",
+    "en": "waterfall",
+    "page": 282
+  },
+  {
+    "id": 1897,
+    "roman_no_tones": "wat-cha-phuuet",
+    "en": "weed",
+    "page": 282
+  },
+  {
+    "id": 1898,
+    "roman_no_tones": "yin-dii dtaawn-rap",
+    "en": "welcome",
+    "page": 282
+  },
+  {
+    "id": 1901,
+    "roman_no_tones": "khaawng-khun khuue",
+    "en": "a-rai What's your e-mail address?",
+    "page": 282
+  },
+  {
+    "id": 1903,
+    "roman_no_tones": "khaawng-khun booe",
+    "en": "a-rai What's your phone number?",
+    "page": 283
+  },
+  {
+    "id": 1904,
+    "roman_no_tones": "khun maa-jaak thfi-nai",
+    "en": "Where are you from?",
+    "page": 283
+  },
+  {
+    "id": 1905,
+    "roman_no_tones": "khun aa-sai yuu thfi-nai",
+    "en": "Where do you live?",
+    "page": 283
+  },
+  {
+    "id": 1906,
+    "roman_no_tones": "hawng-nam yuu thfi nai",
+    "en": "Where is the bathroom?",
+    "page": 283
+  },
+  {
+    "id": 1909,
+    "roman_no_tones": "phan-ra-yaa",
+    "en": "wife",
+    "page": 283
+  },
+  {
+    "id": 1910,
+    "roman_no_tones": "mtJu-bpaa",
+    "en": "wild boar",
+    "page": 284
+  },
+  {
+    "id": 1911,
+    "roman_no_tones": "dt6n sa-nu n",
+    "en": "willow tree",
+    "page": 284
+  },
+  {
+    "id": 1913,
+    "roman_no_tones": "cha-na",
+    "en": "I win 'Vl'U,\\l@l 0'Vi'U, 1011-3 thfi-nang dtit",
+    "page": 284
+  },
+  {
+    "id": 1915,
+    "roman_no_tones": "phuu-cha-na",
+    "en": "winner I",
+    "page": 284
+  },
+  {
+    "id": 1917,
+    "roman_no_tones": "wawm-baaet",
+    "en": "wombat",
+    "page": 285
+  },
+  {
+    "id": 1919,
+    "roman_no_tones": "fut-bawn-/6ok",
+    "en": "World Cup 'Vi it, el it,",
+    "page": 285
+  },
+  {
+    "id": 1921,
+    "roman_no_tones": "gang-won",
+    "en": "worry",
+    "page": 285
+  },
+  {
+    "id": 1922,
+    "roman_no_tones": "khTian jot-maai",
+    "en": "I write a letter n l';i b 611 fJ it,",
+    "page": 285
+  },
+  {
+    "id": 1923,
+    "roman_no_tones": "gaan-khTian",
+    "en": "I written composition",
+    "page": 285
+  },
+  {
+    "id": 1924,
+    "roman_no_tones": "yaa-huu",
+    "en": "Yahoo!",
+    "page": 286
+  },
+  {
+    "id": 1925,
+    "roman_no_tones": "sa-naam",
+    "en": "yard",
+    "page": 286
+  },
+  {
+    "id": 1927,
+    "roman_no_tones": "dtJuai khwaam-yin-dii",
+    "en": "ou're welcome . it, el'36lil fJ",
+    "page": 286
+  },
+  {
+    "id": 1928,
+    "roman_no_tones": "naawng-chaai",
+    "en": "younger brother",
+    "page": 286
+  },
+  {
+    "id": 1929,
+    "roman_no_tones": "naawng-saao",
+    "en": "younger sister",
+    "page": 286
+  },
+  {
+    "id": 1930,
+    "roman_no_tones": "yao-wa-chon",
+    "en": "I youth",
+    "page": 286
+  },
+  {
+    "id": 1931,
+    "roman_no_tones": "maa-/aai",
+    "en": "zebra b'YW thai Thailand I b1£1 A'U,la..J",
+    "page": 287
+  },
+  {
+    "id": 1933,
+    "roman_no_tones": "wfiat-naam",
+    "en": "Vietnam",
+    "page": 287
+  },
+  {
+    "id": 1935,
+    "roman_no_tones": "gam-phuu-chaa",
+    "en": "Cambodia",
+    "page": 287
+  },
+  {
+    "id": 1936,
+    "roman_no_tones": "pha-maa",
+    "en": "I Myanmar",
+    "page": 287
+  },
+  {
+    "id": 1937,
+    "roman_no_tones": "/aao",
+    "en": "I Laos",
+    "page": 287
+  },
+  {
+    "id": 1940,
+    "roman_no_tones": "haa-naauy",
+    "en": "Hanoi",
+    "page": 288
+  },
+  {
+    "id": 1942,
+    "roman_no_tones": "pha-nom-bpeen",
+    "en": "Phnom Penh",
+    "page": 288
+  },
+  {
+    "id": 1943,
+    "roman_no_tones": "nee-bpyii-daaw",
+    "en": "I Nay Pyi Taw cl b",
+    "page": 288
+  },
+  {
+    "id": 1944,
+    "roman_no_tones": "wiiang-jan",
+    "en": "I Vientiane",
+    "page": 288
+  },
+  {
+    "id": 1945,
+    "roman_no_tones": "jaa-gaa-dtaa",
+    "en": "Jakarta 611 flel'U,",
+    "page": 289
+  },
+  {
+    "id": 1952,
+    "roman_no_tones": "pha-maa",
+    "en": "Burmese",
+    "page": 290
+  },
+  {
+    "id": 1958,
+    "roman_no_tones": "gaan fen s6aep",
+    "en": "I surfing",
+    "page": 290
+  },
+  {
+    "id": 1961,
+    "roman_no_tones": "gaan khii jak-gra-yaan wf-baak",
+    "en": "mountain biking nl';i'Wl FJ b';iel S1 FJ S",
+    "page": 291
+  },
+  {
+    "id": 1964,
+    "roman_no_tones": "gaan bpiin naa-phaa",
+    "en": "rock climbing",
+    "page": 291
+  },
+  {
+    "id": 1965,
+    "roman_no_tones": "bping-bpawng",
+    "en": "I table tennis",
+    "page": 291
+  },
+  {
+    "id": 1966,
+    "roman_no_tones": "see-bpak dta-graaw",
+    "en": "sepak takraw bb",
+    "page": 292
+  },
+  {
+    "id": 1967,
+    "roman_no_tones": "gaaeng-khTiao-waan",
+    "en": "Thai Green Curry",
+    "page": 292
+  },
+  {
+    "id": 1968,
+    "roman_no_tones": "s6m-dtam",
+    "en": "Som Tam N",
+    "page": 292
+  },
+  {
+    "id": 1969,
+    "roman_no_tones": "phat-thai",
+    "en": "ad Thai",
+    "page": 292
+  },
+  {
+    "id": 1970,
+    "roman_no_tones": "dt6m-yam gCmg",
+    "en": "Tom Yum Kung",
+    "page": 292
+  },
+  {
+    "id": 1971,
+    "roman_no_tones": "saa-thoo",
+    "en": "I Sato",
+    "page": 292
+  },
+  {
+    "id": 1972,
+    "roman_no_tones": "nam dtaaeng-moo",
+    "en": "I watermelon juice",
+    "page": 292
+  },
+  {
+    "id": 1974,
+    "roman_no_tones": "nam ma-phraao",
+    "en": "coconut juice",
+    "page": 293
+  },
+  {
+    "id": 1975,
+    "roman_no_tones": "chaa-yen",
+    "en": "Thai iced tea with milk 6lil _l bfJ'U,",
+    "page": 293
+  },
+  {
+    "id": 1977,
+    "roman_no_tones": "gra-thing daaeng",
+    "en": "Red Bull s6m I orange",
+    "page": 293
+  },
+  {
+    "id": 1979,
+    "roman_no_tones": "aep-bp6en",
+    "en": "I apple",
+    "page": 293
+  },
+  {
+    "id": 1981,
+    "roman_no_tones": "dtaaeng-moo",
+    "en": "watermelon juice",
+    "page": 294
+  },
+  {
+    "id": 1984,
+    "roman_no_tones": "ma-mtJuang",
+    "en": "mango",
+    "page": 294
+  },
+  {
+    "id": 1985,
+    "roman_no_tones": "lam-yai",
+    "en": "I longan",
+    "page": 294
+  },
+  {
+    "id": 1986,
+    "roman_no_tones": "chiiang-mai",
+    "en": "I Chiang Mai",
+    "page": 294
+  },
+  {
+    "id": 1987,
+    "roman_no_tones": "phra-baaw-rom-ma- haa-raat-cha-wang",
+    "en": "the Grand Palace",
+    "page": 295
+  },
+  {
+    "id": 1988,
+    "roman_no_tones": "gaw-chaang",
+    "en": "Ko Chang",
+    "page": 295
+  },
+  {
+    "id": 1989,
+    "roman_no_tones": "wat-phoo",
+    "en": "Wat Pho",
+    "page": 295
+  },
+  {
+    "id": 1991,
+    "roman_no_tones": "maae-hawng-saawn",
+    "en": "Mae Hong Son",
+    "page": 295
+  },
+  {
+    "id": 1992,
+    "roman_no_tones": "dta-laat-nam",
+    "en": "the Floating Market",
+    "page": 295
+  },
+  {
+    "id": 1995,
+    "roman_no_tones": "hip-hawp",
+    "en": "hip hop fl'a",
+    "page": 296
+  },
+  {
+    "id": 1996,
+    "roman_no_tones": "gra-raawk",
+    "en": "squirrel",
+    "page": 296
+  },
+  {
+    "id": 1998,
+    "roman_no_tones": "moo-d6oen dawk",
+    "en": "Moderndog",
+    "page": 296
+  },
+  {
+    "id": 1999,
+    "roman_no_tones": "joo-fi baauy",
+    "en": "I Joey Boy b",
+    "page": 296
+  },
+  {
+    "id": 2000,
+    "roman_no_tones": "en-droo-fin",
+    "en": "I Endorphine",
+    "page": 296
+  }
+]
