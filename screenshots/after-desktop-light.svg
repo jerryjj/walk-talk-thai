@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900">
+  <defs>
+    <style>
+      text { dominant-baseline: auto; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="900" fill="#fdf8f2" rx="0"/>
+  <rect x="20" y="36" width="80" height="80" fill="#d4891a" rx="16"/>
+  <text x="60" y="86" fill="#fff" font-size="28" text-anchor="middle" font-family="sans-serif">🎧</text>
+  <text x="118" y="64" fill="#18120e" font-size="22" font-weight="700" font-family="'Kanit Bold', sans-serif" text-anchor="start" opacity="1" letter-spacing="-0.5">Walk Talk Thai</text>
+  <text x="118" y="86" fill="#a09282" font-size="13" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Learn Thai. Keep walking.</text>
+  <text x="118" y="104" fill="#2a8873" font-size="10" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Kanit 700 · Sarabun 600</text>
+  <rect x="20" y="140" width="600" height="46" fill="#ffffff" stroke="#e8ddd0" stroke-width="1" rx="12"/>
+  <text x="32" y="160" fill="#18120e" font-size="12" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Subscribe in any podcast app:</text>
+  <rect x="32" y="166" width="320" height="12" fill="#fdf8f2" stroke="#e8ddd0" stroke-width="1" rx="4"/>
+  <rect x="500" y="148" width="110" height="28" fill="#d4891a" rx="8"/>
+  <text x="555" y="167" fill="#fff" font-size="12" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="middle" opacity="1" letter-spacing="0">Copy feed URL</text>
+  <text x="20" y="200" fill="#a09282" font-size="12" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">12 episodes</text>
+  <rect x="480" y="186" width="140" height="22" fill="#ffffff" stroke="#e8ddd0" stroke-width="1" rx="6"/>
+  <text x="490" y="201" fill="#18120e" font-size="11" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Oldest first</text>
+  <rect x="20" y="220" width="600" height="64" fill="#ffffff" stroke="#d4891a" stroke-width="2" rx="12"/>
+  <circle cx="54" cy="252" r="18" fill="#d4891a"/>
+  <polygon points="47,245 47,259 64,252" fill="#fff"/>
+  <rect x="82" y="232" width="42" height="16" fill="none" stroke="#d4891a" stroke-width="1" rx="8"/>
+  <text x="103" y="244" fill="#d4891a" font-size="9" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="middle" opacity="1" letter-spacing="0">VOCAB</text>
+  <text x="132" y="244" fill="#a09282" font-size="10" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">· Week 1</text>
+  <text x="82" y="265" fill="#18120e" font-size="15" font-weight="700" font-family="'Kanit Bold', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Greetings in Thai</text>
+  <text x="610" y="257" fill="#a09282" font-size="12" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="end" opacity="1" letter-spacing="0">7:32</text>
+  <rect x="20" y="294" width="600" height="64" fill="#ffffff" stroke="#e8ddd0" stroke-width="1" rx="12"/>
+  <circle cx="54" cy="326" r="18" fill="#d4891a"/>
+  <polygon points="47,319 47,333 64,326" fill="#fff"/>
+  <rect x="82" y="306" width="42" height="16" fill="none" stroke="#d4891a" stroke-width="1" rx="8"/>
+  <text x="103" y="318" fill="#d4891a" font-size="9" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="middle" opacity="1" letter-spacing="0">VOCAB</text>
+  <text x="132" y="318" fill="#a09282" font-size="10" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">· Week 2</text>
+  <text x="82" y="339" fill="#18120e" font-size="15" font-weight="700" font-family="'Kanit Bold', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Numbers & Counting</text>
+  <text x="610" y="331" fill="#a09282" font-size="12" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="end" opacity="1" letter-spacing="0">8:14</text>
+  <rect x="20" y="368" width="600" height="64" fill="#ffffff" stroke="#e8ddd0" stroke-width="1" rx="12"/>
+  <circle cx="54" cy="400" r="18" fill="#d4891a"/>
+  <polygon points="47,393 47,407 64,400" fill="#fff"/>
+  <rect x="82" y="380" width="110" height="16" fill="none" stroke="#2a8873" stroke-width="1" rx="8"/>
+  <text x="137" y="392" fill="#2a8873" font-size="9" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="middle" opacity="1" letter-spacing="0">SENTENCE BUILDER</text>
+  <text x="202" y="392" fill="#a09282" font-size="10" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">· Week 3</text>
+  <text x="82" y="413" fill="#18120e" font-size="15" font-weight="700" font-family="'Kanit Bold', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Market Sentences</text>
+  <text x="610" y="405" fill="#a09282" font-size="12" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="end" opacity="1" letter-spacing="0">9:01</text>
+  <rect x="0" y="820" width="640" height="80" fill="#ffffff" opacity="0.96"/>
+  <line x1="0" y1="820" x2="640" y2="820" stroke="#d4891a" stroke-width="2"/>
+  <circle cx="32" cy="860" r="20" fill="#d4891a"/>
+  <polygon points="24,852 24,868 44,860" fill="#fff"/>
+  <text x="64" y="852" fill="#18120e" font-size="13" font-weight="600" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">Select an episode to begin</text>
+  <rect x="64" y="868" width="560" height="4" fill="#e8ddd0" rx="2"/>
+  <rect x="64" y="868" width="0" height="4" fill="#d4891a" rx="2"/>
+  <text x="64" y="886" fill="#a09282" font-size="11" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="start" opacity="1" letter-spacing="0">0:00</text>
+  <text x="624" y="886" fill="#a09282" font-size="11" font-weight="normal" font-family="'Sarabun Regular', sans-serif" text-anchor="end" opacity="1" letter-spacing="0">0:00</text>
+</svg>
