@@ -205,6 +205,29 @@ def episode_filename(week: int) -> str:
     return f"episode_{week:02d}.mp3"
 
 
+def episode_title(ep: dict) -> str:
+    """Return the brand-compliant RSS title for an episode.
+
+    Reads ``ep["title"]`` when set (back-catalogue entries or hand-crafted
+    titles in vocab.json).  Falls back to a template that follows the
+    approved convention from docs/brand/podcast-listing-copy-v1.md:
+
+        Ep. NN — <Theme> in Thai: 10 Words (<Level>)   [vocab]
+        Ep. NN — <Theme> (<Level>)                      [builder]
+
+    New episodes should always include an explicit ``title`` field in
+    vocab.json so the copy can be reviewed before publishing.
+    """
+    if ep.get("title"):
+        return ep["title"]
+    week  = ep["week"]
+    theme = ep["theme"]
+    kind  = ep.get("kind", "vocab")
+    if kind == "builder":
+        return f"Ep. {week:02d} — {theme} (Beginner)"
+    return f"Ep. {week:02d} — {theme} in Thai: 10 Words (Beginner)"
+
+
 def mp3_duration(path: Path) -> str:
     """Return HH:MM:SS duration of an mp3 via ffprobe (ships with ffmpeg)."""
     out = subprocess.run(
@@ -281,7 +304,7 @@ def build_feed(cfg: dict, episodes: list):
 
         fe = fg.add_entry()
         fe.id(url)
-        fe.title(f"Week {week}: {ep['theme']}")
+        fe.title(episode_title(ep))
         fe.description(notes)
         fe.enclosure(url, str(mp3_path.stat().st_size), "audio/mpeg")
         fe.published(pub)

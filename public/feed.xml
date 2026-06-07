@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Walk &amp; Talk Thai</title>
+    <title>Walk Talk Thai: Learn Thai on the Go</title>
     <link>https://jerryjj.github.io/walk-talk-thai</link>
-    <description>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</description>
+    <description>Learn 10 Thai words a week — spoken slowly, then at natural speed, with a pause to repeat aloud. Each short episode is a self-contained Thai language lesson designed for your walk or commute. Completely self-hosted and ad-free. Subscribe and start speaking Thai today.</description>
     <atom:link href="https://jerryjj.github.io/walk-talk-thai/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://jerryjj.github.io/walk-talk-thai/cover.jpg</url>
-      <title>Walk &amp; Talk Thai</title>
+      <title>Walk Talk Thai: Learn Thai on the Go</title>
       <link>https://jerryjj.github.io/walk-talk-thai</link>
     </image>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jun 2026 05:02:35 +0000</lastBuildDate>
-    <itunes:author>Walk &amp; Talk Thai</itunes:author>
+    <itunes:author>Walk Talk Thai</itunes:author>
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
     <itunes:image href="https://jerryjj.github.io/walk-talk-thai/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>Walk &amp; Talk Thai</itunes:name>
+      <itunes:name>Walk Talk Thai</itunes:name>
       <itunes:email>jerry@leakstop.online</itunes:email>
     </itunes:owner>
-    <itunes:summary>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</itunes:summary>
+    <itunes:summary>Learn 10 Thai words a week — spoken slowly, then at natural speed, with a pause to repeat aloud. Each short episode is a self-contained Thai language lesson designed for your walk or commute. Completely self-hosted and ad-free. Subscribe and start speaking Thai today.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <item>
-      <title>Week 12: Past, future, and right-now markers</title>
+      <title>Ep. 12 — Thai Tense Markers: Past, Future &amp; Right Now (Beginner)</title>
       <description>Theme: Past, future, and right-now markers
 
 Sentences we build this week:
@@ -71,7 +71,7 @@ Sentences we build this week:
 </itunes:summary>
     </item>
     <item>
-      <title>Week 11: Small talk on the street</title>
+      <title>Ep. 11 — Small Talk in Thai: 10 Words for Street Conversations (Beginner)</title>
       <description>Theme: Small talk on the street
 
 Words this week:
@@ -105,7 +105,7 @@ Words this week:
 - see you — เจอกัน (jer gan)  |  เจอกันพรุ่งนี้ครับ (jer gan prûng-níi kráp) — See you tomorrow.</itunes:summary>
     </item>
     <item>
-      <title>Week 10: Saying no, not yet, and already</title>
+      <title>Ep. 10 — Negation in Thai: No, Not Yet &amp; Already (Beginner)</title>
       <description>Theme: Saying no, not yet, and already
 
 Sentences we build this week:
@@ -149,7 +149,7 @@ Sentences we build this week:
 </itunes:summary>
     </item>
     <item>
-      <title>Week 9: Asking yes/no questions</title>
+      <title>Ep. 09 — Questions in Thai: Asking Yes &amp; No (Beginner)</title>
       <description>Theme: Asking yes/no questions
 
 Sentences we build this week:
@@ -193,7 +193,7 @@ Sentences we build this week:
 </itunes:summary>
     </item>
     <item>
-      <title>Week 8: Dating &amp; meeting someone new</title>
+      <title>Ep. 08 — Social Thai: 10 Words for Dating &amp; Meeting People (Beginner)</title>
       <description>Theme: Dating &amp; meeting someone new
 
 Words this week:
@@ -227,7 +227,7 @@ Words this week:
 - phone number — เบอร์โทร (ber-too)  |  ขอเบอร์โทรหน่อยได้ไหมครับ (kŏr ber-too nòi dâai măi kráp) — Can I have your phone number?</itunes:summary>
     </item>
     <item>
-      <title>Week 7: Grocery shopping</title>
+      <title>Ep. 07 — Shopping in Thai: 10 Words for the Market (Beginner)</title>
       <description>Theme: Grocery shopping
 
 Words this week:
@@ -261,7 +261,7 @@ Words this week:
 - heavy — หนัก (nàk)  |  ถุงนี้หนักมาก (tŭng níi nàk mâak) — This bag is very heavy.</itunes:summary>
     </item>
     <item>
-      <title>Week 6: At work</title>
+      <title>Ep. 06 — Working in Thai: 10 Words for the Office (Beginner)</title>
       <description>Theme: At work
 
 Words this week:
@@ -295,7 +295,7 @@ Words this week:
 - weekend — วันหยุดสุดสัปดาห์ (wan-yùt-sùt-sàp-daa)  |  วันหยุดสุดสัปดาห์ผมพักผ่อน (wan-yùt-sùt-sàp-daa pŏm pák-pòn) — On the weekend I rest.</itunes:summary>
     </item>
     <item>
-      <title>Week 5: Time &amp; days</title>
+      <title>Ep. 05 — Time in Thai: 10 Words for Days &amp; Hours (Beginner)</title>
       <description>Theme: Time &amp; days
 
 Words this week:
@@ -329,7 +329,7 @@ Words this week:
 - minute — นาที (naa-tii)  |  รอสักห้านาทีครับ (ror sàk hâa naa-tii kráp) — Please wait about five minutes.</itunes:summary>
     </item>
     <item>
-      <title>Week 4: Numbers &amp; money</title>
+      <title>Ep. 04 — Numbers in Thai: 10 Words for Money &amp; Counting (Beginner)</title>
       <description>Theme: Numbers &amp; money
 
 Words this week:
@@ -363,7 +363,7 @@ Words this week:
 - change (money) — เงินทอน (ngern-ton)  |  นี่เงินทอนของคุณครับ (nîi ngern-ton kŏng kun kráp) — Here is your change.</itunes:summary>
     </item>
     <item>
-      <title>Week 3: Getting around</title>
+      <title>Ep. 03 — Getting Around in Thai: 10 Words for Travel &amp; Directions (Beginner)</title>
       <description>Theme: Getting around
 
 Words this week:
@@ -397,7 +397,7 @@ Words this week:
 - right — ขวา (kwăa)  |  เลี้ยวขวาที่สี่แยก (líao kwăa tîi sìi-yâek) — Turn right at the intersection.</itunes:summary>
     </item>
     <item>
-      <title>Week 2: Ordering food &amp; drinks</title>
+      <title>Ep. 02 — Ordering in Thai: 10 Words for Food &amp; Drinks (Beginner)</title>
       <description>Theme: Ordering food &amp; drinks
 
 Words this week:
@@ -431,7 +431,7 @@ Words this week:
 - vegetarian — มังสวิรัติ (mang-sà-wí-rát)  |  ผมกินมังสวิรัติครับ (pŏm gin mang-sà-wí-rát kráp) — I eat vegetarian.</itunes:summary>
     </item>
     <item>
-      <title>Week 1: Greetings &amp; politeness</title>
+      <title>Ep. 01 — Greetings in Thai: 10 Words for Meeting People (Beginner)</title>
       <description>Theme: Greetings &amp; politeness
 
 Words this week:

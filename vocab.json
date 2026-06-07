@@ -1,9 +1,9 @@
 {
   "podcast": {
-    "title": "Walk & Talk Thai",
-    "subtitle": "10 everyday Thai words a week, taught in sentences",
-    "description": "A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.",
-    "author": "Walk & Talk Thai",
+    "title": "Walk Talk Thai: Learn Thai on the Go",
+    "subtitle": "Learn Thai. Keep walking.",
+    "description": "Learn 10 Thai words a week — spoken slowly, then at natural speed, with a pause to repeat aloud. Each short episode is a self-contained Thai language lesson designed for your walk or commute. Completely self-hosted and ad-free. Subscribe and start speaking Thai today.",
+    "author": "Walk Talk Thai",
     "owner_email": "jerry@leakstop.online",
     "language": "en",
     "base_url": "https://jerryjj.github.io/walk-talk-thai",
@@ -14,129 +14,697 @@
       "week": 1,
       "theme": "Greetings & politeness",
       "words": [
-        {"en": "hello", "th": "สวัสดี", "roman": "sà-wàt-dii", "sentence_th": "สวัสดีครับ สบายดีไหม", "sentence_roman": "sà-wàt-dii kráp, sà-baai-dii măi", "sentence_en": "Hello, how are you?"},
-        {"en": "thank you", "th": "ขอบคุณ", "roman": "kòp-kun", "sentence_th": "ขอบคุณมากครับ", "sentence_roman": "kòp-kun mâak kráp", "sentence_en": "Thank you very much."},
-        {"en": "sorry / excuse me", "th": "ขอโทษ", "roman": "kŏr-tôot", "sentence_th": "ขอโทษครับ ผมมาสาย", "sentence_roman": "kŏr-tôot kráp, pŏm maa săai", "sentence_en": "Sorry, I'm late."},
-        {"en": "yes", "th": "ใช่", "roman": "châi", "sentence_th": "ใช่ครับ ถูกต้อง", "sentence_roman": "châi kráp, tùuk-tông", "sentence_en": "Yes, that's correct."},
-        {"en": "no", "th": "ไม่", "roman": "mâi", "sentence_th": "ไม่เป็นไรครับ", "sentence_roman": "mâi bpen rai kráp", "sentence_en": "No problem / it's nothing."},
-        {"en": "good", "th": "ดี", "roman": "dii", "sentence_th": "วันนี้อากาศดีมาก", "sentence_roman": "wan-níi aa-gàat dii mâak", "sentence_en": "The weather is very good today."},
-        {"en": "name", "th": "ชื่อ", "roman": "chûe", "sentence_th": "คุณชื่ออะไรครับ", "sentence_roman": "kun chûe à-rai kráp", "sentence_en": "What is your name?"},
-        {"en": "nice to meet you", "th": "ยินดีที่ได้รู้จัก", "roman": "yin-dii tîi dâai rúu-jàk", "sentence_th": "ยินดีที่ได้รู้จักครับ", "sentence_roman": "yin-dii tîi dâai rúu-jàk kráp", "sentence_en": "Nice to meet you."},
-        {"en": "see you again", "th": "เจอกันใหม่", "roman": "jer gan mài", "sentence_th": "แล้วเจอกันใหม่นะครับ", "sentence_roman": "láew jer gan mài ná kráp", "sentence_en": "See you again, okay?"},
-        {"en": "please / may I", "th": "ขอ", "roman": "kŏr", "sentence_th": "ขอเวลาสักครู่ครับ", "sentence_roman": "kŏr wee-laa sàk-krûu kráp", "sentence_en": "May I have a moment, please?"}
-      ]
+        {
+          "en": "hello",
+          "th": "สวัสดี",
+          "roman": "sà-wàt-dii",
+          "sentence_th": "สวัสดีครับ สบายดีไหม",
+          "sentence_roman": "sà-wàt-dii kráp, sà-baai-dii măi",
+          "sentence_en": "Hello, how are you?"
+        },
+        {
+          "en": "thank you",
+          "th": "ขอบคุณ",
+          "roman": "kòp-kun",
+          "sentence_th": "ขอบคุณมากครับ",
+          "sentence_roman": "kòp-kun mâak kráp",
+          "sentence_en": "Thank you very much."
+        },
+        {
+          "en": "sorry / excuse me",
+          "th": "ขอโทษ",
+          "roman": "kŏr-tôot",
+          "sentence_th": "ขอโทษครับ ผมมาสาย",
+          "sentence_roman": "kŏr-tôot kráp, pŏm maa săai",
+          "sentence_en": "Sorry, I'm late."
+        },
+        {
+          "en": "yes",
+          "th": "ใช่",
+          "roman": "châi",
+          "sentence_th": "ใช่ครับ ถูกต้อง",
+          "sentence_roman": "châi kráp, tùuk-tông",
+          "sentence_en": "Yes, that's correct."
+        },
+        {
+          "en": "no",
+          "th": "ไม่",
+          "roman": "mâi",
+          "sentence_th": "ไม่เป็นไรครับ",
+          "sentence_roman": "mâi bpen rai kráp",
+          "sentence_en": "No problem / it's nothing."
+        },
+        {
+          "en": "good",
+          "th": "ดี",
+          "roman": "dii",
+          "sentence_th": "วันนี้อากาศดีมาก",
+          "sentence_roman": "wan-níi aa-gàat dii mâak",
+          "sentence_en": "The weather is very good today."
+        },
+        {
+          "en": "name",
+          "th": "ชื่อ",
+          "roman": "chûe",
+          "sentence_th": "คุณชื่ออะไรครับ",
+          "sentence_roman": "kun chûe à-rai kráp",
+          "sentence_en": "What is your name?"
+        },
+        {
+          "en": "nice to meet you",
+          "th": "ยินดีที่ได้รู้จัก",
+          "roman": "yin-dii tîi dâai rúu-jàk",
+          "sentence_th": "ยินดีที่ได้รู้จักครับ",
+          "sentence_roman": "yin-dii tîi dâai rúu-jàk kráp",
+          "sentence_en": "Nice to meet you."
+        },
+        {
+          "en": "see you again",
+          "th": "เจอกันใหม่",
+          "roman": "jer gan mài",
+          "sentence_th": "แล้วเจอกันใหม่นะครับ",
+          "sentence_roman": "láew jer gan mài ná kráp",
+          "sentence_en": "See you again, okay?"
+        },
+        {
+          "en": "please / may I",
+          "th": "ขอ",
+          "roman": "kŏr",
+          "sentence_th": "ขอเวลาสักครู่ครับ",
+          "sentence_roman": "kŏr wee-laa sàk-krûu kráp",
+          "sentence_en": "May I have a moment, please?"
+        }
+      ],
+      "title": "Ep. 01 — Greetings in Thai: 10 Words for Meeting People (Beginner)"
     },
     {
       "week": 2,
       "theme": "Ordering food & drinks",
       "words": [
-        {"en": "water", "th": "น้ำ", "roman": "náam", "sentence_th": "ขอน้ำหนึ่งแก้วครับ", "sentence_roman": "kŏr náam nùeng gâew kráp", "sentence_en": "One glass of water, please."},
-        {"en": "rice", "th": "ข้าว", "roman": "khâao", "sentence_th": "ผมหิวข้าวมาก", "sentence_roman": "pŏm hĭw khâao mâak", "sentence_en": "I'm very hungry."},
-        {"en": "delicious", "th": "อร่อย", "roman": "à-ròi", "sentence_th": "อาหารร้านนี้อร่อยมาก", "sentence_roman": "aa-hăan ráan níi à-ròi mâak", "sentence_en": "The food at this restaurant is very delicious."},
-        {"en": "spicy", "th": "เผ็ด", "roman": "phèt", "sentence_th": "ขอไม่เผ็ดได้ไหมครับ", "sentence_roman": "kŏr mâi phèt dâai măi kráp", "sentence_en": "Can I have it not spicy?"},
-        {"en": "coffee", "th": "กาแฟ", "roman": "gaa-fae", "sentence_th": "ขอกาแฟร้อนหนึ่งที่", "sentence_roman": "kŏr gaa-fae rón nùeng tîi", "sentence_en": "One hot coffee, please."},
-        {"en": "the bill / check", "th": "เช็คบิล", "roman": "chék-bin", "sentence_th": "เช็คบิลด้วยครับ", "sentence_roman": "chék-bin dûai kráp", "sentence_en": "Check, please."},
-        {"en": "eat", "th": "กิน", "roman": "gin", "sentence_th": "คุณกินข้าวหรือยัง", "sentence_roman": "kun gin khâao rŭe yang", "sentence_en": "Have you eaten yet?"},
-        {"en": "want", "th": "อยาก", "roman": "yàak", "sentence_th": "ผมอยากกินผัดไทย", "sentence_roman": "pŏm yàak gin phàt-thai", "sentence_en": "I want to eat pad thai."},
-        {"en": "menu", "th": "เมนู", "roman": "mee-nuu", "sentence_th": "ขอดูเมนูหน่อยครับ", "sentence_roman": "kŏr duu mee-nuu nòi kráp", "sentence_en": "Can I see the menu, please?"},
-        {"en": "vegetarian", "th": "มังสวิรัติ", "roman": "mang-sà-wí-rát", "sentence_th": "ผมกินมังสวิรัติครับ", "sentence_roman": "pŏm gin mang-sà-wí-rát kráp", "sentence_en": "I eat vegetarian."}
-      ]
+        {
+          "en": "water",
+          "th": "น้ำ",
+          "roman": "náam",
+          "sentence_th": "ขอน้ำหนึ่งแก้วครับ",
+          "sentence_roman": "kŏr náam nùeng gâew kráp",
+          "sentence_en": "One glass of water, please."
+        },
+        {
+          "en": "rice",
+          "th": "ข้าว",
+          "roman": "khâao",
+          "sentence_th": "ผมหิวข้าวมาก",
+          "sentence_roman": "pŏm hĭw khâao mâak",
+          "sentence_en": "I'm very hungry."
+        },
+        {
+          "en": "delicious",
+          "th": "อร่อย",
+          "roman": "à-ròi",
+          "sentence_th": "อาหารร้านนี้อร่อยมาก",
+          "sentence_roman": "aa-hăan ráan níi à-ròi mâak",
+          "sentence_en": "The food at this restaurant is very delicious."
+        },
+        {
+          "en": "spicy",
+          "th": "เผ็ด",
+          "roman": "phèt",
+          "sentence_th": "ขอไม่เผ็ดได้ไหมครับ",
+          "sentence_roman": "kŏr mâi phèt dâai măi kráp",
+          "sentence_en": "Can I have it not spicy?"
+        },
+        {
+          "en": "coffee",
+          "th": "กาแฟ",
+          "roman": "gaa-fae",
+          "sentence_th": "ขอกาแฟร้อนหนึ่งที่",
+          "sentence_roman": "kŏr gaa-fae rón nùeng tîi",
+          "sentence_en": "One hot coffee, please."
+        },
+        {
+          "en": "the bill / check",
+          "th": "เช็คบิล",
+          "roman": "chék-bin",
+          "sentence_th": "เช็คบิลด้วยครับ",
+          "sentence_roman": "chék-bin dûai kráp",
+          "sentence_en": "Check, please."
+        },
+        {
+          "en": "eat",
+          "th": "กิน",
+          "roman": "gin",
+          "sentence_th": "คุณกินข้าวหรือยัง",
+          "sentence_roman": "kun gin khâao rŭe yang",
+          "sentence_en": "Have you eaten yet?"
+        },
+        {
+          "en": "want",
+          "th": "อยาก",
+          "roman": "yàak",
+          "sentence_th": "ผมอยากกินผัดไทย",
+          "sentence_roman": "pŏm yàak gin phàt-thai",
+          "sentence_en": "I want to eat pad thai."
+        },
+        {
+          "en": "menu",
+          "th": "เมนู",
+          "roman": "mee-nuu",
+          "sentence_th": "ขอดูเมนูหน่อยครับ",
+          "sentence_roman": "kŏr duu mee-nuu nòi kráp",
+          "sentence_en": "Can I see the menu, please?"
+        },
+        {
+          "en": "vegetarian",
+          "th": "มังสวิรัติ",
+          "roman": "mang-sà-wí-rát",
+          "sentence_th": "ผมกินมังสวิรัติครับ",
+          "sentence_roman": "pŏm gin mang-sà-wí-rát kráp",
+          "sentence_en": "I eat vegetarian."
+        }
+      ],
+      "title": "Ep. 02 — Ordering in Thai: 10 Words for Food & Drinks (Beginner)"
     },
     {
       "week": 3,
       "theme": "Getting around",
       "words": [
-        {"en": "car", "th": "รถ", "roman": "rót", "sentence_th": "ผมขับรถมาเอง", "sentence_roman": "pŏm kàp rót maa eeng", "sentence_en": "I drove here myself."},
-        {"en": "bus", "th": "รถเมล์", "roman": "rót-mee", "sentence_th": "รถเมล์มาถึงกี่โมงครับ", "sentence_roman": "rót-mee maa tĕung gìi mong kráp", "sentence_en": "What time does the bus arrive?"},
-        {"en": "taxi", "th": "แท็กซี่", "roman": "táek-sîi", "sentence_th": "ขอเรียกแท็กซี่ให้หน่อยครับ", "sentence_roman": "kŏr rîak táek-sîi hâi nòi kráp", "sentence_en": "Please call a taxi for me."},
-        {"en": "train", "th": "รถไฟ", "roman": "rót-fai", "sentence_th": "รถไฟไปเชียงใหม่ออกกี่โมง", "sentence_roman": "rót-fai bpai chiang-mài òk gìi mong", "sentence_en": "What time does the train to Chiang Mai leave?"},
-        {"en": "station", "th": "สถานี", "roman": "sà-tăa-nii", "sentence_th": "สถานีรถไฟอยู่ที่ไหนครับ", "sentence_roman": "sà-tăa-nii rót-fai yùu tîi năi kráp", "sentence_en": "Where is the train station?"},
-        {"en": "ticket", "th": "ตั๋ว", "roman": "dtŭa", "sentence_th": "ขอตั๋วสองใบครับ", "sentence_roman": "kŏr dtŭa sŏng bai kráp", "sentence_en": "Two tickets, please."},
-        {"en": "go", "th": "ไป", "roman": "bpai", "sentence_th": "ผมจะไปสนามบิน", "sentence_roman": "pŏm jà bpai sà-năam-bin", "sentence_en": "I'm going to the airport."},
-        {"en": "come", "th": "มา", "roman": "maa", "sentence_th": "คุณมาจากไหนครับ", "sentence_roman": "kun maa jàak năi kráp", "sentence_en": "Where are you from?"},
-        {"en": "left", "th": "ซ้าย", "roman": "sáai", "sentence_th": "เลี้ยวซ้ายตรงไฟแดง", "sentence_roman": "líao sáai dtrong fai-daeng", "sentence_en": "Turn left at the red light."},
-        {"en": "right", "th": "ขวา", "roman": "kwăa", "sentence_th": "เลี้ยวขวาที่สี่แยก", "sentence_roman": "líao kwăa tîi sìi-yâek", "sentence_en": "Turn right at the intersection."}
-      ]
+        {
+          "en": "car",
+          "th": "รถ",
+          "roman": "rót",
+          "sentence_th": "ผมขับรถมาเอง",
+          "sentence_roman": "pŏm kàp rót maa eeng",
+          "sentence_en": "I drove here myself."
+        },
+        {
+          "en": "bus",
+          "th": "รถเมล์",
+          "roman": "rót-mee",
+          "sentence_th": "รถเมล์มาถึงกี่โมงครับ",
+          "sentence_roman": "rót-mee maa tĕung gìi mong kráp",
+          "sentence_en": "What time does the bus arrive?"
+        },
+        {
+          "en": "taxi",
+          "th": "แท็กซี่",
+          "roman": "táek-sîi",
+          "sentence_th": "ขอเรียกแท็กซี่ให้หน่อยครับ",
+          "sentence_roman": "kŏr rîak táek-sîi hâi nòi kráp",
+          "sentence_en": "Please call a taxi for me."
+        },
+        {
+          "en": "train",
+          "th": "รถไฟ",
+          "roman": "rót-fai",
+          "sentence_th": "รถไฟไปเชียงใหม่ออกกี่โมง",
+          "sentence_roman": "rót-fai bpai chiang-mài òk gìi mong",
+          "sentence_en": "What time does the train to Chiang Mai leave?"
+        },
+        {
+          "en": "station",
+          "th": "สถานี",
+          "roman": "sà-tăa-nii",
+          "sentence_th": "สถานีรถไฟอยู่ที่ไหนครับ",
+          "sentence_roman": "sà-tăa-nii rót-fai yùu tîi năi kráp",
+          "sentence_en": "Where is the train station?"
+        },
+        {
+          "en": "ticket",
+          "th": "ตั๋ว",
+          "roman": "dtŭa",
+          "sentence_th": "ขอตั๋วสองใบครับ",
+          "sentence_roman": "kŏr dtŭa sŏng bai kráp",
+          "sentence_en": "Two tickets, please."
+        },
+        {
+          "en": "go",
+          "th": "ไป",
+          "roman": "bpai",
+          "sentence_th": "ผมจะไปสนามบิน",
+          "sentence_roman": "pŏm jà bpai sà-năam-bin",
+          "sentence_en": "I'm going to the airport."
+        },
+        {
+          "en": "come",
+          "th": "มา",
+          "roman": "maa",
+          "sentence_th": "คุณมาจากไหนครับ",
+          "sentence_roman": "kun maa jàak năi kráp",
+          "sentence_en": "Where are you from?"
+        },
+        {
+          "en": "left",
+          "th": "ซ้าย",
+          "roman": "sáai",
+          "sentence_th": "เลี้ยวซ้ายตรงไฟแดง",
+          "sentence_roman": "líao sáai dtrong fai-daeng",
+          "sentence_en": "Turn left at the red light."
+        },
+        {
+          "en": "right",
+          "th": "ขวา",
+          "roman": "kwăa",
+          "sentence_th": "เลี้ยวขวาที่สี่แยก",
+          "sentence_roman": "líao kwăa tîi sìi-yâek",
+          "sentence_en": "Turn right at the intersection."
+        }
+      ],
+      "title": "Ep. 03 — Getting Around in Thai: 10 Words for Travel & Directions (Beginner)"
     },
     {
       "week": 4,
       "theme": "Numbers & money",
       "words": [
-        {"en": "one", "th": "หนึ่ง", "roman": "nùeng", "sentence_th": "ขอเบียร์หนึ่งขวดครับ", "sentence_roman": "kŏr biia nùeng kùat kráp", "sentence_en": "One bottle of beer, please."},
-        {"en": "two", "th": "สอง", "roman": "sŏng", "sentence_th": "ผมมีน้องสองคน", "sentence_roman": "pŏm mii nóng sŏng kon", "sentence_en": "I have two younger siblings."},
-        {"en": "three", "th": "สาม", "roman": "săam", "sentence_th": "ผมอยู่ที่นี่สามวัน", "sentence_roman": "pŏm yùu tîi nîi săam wan", "sentence_en": "I'm staying here three days."},
-        {"en": "how much", "th": "เท่าไหร่", "roman": "tâo-rài", "sentence_th": "อันนี้ราคาเท่าไหร่ครับ", "sentence_roman": "an níi raa-kaa tâo-rài kráp", "sentence_en": "How much does this cost?"},
-        {"en": "baht", "th": "บาท", "roman": "bàat", "sentence_th": "ห้าสิบบาทครับ", "sentence_roman": "hâa-sìp bàat kráp", "sentence_en": "Fifty baht."},
-        {"en": "expensive", "th": "แพง", "roman": "paeng", "sentence_th": "แพงไปครับ ลดได้ไหม", "sentence_roman": "paeng bpai kráp, lót dâai măi", "sentence_en": "It's too expensive, can you discount?"},
-        {"en": "cheap", "th": "ถูก", "roman": "tùuk", "sentence_th": "อันนี้ถูกกว่า", "sentence_roman": "an níi tùuk gwàa", "sentence_en": "This one is cheaper."},
-        {"en": "money", "th": "เงิน", "roman": "ngern", "sentence_th": "ผมไม่มีเงินสดครับ", "sentence_roman": "pŏm mâi mii ngern sòt kráp", "sentence_en": "I don't have cash."},
-        {"en": "credit card", "th": "บัตรเครดิต", "roman": "bàt kree-dìt", "sentence_th": "รับบัตรเครดิตไหมครับ", "sentence_roman": "ráp bàt kree-dìt măi kráp", "sentence_en": "Do you accept credit cards?"},
-        {"en": "change (money)", "th": "เงินทอน", "roman": "ngern-ton", "sentence_th": "นี่เงินทอนของคุณครับ", "sentence_roman": "nîi ngern-ton kŏng kun kráp", "sentence_en": "Here is your change."}
-      ]
+        {
+          "en": "one",
+          "th": "หนึ่ง",
+          "roman": "nùeng",
+          "sentence_th": "ขอเบียร์หนึ่งขวดครับ",
+          "sentence_roman": "kŏr biia nùeng kùat kráp",
+          "sentence_en": "One bottle of beer, please."
+        },
+        {
+          "en": "two",
+          "th": "สอง",
+          "roman": "sŏng",
+          "sentence_th": "ผมมีน้องสองคน",
+          "sentence_roman": "pŏm mii nóng sŏng kon",
+          "sentence_en": "I have two younger siblings."
+        },
+        {
+          "en": "three",
+          "th": "สาม",
+          "roman": "săam",
+          "sentence_th": "ผมอยู่ที่นี่สามวัน",
+          "sentence_roman": "pŏm yùu tîi nîi săam wan",
+          "sentence_en": "I'm staying here three days."
+        },
+        {
+          "en": "how much",
+          "th": "เท่าไหร่",
+          "roman": "tâo-rài",
+          "sentence_th": "อันนี้ราคาเท่าไหร่ครับ",
+          "sentence_roman": "an níi raa-kaa tâo-rài kráp",
+          "sentence_en": "How much does this cost?"
+        },
+        {
+          "en": "baht",
+          "th": "บาท",
+          "roman": "bàat",
+          "sentence_th": "ห้าสิบบาทครับ",
+          "sentence_roman": "hâa-sìp bàat kráp",
+          "sentence_en": "Fifty baht."
+        },
+        {
+          "en": "expensive",
+          "th": "แพง",
+          "roman": "paeng",
+          "sentence_th": "แพงไปครับ ลดได้ไหม",
+          "sentence_roman": "paeng bpai kráp, lót dâai măi",
+          "sentence_en": "It's too expensive, can you discount?"
+        },
+        {
+          "en": "cheap",
+          "th": "ถูก",
+          "roman": "tùuk",
+          "sentence_th": "อันนี้ถูกกว่า",
+          "sentence_roman": "an níi tùuk gwàa",
+          "sentence_en": "This one is cheaper."
+        },
+        {
+          "en": "money",
+          "th": "เงิน",
+          "roman": "ngern",
+          "sentence_th": "ผมไม่มีเงินสดครับ",
+          "sentence_roman": "pŏm mâi mii ngern sòt kráp",
+          "sentence_en": "I don't have cash."
+        },
+        {
+          "en": "credit card",
+          "th": "บัตรเครดิต",
+          "roman": "bàt kree-dìt",
+          "sentence_th": "รับบัตรเครดิตไหมครับ",
+          "sentence_roman": "ráp bàt kree-dìt măi kráp",
+          "sentence_en": "Do you accept credit cards?"
+        },
+        {
+          "en": "change (money)",
+          "th": "เงินทอน",
+          "roman": "ngern-ton",
+          "sentence_th": "นี่เงินทอนของคุณครับ",
+          "sentence_roman": "nîi ngern-ton kŏng kun kráp",
+          "sentence_en": "Here is your change."
+        }
+      ],
+      "title": "Ep. 04 — Numbers in Thai: 10 Words for Money & Counting (Beginner)"
     },
     {
       "week": 5,
       "theme": "Time & days",
       "words": [
-        {"en": "today", "th": "วันนี้", "roman": "wan-níi", "sentence_th": "วันนี้ผมว่างครับ", "sentence_roman": "wan-níi pŏm wâang kráp", "sentence_en": "I'm free today."},
-        {"en": "tomorrow", "th": "พรุ่งนี้", "roman": "prûng-níi", "sentence_th": "พรุ่งนี้เจอกันใหม่นะครับ", "sentence_roman": "prûng-níi jer gan mài ná kráp", "sentence_en": "See you again tomorrow."},
-        {"en": "yesterday", "th": "เมื่อวาน", "roman": "mûea-waan", "sentence_th": "เมื่อวานผมไม่อยู่ครับ", "sentence_roman": "mûea-waan pŏm mâi yùu kráp", "sentence_en": "I wasn't here yesterday."},
-        {"en": "now", "th": "ตอนนี้", "roman": "dton-níi", "sentence_th": "ตอนนี้กี่โมงแล้วครับ", "sentence_roman": "dton-níi gìi mong láew kráp", "sentence_en": "What time is it now?"},
-        {"en": "morning", "th": "เช้า", "roman": "cháao", "sentence_th": "ผมตื่นเช้าทุกวัน", "sentence_roman": "pŏm dtùen cháao túk wan", "sentence_en": "I wake up early every day."},
-        {"en": "evening", "th": "เย็น", "roman": "yen", "sentence_th": "เย็นนี้ไปกินข้าวกันไหม", "sentence_roman": "yen níi bpai gin khâao gan măi", "sentence_en": "Shall we go eat this evening?"},
-        {"en": "day", "th": "วัน", "roman": "wan", "sentence_th": "วันนี้วันอะไรครับ", "sentence_roman": "wan-níi wan à-rai kráp", "sentence_en": "What day is it today?"},
-        {"en": "week", "th": "สัปดาห์", "roman": "sàp-daa", "sentence_th": "สัปดาห์หน้าผมไม่อยู่", "sentence_roman": "sàp-daa nâa pŏm mâi yùu", "sentence_en": "I won't be here next week."},
-        {"en": "hour", "th": "ชั่วโมง", "roman": "chûa-mong", "sentence_th": "ขอเวลาอีกหนึ่งชั่วโมงครับ", "sentence_roman": "kŏr wee-laa ìik nùeng chûa-mong kráp", "sentence_en": "Give me one more hour, please."},
-        {"en": "minute", "th": "นาที", "roman": "naa-tii", "sentence_th": "รอสักห้านาทีครับ", "sentence_roman": "ror sàk hâa naa-tii kráp", "sentence_en": "Please wait about five minutes."}
-      ]
+        {
+          "en": "today",
+          "th": "วันนี้",
+          "roman": "wan-níi",
+          "sentence_th": "วันนี้ผมว่างครับ",
+          "sentence_roman": "wan-níi pŏm wâang kráp",
+          "sentence_en": "I'm free today."
+        },
+        {
+          "en": "tomorrow",
+          "th": "พรุ่งนี้",
+          "roman": "prûng-níi",
+          "sentence_th": "พรุ่งนี้เจอกันใหม่นะครับ",
+          "sentence_roman": "prûng-níi jer gan mài ná kráp",
+          "sentence_en": "See you again tomorrow."
+        },
+        {
+          "en": "yesterday",
+          "th": "เมื่อวาน",
+          "roman": "mûea-waan",
+          "sentence_th": "เมื่อวานผมไม่อยู่ครับ",
+          "sentence_roman": "mûea-waan pŏm mâi yùu kráp",
+          "sentence_en": "I wasn't here yesterday."
+        },
+        {
+          "en": "now",
+          "th": "ตอนนี้",
+          "roman": "dton-níi",
+          "sentence_th": "ตอนนี้กี่โมงแล้วครับ",
+          "sentence_roman": "dton-níi gìi mong láew kráp",
+          "sentence_en": "What time is it now?"
+        },
+        {
+          "en": "morning",
+          "th": "เช้า",
+          "roman": "cháao",
+          "sentence_th": "ผมตื่นเช้าทุกวัน",
+          "sentence_roman": "pŏm dtùen cháao túk wan",
+          "sentence_en": "I wake up early every day."
+        },
+        {
+          "en": "evening",
+          "th": "เย็น",
+          "roman": "yen",
+          "sentence_th": "เย็นนี้ไปกินข้าวกันไหม",
+          "sentence_roman": "yen níi bpai gin khâao gan măi",
+          "sentence_en": "Shall we go eat this evening?"
+        },
+        {
+          "en": "day",
+          "th": "วัน",
+          "roman": "wan",
+          "sentence_th": "วันนี้วันอะไรครับ",
+          "sentence_roman": "wan-níi wan à-rai kráp",
+          "sentence_en": "What day is it today?"
+        },
+        {
+          "en": "week",
+          "th": "สัปดาห์",
+          "roman": "sàp-daa",
+          "sentence_th": "สัปดาห์หน้าผมไม่อยู่",
+          "sentence_roman": "sàp-daa nâa pŏm mâi yùu",
+          "sentence_en": "I won't be here next week."
+        },
+        {
+          "en": "hour",
+          "th": "ชั่วโมง",
+          "roman": "chûa-mong",
+          "sentence_th": "ขอเวลาอีกหนึ่งชั่วโมงครับ",
+          "sentence_roman": "kŏr wee-laa ìik nùeng chûa-mong kráp",
+          "sentence_en": "Give me one more hour, please."
+        },
+        {
+          "en": "minute",
+          "th": "นาที",
+          "roman": "naa-tii",
+          "sentence_th": "รอสักห้านาทีครับ",
+          "sentence_roman": "ror sàk hâa naa-tii kráp",
+          "sentence_en": "Please wait about five minutes."
+        }
+      ],
+      "title": "Ep. 05 — Time in Thai: 10 Words for Days & Hours (Beginner)"
     },
     {
       "week": 6,
       "theme": "At work",
       "words": [
-        {"en": "work", "th": "งาน", "roman": "ngaan", "sentence_th": "ผมไปทำงานทุกวัน", "sentence_roman": "pŏm bpai tam-ngaan túk wan", "sentence_en": "I go to work every day."},
-        {"en": "boss", "th": "เจ้านาย", "roman": "jâo-naai", "sentence_th": "เจ้านายของผมใจดี", "sentence_roman": "jâo-naai kŏng pŏm jai-dii", "sentence_en": "My boss is kind."},
-        {"en": "colleague", "th": "เพื่อนร่วมงาน", "roman": "pûean rûam-ngaan", "sentence_th": "เพื่อนร่วมงานของผมเก่งมาก", "sentence_roman": "pûean rûam-ngaan kŏng pŏm gèng mâak", "sentence_en": "My colleague is very skilled."},
-        {"en": "meeting", "th": "ประชุม", "roman": "bprà-chum", "sentence_th": "เรามีประชุมตอนบ่ายสองโมง", "sentence_roman": "rao mii bprà-chum dton bàai sŏng mong", "sentence_en": "We have a meeting at two PM."},
-        {"en": "office", "th": "ออฟฟิศ", "roman": "óf-fít", "sentence_th": "ออฟฟิศของเราอยู่ที่สีลม", "sentence_roman": "óf-fít kŏng rao yùu tîi sĕe-lom", "sentence_en": "Our office is on Silom road."},
-        {"en": "email", "th": "อีเมล", "roman": "ii-mêo", "sentence_th": "ผมจะส่งอีเมลให้คุณ", "sentence_roman": "pŏm jà sòng ii-mêo hâi kun", "sentence_en": "I'll send you an email."},
-        {"en": "busy", "th": "ยุ่ง", "roman": "yûng", "sentence_th": "วันนี้ผมยุ่งมากครับ", "sentence_roman": "wan-níi pŏm yûng mâak kráp", "sentence_en": "I'm very busy today."},
-        {"en": "deadline", "th": "กำหนดส่ง", "roman": "gam-nòt-sòng", "sentence_th": "กำหนดส่งคือวันศุกร์", "sentence_roman": "gam-nòt-sòng kue wan-sùk", "sentence_en": "The deadline is Friday."},
-        {"en": "project", "th": "โปรเจกต์", "roman": "bproo-jèk", "sentence_th": "โปรเจกต์นี้ใหญ่มาก", "sentence_roman": "bproo-jèk níi yài mâak", "sentence_en": "This project is very big."},
-        {"en": "weekend", "th": "วันหยุดสุดสัปดาห์", "roman": "wan-yùt-sùt-sàp-daa", "sentence_th": "วันหยุดสุดสัปดาห์ผมพักผ่อน", "sentence_roman": "wan-yùt-sùt-sàp-daa pŏm pák-pòn", "sentence_en": "On the weekend I rest."}
-      ]
+        {
+          "en": "work",
+          "th": "งาน",
+          "roman": "ngaan",
+          "sentence_th": "ผมไปทำงานทุกวัน",
+          "sentence_roman": "pŏm bpai tam-ngaan túk wan",
+          "sentence_en": "I go to work every day."
+        },
+        {
+          "en": "boss",
+          "th": "เจ้านาย",
+          "roman": "jâo-naai",
+          "sentence_th": "เจ้านายของผมใจดี",
+          "sentence_roman": "jâo-naai kŏng pŏm jai-dii",
+          "sentence_en": "My boss is kind."
+        },
+        {
+          "en": "colleague",
+          "th": "เพื่อนร่วมงาน",
+          "roman": "pûean rûam-ngaan",
+          "sentence_th": "เพื่อนร่วมงานของผมเก่งมาก",
+          "sentence_roman": "pûean rûam-ngaan kŏng pŏm gèng mâak",
+          "sentence_en": "My colleague is very skilled."
+        },
+        {
+          "en": "meeting",
+          "th": "ประชุม",
+          "roman": "bprà-chum",
+          "sentence_th": "เรามีประชุมตอนบ่ายสองโมง",
+          "sentence_roman": "rao mii bprà-chum dton bàai sŏng mong",
+          "sentence_en": "We have a meeting at two PM."
+        },
+        {
+          "en": "office",
+          "th": "ออฟฟิศ",
+          "roman": "óf-fít",
+          "sentence_th": "ออฟฟิศของเราอยู่ที่สีลม",
+          "sentence_roman": "óf-fít kŏng rao yùu tîi sĕe-lom",
+          "sentence_en": "Our office is on Silom road."
+        },
+        {
+          "en": "email",
+          "th": "อีเมล",
+          "roman": "ii-mêo",
+          "sentence_th": "ผมจะส่งอีเมลให้คุณ",
+          "sentence_roman": "pŏm jà sòng ii-mêo hâi kun",
+          "sentence_en": "I'll send you an email."
+        },
+        {
+          "en": "busy",
+          "th": "ยุ่ง",
+          "roman": "yûng",
+          "sentence_th": "วันนี้ผมยุ่งมากครับ",
+          "sentence_roman": "wan-níi pŏm yûng mâak kráp",
+          "sentence_en": "I'm very busy today."
+        },
+        {
+          "en": "deadline",
+          "th": "กำหนดส่ง",
+          "roman": "gam-nòt-sòng",
+          "sentence_th": "กำหนดส่งคือวันศุกร์",
+          "sentence_roman": "gam-nòt-sòng kue wan-sùk",
+          "sentence_en": "The deadline is Friday."
+        },
+        {
+          "en": "project",
+          "th": "โปรเจกต์",
+          "roman": "bproo-jèk",
+          "sentence_th": "โปรเจกต์นี้ใหญ่มาก",
+          "sentence_roman": "bproo-jèk níi yài mâak",
+          "sentence_en": "This project is very big."
+        },
+        {
+          "en": "weekend",
+          "th": "วันหยุดสุดสัปดาห์",
+          "roman": "wan-yùt-sùt-sàp-daa",
+          "sentence_th": "วันหยุดสุดสัปดาห์ผมพักผ่อน",
+          "sentence_roman": "wan-yùt-sùt-sàp-daa pŏm pák-pòn",
+          "sentence_en": "On the weekend I rest."
+        }
+      ],
+      "title": "Ep. 06 — Working in Thai: 10 Words for the Office (Beginner)"
     },
     {
       "week": 7,
       "theme": "Grocery shopping",
       "words": [
-        {"en": "shop", "th": "ร้าน", "roman": "ráan", "sentence_th": "ร้านนี้ขายผลไม้สด", "sentence_roman": "ráan níi kăai pŏn-lá-máai sòt", "sentence_en": "This shop sells fresh fruit."},
-        {"en": "market", "th": "ตลาด", "roman": "dtà-làat", "sentence_th": "ผมไปตลาดทุกเช้า", "sentence_roman": "pŏm bpai dtà-làat túk cháao", "sentence_en": "I go to the market every morning."},
-        {"en": "fruit", "th": "ผลไม้", "roman": "pŏn-lá-máai", "sentence_th": "ผมชอบกินผลไม้", "sentence_roman": "pŏm chôp gin pŏn-lá-máai", "sentence_en": "I like eating fruit."},
-        {"en": "vegetable", "th": "ผัก", "roman": "pàk", "sentence_th": "ผักที่นี่สดมาก", "sentence_roman": "pàk tîi-nîi sòt mâak", "sentence_en": "The vegetables here are very fresh."},
-        {"en": "egg", "th": "ไข่", "roman": "kài", "sentence_th": "ขอไข่สิบฟองครับ", "sentence_roman": "kŏr kài sìp fong kráp", "sentence_en": "Ten eggs, please."},
-        {"en": "bread", "th": "ขนมปัง", "roman": "kà-nŏm-bpang", "sentence_th": "ผมซื้อขนมปังสองก้อน", "sentence_roman": "pŏm súe kà-nŏm-bpang sŏng gôn", "sentence_en": "I'm buying two loaves of bread."},
-        {"en": "milk", "th": "นม", "roman": "nom", "sentence_th": "มีนมไม่หวานไหมครับ", "sentence_roman": "mii nom mâi wăan măi kráp", "sentence_en": "Do you have unsweetened milk?"},
-        {"en": "bag", "th": "ถุง", "roman": "tŭng", "sentence_th": "ขอถุงด้วยครับ", "sentence_roman": "kŏr tŭng dûai kráp", "sentence_en": "A bag, please."},
-        {"en": "discount", "th": "ลด", "roman": "lót", "sentence_th": "ลดราคาได้ไหมครับ", "sentence_roman": "lót raa-kaa dâai măi kráp", "sentence_en": "Can you discount the price?"},
-        {"en": "heavy", "th": "หนัก", "roman": "nàk", "sentence_th": "ถุงนี้หนักมาก", "sentence_roman": "tŭng níi nàk mâak", "sentence_en": "This bag is very heavy."}
-      ]
+        {
+          "en": "shop",
+          "th": "ร้าน",
+          "roman": "ráan",
+          "sentence_th": "ร้านนี้ขายผลไม้สด",
+          "sentence_roman": "ráan níi kăai pŏn-lá-máai sòt",
+          "sentence_en": "This shop sells fresh fruit."
+        },
+        {
+          "en": "market",
+          "th": "ตลาด",
+          "roman": "dtà-làat",
+          "sentence_th": "ผมไปตลาดทุกเช้า",
+          "sentence_roman": "pŏm bpai dtà-làat túk cháao",
+          "sentence_en": "I go to the market every morning."
+        },
+        {
+          "en": "fruit",
+          "th": "ผลไม้",
+          "roman": "pŏn-lá-máai",
+          "sentence_th": "ผมชอบกินผลไม้",
+          "sentence_roman": "pŏm chôp gin pŏn-lá-máai",
+          "sentence_en": "I like eating fruit."
+        },
+        {
+          "en": "vegetable",
+          "th": "ผัก",
+          "roman": "pàk",
+          "sentence_th": "ผักที่นี่สดมาก",
+          "sentence_roman": "pàk tîi-nîi sòt mâak",
+          "sentence_en": "The vegetables here are very fresh."
+        },
+        {
+          "en": "egg",
+          "th": "ไข่",
+          "roman": "kài",
+          "sentence_th": "ขอไข่สิบฟองครับ",
+          "sentence_roman": "kŏr kài sìp fong kráp",
+          "sentence_en": "Ten eggs, please."
+        },
+        {
+          "en": "bread",
+          "th": "ขนมปัง",
+          "roman": "kà-nŏm-bpang",
+          "sentence_th": "ผมซื้อขนมปังสองก้อน",
+          "sentence_roman": "pŏm súe kà-nŏm-bpang sŏng gôn",
+          "sentence_en": "I'm buying two loaves of bread."
+        },
+        {
+          "en": "milk",
+          "th": "นม",
+          "roman": "nom",
+          "sentence_th": "มีนมไม่หวานไหมครับ",
+          "sentence_roman": "mii nom mâi wăan măi kráp",
+          "sentence_en": "Do you have unsweetened milk?"
+        },
+        {
+          "en": "bag",
+          "th": "ถุง",
+          "roman": "tŭng",
+          "sentence_th": "ขอถุงด้วยครับ",
+          "sentence_roman": "kŏr tŭng dûai kráp",
+          "sentence_en": "A bag, please."
+        },
+        {
+          "en": "discount",
+          "th": "ลด",
+          "roman": "lót",
+          "sentence_th": "ลดราคาได้ไหมครับ",
+          "sentence_roman": "lót raa-kaa dâai măi kráp",
+          "sentence_en": "Can you discount the price?"
+        },
+        {
+          "en": "heavy",
+          "th": "หนัก",
+          "roman": "nàk",
+          "sentence_th": "ถุงนี้หนักมาก",
+          "sentence_roman": "tŭng níi nàk mâak",
+          "sentence_en": "This bag is very heavy."
+        }
+      ],
+      "title": "Ep. 07 — Shopping in Thai: 10 Words for the Market (Beginner)"
     },
     {
       "week": 8,
       "theme": "Dating & meeting someone new",
       "words": [
-        {"en": "cute", "th": "น่ารัก", "roman": "nâa-rák", "sentence_th": "คุณน่ารักมากครับ", "sentence_roman": "kun nâa-rák mâak kráp", "sentence_en": "You're very cute."},
-        {"en": "handsome", "th": "หล่อ", "roman": "lòr", "sentence_th": "เขาหล่อมากเลย", "sentence_roman": "kăo lòr mâak loei", "sentence_en": "He's so handsome."},
-        {"en": "beautiful", "th": "สวย", "roman": "sŭai", "sentence_th": "คุณสวยมากครับ", "sentence_roman": "kun sŭai mâak kráp", "sentence_en": "You're very beautiful."},
-        {"en": "like", "th": "ชอบ", "roman": "chôp", "sentence_th": "ผมชอบคุณ", "sentence_roman": "pŏm chôp kun", "sentence_en": "I like you."},
-        {"en": "love", "th": "รัก", "roman": "rák", "sentence_th": "ผมรักคุณ", "sentence_roman": "pŏm rák kun", "sentence_en": "I love you."},
-        {"en": "single", "th": "โสด", "roman": "sòot", "sentence_th": "คุณโสดไหมครับ", "sentence_roman": "kun sòot măi kráp", "sentence_en": "Are you single?"},
-        {"en": "partner (bf/gf)", "th": "แฟน", "roman": "faen", "sentence_th": "คุณมีแฟนหรือยังครับ", "sentence_roman": "kun mii faen rŭe yang kráp", "sentence_en": "Do you have a partner yet?"},
-        {"en": "coffee shop", "th": "ร้านกาแฟ", "roman": "ráan-gaa-fae", "sentence_th": "ไปร้านกาแฟด้วยกันไหม", "sentence_roman": "bpai ráan-gaa-fae dûai gan măi", "sentence_en": "Want to go to a coffee shop together?"},
-        {"en": "date (the activity)", "th": "เดท", "roman": "dèt", "sentence_th": "พรุ่งนี้ไปเดทกันไหม", "sentence_roman": "prûng-níi bpai dèt gan măi", "sentence_en": "Want to go on a date tomorrow?"},
-        {"en": "phone number", "th": "เบอร์โทร", "roman": "ber-too", "sentence_th": "ขอเบอร์โทรหน่อยได้ไหมครับ", "sentence_roman": "kŏr ber-too nòi dâai măi kráp", "sentence_en": "Can I have your phone number?"}
-      ]
+        {
+          "en": "cute",
+          "th": "น่ารัก",
+          "roman": "nâa-rák",
+          "sentence_th": "คุณน่ารักมากครับ",
+          "sentence_roman": "kun nâa-rák mâak kráp",
+          "sentence_en": "You're very cute."
+        },
+        {
+          "en": "handsome",
+          "th": "หล่อ",
+          "roman": "lòr",
+          "sentence_th": "เขาหล่อมากเลย",
+          "sentence_roman": "kăo lòr mâak loei",
+          "sentence_en": "He's so handsome."
+        },
+        {
+          "en": "beautiful",
+          "th": "สวย",
+          "roman": "sŭai",
+          "sentence_th": "คุณสวยมากครับ",
+          "sentence_roman": "kun sŭai mâak kráp",
+          "sentence_en": "You're very beautiful."
+        },
+        {
+          "en": "like",
+          "th": "ชอบ",
+          "roman": "chôp",
+          "sentence_th": "ผมชอบคุณ",
+          "sentence_roman": "pŏm chôp kun",
+          "sentence_en": "I like you."
+        },
+        {
+          "en": "love",
+          "th": "รัก",
+          "roman": "rák",
+          "sentence_th": "ผมรักคุณ",
+          "sentence_roman": "pŏm rák kun",
+          "sentence_en": "I love you."
+        },
+        {
+          "en": "single",
+          "th": "โสด",
+          "roman": "sòot",
+          "sentence_th": "คุณโสดไหมครับ",
+          "sentence_roman": "kun sòot măi kráp",
+          "sentence_en": "Are you single?"
+        },
+        {
+          "en": "partner (bf/gf)",
+          "th": "แฟน",
+          "roman": "faen",
+          "sentence_th": "คุณมีแฟนหรือยังครับ",
+          "sentence_roman": "kun mii faen rŭe yang kráp",
+          "sentence_en": "Do you have a partner yet?"
+        },
+        {
+          "en": "coffee shop",
+          "th": "ร้านกาแฟ",
+          "roman": "ráan-gaa-fae",
+          "sentence_th": "ไปร้านกาแฟด้วยกันไหม",
+          "sentence_roman": "bpai ráan-gaa-fae dûai gan măi",
+          "sentence_en": "Want to go to a coffee shop together?"
+        },
+        {
+          "en": "date (the activity)",
+          "th": "เดท",
+          "roman": "dèt",
+          "sentence_th": "พรุ่งนี้ไปเดทกันไหม",
+          "sentence_roman": "prûng-níi bpai dèt gan măi",
+          "sentence_en": "Want to go on a date tomorrow?"
+        },
+        {
+          "en": "phone number",
+          "th": "เบอร์โทร",
+          "roman": "ber-too",
+          "sentence_th": "ขอเบอร์โทรหน่อยได้ไหมครับ",
+          "sentence_roman": "kŏr ber-too nòi dâai măi kráp",
+          "sentence_en": "Can I have your phone number?"
+        }
+      ],
+      "title": "Ep. 08 — Social Thai: 10 Words for Dating & Meeting People (Beginner)"
     },
     {
       "week": 9,
@@ -146,31 +714,80 @@
         {
           "intro_en": "First, let's ask if the food is spicy. We start from just the adjective.",
           "steps": [
-            {"th": "เผ็ด", "roman": "phèt", "en": "Spicy."},
-            {"th": "เผ็ดไหม", "roman": "phèt măi", "en": "Is it spicy?"},
-            {"th": "อาหารเผ็ดไหม", "roman": "aa-hăan phèt măi", "en": "Is the food spicy?"},
-            {"th": "อาหารร้านนี้เผ็ดไหมครับ", "roman": "aa-hăan ráan níi phèt măi kráp", "en": "Is the food at this restaurant spicy?"}
+            {
+              "th": "เผ็ด",
+              "roman": "phèt",
+              "en": "Spicy."
+            },
+            {
+              "th": "เผ็ดไหม",
+              "roman": "phèt măi",
+              "en": "Is it spicy?"
+            },
+            {
+              "th": "อาหารเผ็ดไหม",
+              "roman": "aa-hăan phèt măi",
+              "en": "Is the food spicy?"
+            },
+            {
+              "th": "อาหารร้านนี้เผ็ดไหมครับ",
+              "roman": "aa-hăan ráan níi phèt măi kráp",
+              "en": "Is the food at this restaurant spicy?"
+            }
           ]
         },
         {
           "intro_en": "Now a very Thai greeting: have you eaten yet?",
           "steps": [
-            {"th": "กิน", "roman": "gin", "en": "Eat."},
-            {"th": "กินข้าว", "roman": "gin khâao", "en": "Eat a meal."},
-            {"th": "กินข้าวหรือยัง", "roman": "gin khâao rŭe yang", "en": "Eaten yet?"},
-            {"th": "คุณกินข้าวหรือยังครับ", "roman": "kun gin khâao rŭe yang kráp", "en": "Have you eaten yet?"}
+            {
+              "th": "กิน",
+              "roman": "gin",
+              "en": "Eat."
+            },
+            {
+              "th": "กินข้าว",
+              "roman": "gin khâao",
+              "en": "Eat a meal."
+            },
+            {
+              "th": "กินข้าวหรือยัง",
+              "roman": "gin khâao rŭe yang",
+              "en": "Eaten yet?"
+            },
+            {
+              "th": "คุณกินข้าวหรือยังครับ",
+              "roman": "kun gin khâao rŭe yang kráp",
+              "en": "Have you eaten yet?"
+            }
           ]
         },
         {
           "intro_en": "Finally, a friendly personal question.",
           "steps": [
-            {"th": "แฟน", "roman": "faen", "en": "Partner."},
-            {"th": "มีแฟน", "roman": "mii faen", "en": "Have a partner."},
-            {"th": "มีแฟนไหม", "roman": "mii faen măi", "en": "Have a partner?"},
-            {"th": "คุณมีแฟนหรือยังครับ", "roman": "kun mii faen rŭe yang kráp", "en": "Do you have a partner yet?"}
+            {
+              "th": "แฟน",
+              "roman": "faen",
+              "en": "Partner."
+            },
+            {
+              "th": "มีแฟน",
+              "roman": "mii faen",
+              "en": "Have a partner."
+            },
+            {
+              "th": "มีแฟนไหม",
+              "roman": "mii faen măi",
+              "en": "Have a partner?"
+            },
+            {
+              "th": "คุณมีแฟนหรือยังครับ",
+              "roman": "kun mii faen rŭe yang kráp",
+              "en": "Do you have a partner yet?"
+            }
           ]
         }
-      ]
+      ],
+      "title": "Ep. 09 — Questions in Thai: Asking Yes & No (Beginner)"
     },
     {
       "week": 10,
@@ -180,47 +797,167 @@
         {
           "intro_en": "Let's build a polite refusal of spicy food.",
           "steps": [
-            {"th": "เผ็ด", "roman": "phèt", "en": "Spicy."},
-            {"th": "ไม่เผ็ด", "roman": "mâi phèt", "en": "Not spicy."},
-            {"th": "ผมไม่กินเผ็ด", "roman": "pŏm mâi gin phèt", "en": "I don't eat spicy."},
-            {"th": "ผมไม่กินเผ็ดครับ", "roman": "pŏm mâi gin phèt kráp", "en": "I don't eat spicy, thanks."}
+            {
+              "th": "เผ็ด",
+              "roman": "phèt",
+              "en": "Spicy."
+            },
+            {
+              "th": "ไม่เผ็ด",
+              "roman": "mâi phèt",
+              "en": "Not spicy."
+            },
+            {
+              "th": "ผมไม่กินเผ็ด",
+              "roman": "pŏm mâi gin phèt",
+              "en": "I don't eat spicy."
+            },
+            {
+              "th": "ผมไม่กินเผ็ดครับ",
+              "roman": "pŏm mâi gin phèt kráp",
+              "en": "I don't eat spicy, thanks."
+            }
           ]
         },
         {
           "intro_en": "Now 'not yet' — useful when someone asks if you've eaten.",
           "steps": [
-            {"th": "กิน", "roman": "gin", "en": "Eat."},
-            {"th": "กินข้าว", "roman": "gin khâao", "en": "Eat a meal."},
-            {"th": "ยังไม่กินข้าว", "roman": "yang mâi gin khâao", "en": "Haven't eaten yet."},
-            {"th": "ผมยังไม่กินข้าวครับ", "roman": "pŏm yang mâi gin khâao kráp", "en": "I haven't eaten yet."}
+            {
+              "th": "กิน",
+              "roman": "gin",
+              "en": "Eat."
+            },
+            {
+              "th": "กินข้าว",
+              "roman": "gin khâao",
+              "en": "Eat a meal."
+            },
+            {
+              "th": "ยังไม่กินข้าว",
+              "roman": "yang mâi gin khâao",
+              "en": "Haven't eaten yet."
+            },
+            {
+              "th": "ผมยังไม่กินข้าวครับ",
+              "roman": "pŏm yang mâi gin khâao kráp",
+              "en": "I haven't eaten yet."
+            }
           ]
         },
         {
           "intro_en": "And 'already' — handy after paying or finishing something.",
           "steps": [
-            {"th": "จ่าย", "roman": "jàai", "en": "Pay."},
-            {"th": "จ่ายเงิน", "roman": "jàai ngern", "en": "Pay money."},
-            {"th": "จ่ายเงินแล้ว", "roman": "jàai ngern láew", "en": "Already paid."},
-            {"th": "ผมจ่ายเงินแล้วครับ", "roman": "pŏm jàai ngern láew kráp", "en": "I've already paid."}
+            {
+              "th": "จ่าย",
+              "roman": "jàai",
+              "en": "Pay."
+            },
+            {
+              "th": "จ่ายเงิน",
+              "roman": "jàai ngern",
+              "en": "Pay money."
+            },
+            {
+              "th": "จ่ายเงินแล้ว",
+              "roman": "jàai ngern láew",
+              "en": "Already paid."
+            },
+            {
+              "th": "ผมจ่ายเงินแล้วครับ",
+              "roman": "pŏm jàai ngern láew kráp",
+              "en": "I've already paid."
+            }
           ]
         }
-      ]
+      ],
+      "title": "Ep. 10 — Negation in Thai: No, Not Yet & Already (Beginner)"
     },
     {
       "week": 11,
       "theme": "Small talk on the street",
       "words": [
-        {"en": "weather", "th": "อากาศ", "roman": "aa-gàat", "sentence_th": "วันนี้อากาศร้อนมาก", "sentence_roman": "wan-níi aa-gàat rón mâak", "sentence_en": "The weather is very hot today."},
-        {"en": "hot", "th": "ร้อน", "roman": "rón", "sentence_th": "ร้อนมากเลยครับ", "sentence_roman": "rón mâak loei kráp", "sentence_en": "It's really hot."},
-        {"en": "cold (weather)", "th": "หนาว", "roman": "năao", "sentence_th": "วันนี้อากาศหนาวนิดหน่อย", "sentence_roman": "wan-níi aa-gàat năao nít-nòi", "sentence_en": "The weather is a little cold today."},
-        {"en": "rain", "th": "ฝน", "roman": "fŏn", "sentence_th": "ฝนตกแล้วครับ", "sentence_roman": "fŏn dtòk láew kráp", "sentence_en": "It's started raining."},
-        {"en": "tired", "th": "เหนื่อย", "roman": "nùeai", "sentence_th": "ผมเหนื่อยมากครับ", "sentence_roman": "pŏm nùeai mâak kráp", "sentence_en": "I'm very tired."},
-        {"en": "crowded", "th": "คนเยอะ", "roman": "kon yúh", "sentence_th": "วันนี้คนเยอะมาก", "sentence_roman": "wan-níi kon yúh mâak", "sentence_en": "It's very crowded today."},
-        {"en": "really nice", "th": "ดีจัง", "roman": "dii jang", "sentence_th": "ดีจังเลยครับ", "sentence_roman": "dii jang loei kráp", "sentence_en": "That's really nice."},
-        {"en": "really?", "th": "จริงเหรอ", "roman": "jing rĕr", "sentence_th": "จริงเหรอครับ", "sentence_roman": "jing rĕr kráp", "sentence_en": "Really?"},
-        {"en": "take care", "th": "ดูแลตัวเองด้วย", "roman": "duu-lae dtua-eeng dûai", "sentence_th": "ดูแลตัวเองด้วยนะครับ", "sentence_roman": "duu-lae dtua-eeng dûai ná kráp", "sentence_en": "Take care of yourself, okay?"},
-        {"en": "see you", "th": "เจอกัน", "roman": "jer gan", "sentence_th": "เจอกันพรุ่งนี้ครับ", "sentence_roman": "jer gan prûng-níi kráp", "sentence_en": "See you tomorrow."}
-      ]
+        {
+          "en": "weather",
+          "th": "อากาศ",
+          "roman": "aa-gàat",
+          "sentence_th": "วันนี้อากาศร้อนมาก",
+          "sentence_roman": "wan-níi aa-gàat rón mâak",
+          "sentence_en": "The weather is very hot today."
+        },
+        {
+          "en": "hot",
+          "th": "ร้อน",
+          "roman": "rón",
+          "sentence_th": "ร้อนมากเลยครับ",
+          "sentence_roman": "rón mâak loei kráp",
+          "sentence_en": "It's really hot."
+        },
+        {
+          "en": "cold (weather)",
+          "th": "หนาว",
+          "roman": "năao",
+          "sentence_th": "วันนี้อากาศหนาวนิดหน่อย",
+          "sentence_roman": "wan-níi aa-gàat năao nít-nòi",
+          "sentence_en": "The weather is a little cold today."
+        },
+        {
+          "en": "rain",
+          "th": "ฝน",
+          "roman": "fŏn",
+          "sentence_th": "ฝนตกแล้วครับ",
+          "sentence_roman": "fŏn dtòk láew kráp",
+          "sentence_en": "It's started raining."
+        },
+        {
+          "en": "tired",
+          "th": "เหนื่อย",
+          "roman": "nùeai",
+          "sentence_th": "ผมเหนื่อยมากครับ",
+          "sentence_roman": "pŏm nùeai mâak kráp",
+          "sentence_en": "I'm very tired."
+        },
+        {
+          "en": "crowded",
+          "th": "คนเยอะ",
+          "roman": "kon yúh",
+          "sentence_th": "วันนี้คนเยอะมาก",
+          "sentence_roman": "wan-níi kon yúh mâak",
+          "sentence_en": "It's very crowded today."
+        },
+        {
+          "en": "really nice",
+          "th": "ดีจัง",
+          "roman": "dii jang",
+          "sentence_th": "ดีจังเลยครับ",
+          "sentence_roman": "dii jang loei kráp",
+          "sentence_en": "That's really nice."
+        },
+        {
+          "en": "really?",
+          "th": "จริงเหรอ",
+          "roman": "jing rĕr",
+          "sentence_th": "จริงเหรอครับ",
+          "sentence_roman": "jing rĕr kráp",
+          "sentence_en": "Really?"
+        },
+        {
+          "en": "take care",
+          "th": "ดูแลตัวเองด้วย",
+          "roman": "duu-lae dtua-eeng dûai",
+          "sentence_th": "ดูแลตัวเองด้วยนะครับ",
+          "sentence_roman": "duu-lae dtua-eeng dûai ná kráp",
+          "sentence_en": "Take care of yourself, okay?"
+        },
+        {
+          "en": "see you",
+          "th": "เจอกัน",
+          "roman": "jer gan",
+          "sentence_th": "เจอกันพรุ่งนี้ครับ",
+          "sentence_roman": "jer gan prûng-níi kráp",
+          "sentence_en": "See you tomorrow."
+        }
+      ],
+      "title": "Ep. 11 — Small Talk in Thai: 10 Words for Street Conversations (Beginner)"
     },
     {
       "week": 12,
@@ -230,31 +967,80 @@
         {
           "intro_en": "First, future plans with จะ.",
           "steps": [
-            {"th": "ไป", "roman": "bpai", "en": "Go."},
-            {"th": "ไปเชียงใหม่", "roman": "bpai chiang-mài", "en": "Go to Chiang Mai."},
-            {"th": "จะไปเชียงใหม่", "roman": "jà bpai chiang-mài", "en": "Will go to Chiang Mai."},
-            {"th": "พรุ่งนี้ผมจะไปเชียงใหม่ครับ", "roman": "prûng-níi pŏm jà bpai chiang-mài kráp", "en": "Tomorrow I'll go to Chiang Mai."}
+            {
+              "th": "ไป",
+              "roman": "bpai",
+              "en": "Go."
+            },
+            {
+              "th": "ไปเชียงใหม่",
+              "roman": "bpai chiang-mài",
+              "en": "Go to Chiang Mai."
+            },
+            {
+              "th": "จะไปเชียงใหม่",
+              "roman": "jà bpai chiang-mài",
+              "en": "Will go to Chiang Mai."
+            },
+            {
+              "th": "พรุ่งนี้ผมจะไปเชียงใหม่ครับ",
+              "roman": "prûng-níi pŏm jà bpai chiang-mài kráp",
+              "en": "Tomorrow I'll go to Chiang Mai."
+            }
           ]
         },
         {
           "intro_en": "Now past experience with เคย — meaning 'have ever done'.",
           "steps": [
-            {"th": "ภูเก็ต", "roman": "phuu-gèt", "en": "Phuket."},
-            {"th": "ไปภูเก็ต", "roman": "bpai phuu-gèt", "en": "Go to Phuket."},
-            {"th": "เคยไปภูเก็ต", "roman": "koei bpai phuu-gèt", "en": "Have been to Phuket."},
-            {"th": "ผมเคยไปภูเก็ตหลายครั้ง", "roman": "pŏm koei bpai phuu-gèt lăai kráng", "en": "I've been to Phuket many times."}
+            {
+              "th": "ภูเก็ต",
+              "roman": "phuu-gèt",
+              "en": "Phuket."
+            },
+            {
+              "th": "ไปภูเก็ต",
+              "roman": "bpai phuu-gèt",
+              "en": "Go to Phuket."
+            },
+            {
+              "th": "เคยไปภูเก็ต",
+              "roman": "koei bpai phuu-gèt",
+              "en": "Have been to Phuket."
+            },
+            {
+              "th": "ผมเคยไปภูเก็ตหลายครั้ง",
+              "roman": "pŏm koei bpai phuu-gèt lăai kráng",
+              "en": "I've been to Phuket many times."
+            }
           ]
         },
         {
           "intro_en": "Finally, happening right now with กำลัง.",
           "steps": [
-            {"th": "กิน", "roman": "gin", "en": "Eat."},
-            {"th": "กินข้าว", "roman": "gin khâao", "en": "Eat a meal."},
-            {"th": "กำลังกินข้าว", "roman": "gam-lang gin khâao", "en": "Eating right now."},
-            {"th": "ตอนนี้ผมกำลังกินข้าวครับ", "roman": "dton-níi pŏm gam-lang gin khâao kráp", "en": "Right now I'm eating."}
+            {
+              "th": "กิน",
+              "roman": "gin",
+              "en": "Eat."
+            },
+            {
+              "th": "กินข้าว",
+              "roman": "gin khâao",
+              "en": "Eat a meal."
+            },
+            {
+              "th": "กำลังกินข้าว",
+              "roman": "gam-lang gin khâao",
+              "en": "Eating right now."
+            },
+            {
+              "th": "ตอนนี้ผมกำลังกินข้าวครับ",
+              "roman": "dton-níi pŏm gam-lang gin khâao kráp",
+              "en": "Right now I'm eating."
+            }
           ]
         }
-      ]
+      ],
+      "title": "Ep. 12 — Thai Tense Markers: Past, Future & Right Now (Beginner)"
     }
   ]
 }
