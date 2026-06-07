@@ -3,54 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Walk &amp; Talk Thai</title>
-<meta name="description" content="A weekly Thai-learning podcast — 10 everyday words taught in real sentences, slow and natural, with pauses to repeat aloud while you walk.">
-<meta property="og:title" content="Walk & Talk Thai">
-<meta property="og:description" content="A weekly Thai-learning podcast. Words & sentences for the road.">
+<title>Walk Talk Thai: Learn Thai on the Go</title>
+<meta name="description" content="Learn 10 Thai words a week — spoken slowly, then at natural speed, with a pause to repeat aloud. Each short episode is a self-contained Thai language lesson designed for your walk or commute. Completely self-hosted and ad-free.">
+<meta property="og:title" content="Walk Talk Thai: Learn Thai on the Go">
+<meta property="og:description" content="Learn 10 Thai words a week — spoken slowly, then at natural speed, with a pause to repeat aloud.">
 <meta property="og:image" content="cover.jpg">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/jpeg" href="cover.jpg">
-<link rel="alternate" type="application/rss+xml" title="Walk & Talk Thai RSS" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Walk Talk Thai RSS" href="feed.xml">
+
+<!-- Brand fonts: Kanit (display) + Sarabun (body) — Google Fonts, full Thai + Latin support -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;800&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
+  /* =========================================================
+     Brand tokens — Walk Talk Thai Brand System v1
+     Palette: Night · Saffron · River · Temple Clay · Stone Dust · Rice Paper
+     ========================================================= */
   :root {
-    --bg: #f7f1e3;
-    --card: #ffffff;
-    --ink: #1f1b15;
-    --muted: #7a6f5d;
-    --line: #e7dec7;
-    --accent: #126a6a;       /* deep teal */
-    --accent-2: #c8923a;     /* warm gold */
-    --shadow: 0 1px 2px rgba(31,27,21,.04), 0 8px 24px rgba(31,27,21,.06);
-    --radius: 14px;
-    --bar-h: 84px;
+    /* Light surface mode (warm cream / rice paper) */
+    --bg:       #fdf8f2;   /* brand-base-light: warm cream */
+    --card:     #ffffff;   /* card surface */
+    --ink:      #18120e;   /* brand-base used as text on light */
+    --muted:    #a09282;   /* brand-neutral: stone-dust */
+    --line:     #e8ddd0;   /* warm divider */
+    --accent:   #d4891a;   /* brand-accent: saffron-amber — CTAs, play buttons */
+    --accent-2: #2a8873;   /* brand-accent-2: deep Thai teal — links, highlights */
+    --accent-3: #c45c3a;   /* brand-accent-3: terracotta — tertiary warmth */
+    --shadow:   0 1px 2px rgba(24,18,14,.05), 0 8px 24px rgba(24,18,14,.09);
+    --radius:   14px;
+    --bar-h:    84px;
     font-synthesis: none;
     -webkit-text-size-adjust: 100%;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #14110d;
-      --card: #1f1b15;
-      --ink: #f3ead4;
-      --muted: #a59881;
-      --line: #2c261d;
-      --accent: #5ec6c0;
-      --accent-2: #e0b35a;
-      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.4);
+      /* Dark mode — brand primary palette */
+      --bg:       #18120e;   /* brand-base: night market backdrop */
+      --card:     #261c14;   /* brand-surface: warm dark panels */
+      --ink:      #f7ede0;   /* brand-fg: rice paper — primary text */
+      --muted:    #a09282;   /* brand-neutral: stone-dust */
+      --line:     #3a2c1e;   /* warm dark border */
+      --accent:   #d4891a;   /* saffron-amber — same in dark */
+      --accent-2: #2a8873;   /* Thai teal — same in dark */
+      --shadow:   0 1px 2px rgba(0,0,0,.55), 0 8px 28px rgba(0,0,0,.55);
     }
   }
+
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", sans-serif;
+    font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
     color: var(--ink);
     background: var(--bg);
-    line-height: 1.5;
+    line-height: 1.4;
     padding-bottom: calc(var(--bar-h) + env(safe-area-inset-bottom));
   }
-  a { color: var(--accent); text-decoration: none; }
+  a { color: var(--accent-2); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* ---- header ---- */
+  /* ---- hero header ---- */
   header.hero {
     max-width: 880px;
     margin: 0 auto;
@@ -64,21 +79,27 @@
     width: 96px;
     height: 96px;
     border-radius: 18px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    background: var(--accent);   /* amber fallback if image fails */
     background-size: cover;
     background-position: center;
     box-shadow: var(--shadow);
   }
   .title-wrap h1 {
-    margin: 0 0 4px;
+    margin: 0 0 5px;
+    font-family: 'Kanit', -apple-system, sans-serif;
+    font-weight: 700;
     font-size: 26px;
     letter-spacing: -.01em;
-    line-height: 1.15;
+    line-height: 1.1;
+    color: var(--ink);
   }
   .title-wrap p {
     margin: 0;
+    font-family: 'Sarabun', -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
     color: var(--muted);
-    font-size: 14.5px;
   }
 
   /* ---- subscribe strip ---- */
@@ -97,14 +118,20 @@
     font-size: 14px;
   }
   .subscribe .label {
+    font-family: 'Sarabun', -apple-system, sans-serif;
     font-weight: 600;
+    color: var(--ink);
   }
   .subscribe code {
     background: var(--bg);
     border: 1px solid var(--line);
     padding: 5px 9px;
     border-radius: 8px;
+    /* IBM Plex Mono reserved for phonetic guides in-episode;
+       using system mono here for the URL display */
+    font-family: 'Menlo', 'Consolas', 'Courier New', monospace;
     font-size: 13px;
+    color: var(--ink);
     flex: 1 1 280px;
     overflow-x: auto;
     white-space: nowrap;
@@ -114,19 +141,23 @@
     border: 1px solid var(--line);
     background: var(--bg);
     color: var(--ink);
-    font: inherit;
-    padding: 7px 12px;
+    font-family: 'Sarabun', -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
     border-radius: 8px;
     cursor: pointer;
-    transition: transform .08s ease, background .15s ease;
+    transition: filter .1s ease;
   }
-  .btn:hover { background: var(--card); }
-  .btn:active { transform: translateY(1px); }
+  .btn:hover  { filter: brightness(.94); }
+  .btn:active { filter: brightness(.88); }
   .btn.primary {
     background: var(--accent);
     color: #fff;
     border-color: var(--accent);
   }
+  .btn.primary:hover  { filter: brightness(1.1); }
+  .btn.primary:active { filter: brightness(.9); }
 
   /* ---- toolbar ---- */
   .toolbar {
@@ -146,8 +177,10 @@
     border: 1px solid var(--line);
     border-radius: 8px;
     padding: 5px 28px 5px 10px;
-    font: inherit;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%237a6f5d' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    font-family: 'Sarabun', -apple-system, sans-serif;
+    font-size: 13.5px;
+    /* Stone-dust chevron (#a09282 → %23a09282) */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%23a09282' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>");
     background-repeat: no-repeat;
     background-position: right 9px center;
   }
@@ -180,22 +213,23 @@
     cursor: pointer;
     user-select: none;
   }
+  /* Play button — saffron-amber, consistent in light + dark */
   .play-dot {
     width: 44px; height: 44px;
     border-radius: 999px;
     background: var(--accent);
     color: #fff;
+    border: none;
     display: grid;
     place-items: center;
     flex-shrink: 0;
-    transition: background .15s ease, transform .08s ease;
+    cursor: pointer;
+    transition: filter .1s ease, transform .08s ease;
   }
-  .ep:hover .play-dot { background: #0e5454; }
-  @media (prefers-color-scheme: dark) {
-    .ep:hover .play-dot { background: #7cd5cf; }
-  }
+  .play-dot:hover  { filter: brightness(1.12); }
   .play-dot:active { transform: scale(.95); }
   .play-dot svg { width: 18px; height: 18px; fill: currentColor; }
+
   .ep-meta { min-width: 0; }
   .ep-meta .row {
     display: flex;
@@ -203,26 +237,41 @@
     align-items: center;
     color: var(--muted);
     font-size: 12.5px;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
   }
+  /* Episode type badges */
   .badge {
+    font-family: 'Sarabun', -apple-system, sans-serif;
     font-size: 11px;
+    font-weight: 600;
     letter-spacing: .04em;
     text-transform: uppercase;
     padding: 2px 7px;
     border-radius: 999px;
     border: 1px solid var(--line);
   }
-  .badge.builder { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 40%, var(--line)); }
-  .badge.vocab   { color: var(--accent);  border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+  /* Vocab → amber (dominant accent) */
+  .badge.vocab   {
+    color: var(--accent);
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+  }
+  /* Sentence builder → teal (secondary accent) */
+  .badge.builder {
+    color: var(--accent-2);
+    border-color: color-mix(in srgb, var(--accent-2) 35%, var(--line));
+  }
+  /* Episode title — Kanit Bold for display authority */
   .ep-meta h3 {
     margin: 0;
+    font-family: 'Kanit', -apple-system, sans-serif;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 600;
     letter-spacing: -.005em;
+    line-height: 1.2;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--ink);
   }
   .duration {
     font-variant-numeric: tabular-nums;
@@ -230,6 +279,7 @@
     font-size: 13px;
     white-space: nowrap;
   }
+  /* Expanded show-notes panel */
   .ep-notes {
     border-top: 1px solid var(--line);
     padding: 14px 16px 18px;
@@ -241,9 +291,10 @@
     margin: 0;
     white-space: pre-wrap;
     word-break: break-word;
-    font: inherit;
-    color: var(--ink);
+    font-family: 'Sarabun', -apple-system, sans-serif;
     font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink);
   }
 
   /* ---- footer ---- */
@@ -261,9 +312,9 @@
     position: fixed;
     left: 0; right: 0; bottom: 0;
     background: color-mix(in srgb, var(--card) 92%, transparent);
-    backdrop-filter: saturate(140%) blur(16px);
-    -webkit-backdrop-filter: saturate(140%) blur(16px);
-    border-top: 1px solid var(--line);
+    backdrop-filter: saturate(160%) blur(18px);
+    -webkit-backdrop-filter: saturate(160%) blur(18px);
+    border-top: 2px solid var(--accent);   /* amber accent rule — brand signal */
     padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
     z-index: 30;
     transform: translateY(100%);
@@ -278,43 +329,51 @@
     gap: 12px;
     align-items: center;
   }
+  /* Play/Pause button — saffron-amber */
   .pp {
     width: 44px; height: 44px;
     border-radius: 999px;
     background: var(--accent);
     color: #fff;
-    border: 0;
+    border: none;
     cursor: pointer;
     display: grid;
     place-items: center;
+    transition: filter .1s ease, transform .08s ease;
   }
-  .pp svg { width: 18px; height: 18px; fill: currentColor; }
+  .pp:hover  { filter: brightness(1.12); }
   .pp:active { transform: scale(.95); }
-  .now {
-    min-width: 0;
-  }
+  .pp svg { width: 18px; height: 18px; fill: currentColor; }
+
+  .now { min-width: 0; }
+  /* Now-playing title — Sarabun SemiBold */
   .now .t {
+    font-family: 'Sarabun', -apple-system, sans-serif;
     font-size: 14px;
     font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--ink);
   }
   .now .b {
     margin-top: 4px;
     display: flex;
     align-items: center;
     gap: 8px;
+    font-family: 'Sarabun', -apple-system, sans-serif;
     font-size: 12px;
     color: var(--muted);
     font-variant-numeric: tabular-nums;
   }
+  /* Seek bar — saffron-amber thumb */
   .now .b input[type=range] {
     flex: 1;
     accent-color: var(--accent);
     height: 4px;
   }
 
+  /* ---- responsive ---- */
   @media (max-width: 480px) {
     header.hero { padding-top: 24px; }
     .title-wrap h1 { font-size: 22px; }
@@ -322,64 +381,65 @@
     .ep-head { padding: 12px 14px; }
   }
 
+  /* ---- error state ---- */
   .error {
     max-width: 880px;
     margin: 16px auto;
     padding: 14px 16px;
-    background: #fee9d6;
-    color: #5a3210;
-    border: 1px solid #f0c98a;
+    background: color-mix(in srgb, var(--accent-3) 12%, var(--card));
+    color: var(--ink);
+    border: 1px solid color-mix(in srgb, var(--accent-3) 40%, var(--line));
     border-radius: var(--radius);
     font-size: 14px;
-  }
-  @media (prefers-color-scheme: dark) {
-    .error { background: #3a1f0c; color: #f6c898; border-color: #6a3f1c; }
+    line-height: 1.5;
   }
 </style>
 </head>
 <body>
 
 <header class="hero">
+  <!-- Cover art — decorative background image, hidden from assistive tech -->
   <div class="cover" style="background-image:url('cover.jpg')" aria-hidden="true"></div>
   <div class="title-wrap">
-    <h1>Walk &amp; Talk Thai</h1>
-    <p>10 everyday Thai words a week, taught in real sentences. Built for walks.</p>
+    <h1>Walk Talk Thai</h1>
+    <p>Learn Thai. Keep walking.</p>
   </div>
 </header>
 
-<div class="subscribe" role="region" aria-label="Subscribe">
+<div class="subscribe" role="region" aria-label="Subscribe to podcast">
   <span class="label">Subscribe in any podcast app:</span>
   <code id="feedUrl">feed.xml</code>
-  <button class="btn primary" id="copyFeed">Copy URL</button>
+  <button class="btn primary" id="copyFeed">Copy feed URL</button>
 </div>
 
 <div class="toolbar">
   <span id="count">Loading episodes…</span>
   <label>
     Order:
-    <select id="orderSel">
-      <option value="asc">Week 1 → latest</option>
-      <option value="desc">Latest → Week 1</option>
+    <select id="orderSel" aria-label="Episode order">
+      <option value="asc">Oldest first</option>
+      <option value="desc">Newest first</option>
     </select>
   </label>
 </div>
 
-<main id="list" aria-live="polite"></main>
+<main id="list" aria-live="polite" aria-label="Episode list"></main>
 
 <footer>
-  <p>Generated weekly · <a href="feed.xml">RSS feed</a> · <a href="https://github.com/jerryjj/walk-talk-thai" target="_blank" rel="noopener">Source on GitHub</a></p>
+  <p>New episodes every week · <a href="feed.xml">RSS feed</a> · <a href="https://github.com/jerryjj/walk-talk-thai" target="_blank" rel="noopener">Source on GitHub</a></p>
 </footer>
 
-<div class="player" id="player" aria-label="Audio player">
+<!-- Sticky audio player — slides up when an episode is selected -->
+<div class="player" id="player" aria-label="Now playing">
   <div class="player-inner">
-    <button class="pp" id="ppBtn" aria-label="Play/Pause">
+    <button class="pp" id="ppBtn" aria-label="Play or pause">
       <svg id="ppIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
     </button>
     <div class="now">
-      <div class="t" id="nowTitle">No episode playing</div>
+      <div class="t" id="nowTitle">Select an episode to begin</div>
       <div class="b">
         <span id="curTime">0:00</span>
-        <input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="Seek">
+        <input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="Seek through episode">
         <span id="totTime">0:00</span>
       </div>
     </div>
@@ -430,7 +490,7 @@
         const desc  = it.querySelector('description')?.textContent ?? '';
         const url   = it.querySelector('enclosure')?.getAttribute('url') ?? '';
         const dur   = it.getElementsByTagNameNS(itunes, 'duration')[0]?.textContent ?? '';
-        const m = title.match(/^Week\s+(\d+)/i);
+        const m = title.match(/^Ep\.\s*(\d+)/i);
         const week = m ? +m[1] : 0;
         // Builder weeks render show-notes with "Sentences we build" — use that to badge.
         const kind = /Sentences we build/i.test(desc) ? 'builder' : 'vocab';
@@ -469,9 +529,9 @@
         <div class="ep-meta">
           <div class="row">
             <span class="badge ${ep.kind}">${ep.kind === 'builder' ? 'Sentence builder' : 'Vocab'}</span>
-            <span>Week ${ep.week}</span>
+            <span>Ep. ${String(ep.week).padStart(2, '0')}</span>
           </div>
-          <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
+          <h3>${escapeHtml(ep.title.replace(/^Ep\.\s*\d+\s*—\s*/u, ''))}</h3>
         </div>
         <span class="duration">${escapeHtml(ep.dur || '')}</span>
       </div>
@@ -479,7 +539,7 @@
     `;
     const head = card.querySelector('.ep-head');
     const playBtn = card.querySelector('.play-dot');
-    // Clicking the row toggles notes; clicking the play button starts audio.
+    // Clicking the row toggles show-notes; clicking the play button starts audio.
     head.addEventListener('click', (e) => {
       if (e.target.closest('.play-dot')) return;
       card.classList.toggle('open');
@@ -504,7 +564,7 @@
       if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: ep.title,
-          artist: 'Walk & Talk Thai',
+          artist: 'Walk Talk Thai',
           artwork: [{src: new URL('cover.jpg', location.href).href, sizes: '1400x1400', type: 'image/jpeg'}]
         });
       }
@@ -520,9 +580,11 @@
   });
   audio.addEventListener('play', () => {
     ppIcon.innerHTML = '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
+    ppBtn.setAttribute('aria-label', 'Pause');
   });
   audio.addEventListener('pause', () => {
     ppIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+    ppBtn.setAttribute('aria-label', 'Play');
   });
   audio.addEventListener('loadedmetadata', () => {
     totTime.textContent = fmt(audio.duration);
@@ -542,6 +604,7 @@
   });
   audio.addEventListener('ended', () => {
     document.querySelectorAll('.ep.playing').forEach(el => el.classList.remove('playing'));
+    ppBtn.setAttribute('aria-label', 'Play');
   });
   seek.addEventListener('input', () => {
     if (current && audio.duration) audio.currentTime = +seek.value;
