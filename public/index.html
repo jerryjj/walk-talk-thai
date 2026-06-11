@@ -358,8 +358,8 @@
   <label>
     Order:
     <select id="orderSel">
-      <option value="asc">Week 1 → latest</option>
-      <option value="desc">Latest → Week 1</option>
+      <option value="asc">Ep. 01 → latest</option>
+      <option value="desc">Latest → Ep. 01</option>
     </select>
   </label>
 </div>
@@ -430,7 +430,7 @@
         const desc  = it.querySelector('description')?.textContent ?? '';
         const url   = it.querySelector('enclosure')?.getAttribute('url') ?? '';
         const dur   = it.getElementsByTagNameNS(itunes, 'duration')[0]?.textContent ?? '';
-        const m = title.match(/^Week\s+(\d+)/i);
+        const m = title.match(/^Ep\.\s*(\d+)/i);
         const week = m ? +m[1] : 0;
         // Builder weeks render show-notes with "Sentences we build" — use that to badge.
         const kind = /Sentences we build/i.test(desc) ? 'builder' : 'vocab';
@@ -469,9 +469,9 @@
         <div class="ep-meta">
           <div class="row">
             <span class="badge ${ep.kind}">${ep.kind === 'builder' ? 'Sentence builder' : 'Vocab'}</span>
-            <span>Week ${ep.week}</span>
+            <span>Ep. ${String(ep.week).padStart(2, '0')}</span>
           </div>
-          <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
+          <h3>${escapeHtml(ep.title.replace(/^Ep\.\s*\d+\s*—\s*/u, ''))}</h3>
         </div>
         <span class="duration">${escapeHtml(ep.dur || '')}</span>
       </div>
