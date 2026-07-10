@@ -18,6 +18,7 @@ import asyncio
 import json
 import os
 import subprocess
+import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -205,21 +206,53 @@ def episode_filename(week: int) -> str:
     return f"episode_{week:02d}.mp3"
 
 
+def episode_title(ep: dict) -> str:
+    """Return the RSS title for an episode.
+
+    Prefers an explicit ``title`` field in vocab.json (set per episode so copy
+    can be reviewed before publishing).  Falls back to a template that follows
+    the approved naming convention:
+
+        Ep. NN — <Theme> in Thai: 10 Words (Beginner)   [vocab episodes]
+        Ep. NN — <Theme> in Thai (Beginner)             [builder episodes]
+
+    New episodes SHOULD include an explicit ``title`` field — the fallback is a
+    safety net only.
+    """
+    if ep.get("title"):
+        return ep["title"]
+    week = ep["week"]
+    theme = ep["theme"]
+    kind = ep.get("kind", "vocab")
+    if kind == "builder":
+        return f"Ep. {week:02d} — {theme} in Thai (Beginner)"
+    return f"Ep. {week:02d} — {theme} in Thai: 10 Words (Beginner)"
+
+
 def mp3_duration(path: Path) -> str:
-    """Return HH:MM:SS duration of an mp3 via ffprobe (ships with ffmpeg)."""
-    out = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-show_entries", "format=duration",
-            "-of", "default=noprint_wrappers=1:nokey=1",
-            str(path),
-        ],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    secs = int(float(out))
-    h, rem = divmod(secs, 3600)
-    m, s = divmod(rem, 60)
-    return f"{h:02d}:{m:02d}:{s:02d}"
+    """Return HH:MM:SS duration of an mp3 via ffprobe (ships with ffmpeg).
+
+    Returns an empty string and prints a warning if ffprobe is unavailable or
+    the file cannot be probed — the feed still builds; the duration tag is
+    simply omitted for that entry rather than crashing the whole run.
+    """
+    try:
+        out = subprocess.run(
+            [
+                "ffprobe", "-v", "error",
+                "-show_entries", "format=duration",
+                "-of", "default=noprint_wrappers=1:nokey=1",
+                str(path),
+            ],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        secs = int(float(out))
+        h, rem = divmod(secs, 3600)
+        m, s = divmod(rem, 60)
+        return f"{h:02d}:{m:02d}:{s:02d}"
+    except Exception as exc:
+        print(f"  WARNING: could not read duration for {path.name}: {exc}", file=sys.stderr)
+        return ""
 
 
 def build_feed(cfg: dict, episodes: list):
@@ -281,13 +314,16 @@ def build_feed(cfg: dict, episodes: list):
 
         fe = fg.add_entry()
         fe.id(url)
-        fe.title(f"Week {week}: {ep['theme']}")
+        fe.title(episode_title(ep))
         fe.description(notes)
         fe.enclosure(url, str(mp3_path.stat().st_size), "audio/mpeg")
         fe.published(pub)
+        fe.podcast.itunes_episode(week)           # episode number for podcast apps
         fe.podcast.itunes_summary(notes)
         fe.podcast.itunes_explicit("no")          # required by Apple per-item
-        fe.podcast.itunes_duration(mp3_duration(mp3_path))
+        duration = mp3_duration(mp3_path)
+        if duration:
+            fe.podcast.itunes_duration(duration)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fg.rss_file(str(OUT_DIR / "feed.xml"), pretty=True)
