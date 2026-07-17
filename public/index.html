@@ -274,9 +274,15 @@
     max-width: 880px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 44px 1fr;
+    grid-template-columns: auto 1fr;
     gap: 12px;
     align-items: center;
+  }
+  /* ---- play/pause + skip buttons ---- */
+  .pp-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
   .pp {
     width: 44px; height: 44px;
@@ -287,9 +293,26 @@
     cursor: pointer;
     display: grid;
     place-items: center;
+    flex-shrink: 0;
   }
   .pp svg { width: 18px; height: 18px; fill: currentColor; }
   .pp:active { transform: scale(.95); }
+  /* Skip-back (−15 s) and skip-forward (+30 s) */
+  .skip {
+    width: 36px; height: 36px;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--accent);
+    border: 0;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    transition: opacity .15s ease, transform .08s ease;
+  }
+  .skip svg { width: 22px; height: 22px; fill: currentColor; }
+  .skip:hover { opacity: .72; }
+  .skip:active { transform: scale(.92); }
   .now {
     min-width: 0;
   }
@@ -320,6 +343,10 @@
     .title-wrap h1 { font-size: 22px; }
     .subscribe code { font-size: 12.5px; }
     .ep-head { padding: 12px 14px; }
+    /* Tighten skip gap on small screens */
+    .pp-group { gap: 2px; }
+    .skip { width: 32px; height: 32px; }
+    .skip svg { width: 20px; height: 20px; }
   }
 
   .error {
@@ -372,9 +399,25 @@
 
 <div class="player" id="player" aria-label="Audio player">
   <div class="player-inner">
-    <button class="pp" id="ppBtn" aria-label="Play/Pause">
-      <svg id="ppIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-    </button>
+    <div class="pp-group">
+      <button class="skip" id="skipBackBtn" aria-label="Skip back 15 seconds">
+        <!-- Circular replay arrow (counterclockwise) with "15" label -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+          <text x="12" y="16.5" text-anchor="middle" font-size="5.5" font-weight="700" fill="currentColor">15</text>
+        </svg>
+      </button>
+      <button class="pp" id="ppBtn" aria-label="Play/Pause">
+        <svg id="ppIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button class="skip" id="skipFwdBtn" aria-label="Skip forward 30 seconds">
+        <!-- Circular forward arrow (clockwise) with "30" label -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 13c0 3.31-2.69 6-6 6s-6-2.69-6-6 2.69-6 6-6v4l5-5-5-5v4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8h-2z"/>
+          <text x="12" y="16.5" text-anchor="middle" font-size="5.5" font-weight="700" fill="currentColor">30</text>
+        </svg>
+      </button>
+    </div>
     <div class="now">
       <div class="t" id="nowTitle">No episode playing</div>
       <div class="b">
@@ -403,13 +446,15 @@
   const curTime  = document.getElementById('curTime');
   const totTime  = document.getElementById('totTime');
   const nowTitle = document.getElementById('nowTitle');
+  const skipBackBtn = document.getElementById('skipBackBtn');
+  const skipFwdBtn  = document.getElementById('skipFwdBtn');
 
   feedCode.textContent = FEED_URL;
   copyBtn.addEventListener('click', copyFeed);
   function copyFeed() {
     navigator.clipboard.writeText(FEED_URL).then(() => {
       copyBtn.textContent = 'Copied!';
-      setTimeout(() => copyBtn.textContent = 'Copy feed URL', 1500);
+      setTimeout(() => copyBtn.textContent = 'Copy URL', 1500);
     }).catch(() => prompt('Copy this URL:', FEED_URL));
   }
 
@@ -518,6 +563,17 @@
     if (!current) return;
     if (audio.paused) audio.play(); else audio.pause();
   });
+
+  // Skip back 15 s / skip forward 30 s
+  skipBackBtn.addEventListener('click', () => {
+    if (!current) return;
+    audio.currentTime = Math.max(0, audio.currentTime - 15);
+  });
+  skipFwdBtn.addEventListener('click', () => {
+    if (!current) return;
+    audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 30);
+  });
+
   audio.addEventListener('play', () => {
     ppIcon.innerHTML = '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
   });
