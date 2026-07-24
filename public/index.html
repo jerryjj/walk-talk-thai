@@ -224,12 +224,31 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  /* ---- episode right column: duration + chevron ---- */
+  .ep-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+  }
   .duration {
     font-variant-numeric: tabular-nums;
     color: var(--muted);
     font-size: 13px;
     white-space: nowrap;
   }
+  .chevron {
+    width: 14px;
+    height: 14px;
+    color: var(--muted);
+    transition: transform .2s ease;
+    flex-shrink: 0;
+  }
+  .ep.open .chevron {
+    transform: rotate(180deg);
+  }
+
   .ep-notes {
     border-top: 1px solid var(--line);
     padding: 14px 16px 18px;
@@ -244,6 +263,7 @@
     font: inherit;
     color: var(--ink);
     font-size: 14px;
+    line-height: 1.7;
   }
 
   /* ---- footer ---- */
@@ -274,7 +294,7 @@
     max-width: 880px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 44px 1fr;
+    grid-template-columns: 44px 1fr auto;
     gap: 12px;
     align-items: center;
   }
@@ -315,11 +335,32 @@
     height: 4px;
   }
 
+  /* ---- speed button ---- */
+  #speedBtn {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    font: 600 12px/1 inherit;
+    padding: 6px 9px;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 40px;
+    text-align: center;
+    transition: color .15s ease, border-color .15s ease;
+    align-self: center;
+  }
+  #speedBtn:hover { color: var(--ink); border-color: var(--accent); }
+  #speedBtn:active { transform: scale(.95); }
+
   @media (max-width: 480px) {
     header.hero { padding-top: 24px; }
     .title-wrap h1 { font-size: 22px; }
     .subscribe code { font-size: 12.5px; }
     .ep-head { padding: 12px 14px; }
+    #speedBtn { padding: 5px 7px; min-width: 36px; font-size: 11px; }
   }
 
   .error {
@@ -350,7 +391,7 @@
 <div class="subscribe" role="region" aria-label="Subscribe">
   <span class="label">Subscribe in any podcast app:</span>
   <code id="feedUrl">feed.xml</code>
-  <button class="btn primary" id="copyFeed">Copy URL</button>
+  <button class="btn primary" id="copyFeed">Copy feed URL</button>
 </div>
 
 <div class="toolbar">
@@ -383,6 +424,7 @@
         <span id="totTime">0:00</span>
       </div>
     </div>
+    <button id="speedBtn" aria-label="Playback speed: 1×. Tap to change.">1×</button>
   </div>
   <audio id="audio" preload="metadata"></audio>
 </div>
@@ -403,6 +445,7 @@
   const curTime  = document.getElementById('curTime');
   const totTime  = document.getElementById('totTime');
   const nowTitle = document.getElementById('nowTitle');
+  const speedBtn = document.getElementById('speedBtn');
 
   feedCode.textContent = FEED_URL;
   copyBtn.addEventListener('click', copyFeed);
@@ -412,6 +455,33 @@
       setTimeout(() => copyBtn.textContent = 'Copy feed URL', 1500);
     }).catch(() => prompt('Copy this URL:', FEED_URL));
   }
+
+  // ----- playback speed -----
+  // Cycle order chosen for learner workflow: normal → slow (catch tones) → fast → faster.
+  const SPEEDS = [1, 0.75, 1.25, 1.5];
+  let speedIdx = 0;
+
+  // Restore saved speed from previous session.
+  try {
+    const saved = parseFloat(localStorage.getItem('wtt:speed'));
+    const idx = SPEEDS.indexOf(saved);
+    if (idx !== -1) speedIdx = idx;
+  } catch {}
+
+  function applySpeed() {
+    const s = SPEEDS[speedIdx];
+    audio.playbackRate = s;
+    const label = s === 1 ? '1×' : s + '×';
+    speedBtn.textContent = label;
+    speedBtn.setAttribute('aria-label', `Playback speed: ${label}. Tap to change.`);
+  }
+  applySpeed();
+
+  speedBtn.addEventListener('click', () => {
+    speedIdx = (speedIdx + 1) % SPEEDS.length;
+    applySpeed();
+    try { localStorage.setItem('wtt:speed', SPEEDS[speedIdx]); } catch {}
+  });
 
   // ----- parse feed -----
   let episodes = [];
@@ -473,7 +543,12 @@
           </div>
           <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
         </div>
-        <span class="duration">${escapeHtml(ep.dur || '')}</span>
+        <div class="ep-right">
+          <span class="duration">${escapeHtml(ep.dur || '')}</span>
+          <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </div>
       </div>
       <div class="ep-notes"><pre>${escapeHtml(ep.desc)}</pre></div>
     `;
@@ -499,6 +574,8 @@
     if (card) card.classList.add('playing');
     if (current?.url !== ep.url) {
       audio.src = ep.url;
+      // Re-apply speed after src change (some browsers reset playbackRate on new src).
+      audio.playbackRate = SPEEDS[speedIdx];
       current = ep;
       nowTitle.textContent = ep.title;
       if ('mediaSession' in navigator) {
@@ -527,6 +604,8 @@
   audio.addEventListener('loadedmetadata', () => {
     totTime.textContent = fmt(audio.duration);
     seek.max = audio.duration || 100;
+    // Ensure speed is applied after metadata loads (Safari quirk).
+    audio.playbackRate = SPEEDS[speedIdx];
     // Resume position if we're picking the same episode back up.
     try {
       const pos = +localStorage.getItem('wtt:pos:' + current.url);
