@@ -274,8 +274,8 @@
     max-width: 880px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 44px 1fr;
-    gap: 12px;
+    grid-template-columns: 36px 44px 36px 1fr;
+    gap: 8px;
     align-items: center;
   }
   .pp {
@@ -290,6 +290,21 @@
   }
   .pp svg { width: 18px; height: 18px; fill: currentColor; }
   .pp:active { transform: scale(.95); }
+  .skip {
+    width: 36px; height: 36px;
+    border-radius: 999px;
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    opacity: 0.65;
+    transition: opacity .15s ease, transform .08s ease;
+  }
+  .skip:hover { opacity: 1; }
+  .skip:active { transform: scale(.92); }
+  .skip svg { width: 20px; height: 20px; fill: currentColor; }
   .now {
     min-width: 0;
   }
@@ -372,8 +387,14 @@
 
 <div class="player" id="player" aria-label="Audio player">
   <div class="player-inner">
+    <button class="skip" id="skipBack" aria-label="Back 15 seconds" title="Back 15 s">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
+    </button>
     <button class="pp" id="ppBtn" aria-label="Play/Pause">
       <svg id="ppIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <button class="skip" id="skipFwd" aria-label="Forward 15 seconds" title="Forward 15 s">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path transform="scale(-1,1) translate(-24,0)" d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
     </button>
     <div class="now">
       <div class="t" id="nowTitle">No episode playing</div>
@@ -399,6 +420,8 @@
   const audio    = document.getElementById('audio');
   const ppBtn    = document.getElementById('ppBtn');
   const ppIcon   = document.getElementById('ppIcon');
+  const skipBack = document.getElementById('skipBack');
+  const skipFwd  = document.getElementById('skipFwd');
   const seek     = document.getElementById('seek');
   const curTime  = document.getElementById('curTime');
   const totTime  = document.getElementById('totTime');
@@ -409,7 +432,7 @@
   function copyFeed() {
     navigator.clipboard.writeText(FEED_URL).then(() => {
       copyBtn.textContent = 'Copied!';
-      setTimeout(() => copyBtn.textContent = 'Copy feed URL', 1500);
+      setTimeout(() => copyBtn.textContent = 'Copy URL', 1500);
     }).catch(() => prompt('Copy this URL:', FEED_URL));
   }
 
@@ -517,6 +540,14 @@
   ppBtn.addEventListener('click', () => {
     if (!current) return;
     if (audio.paused) audio.play(); else audio.pause();
+  });
+  skipBack.addEventListener('click', () => {
+    if (!current) return;
+    audio.currentTime = Math.max(0, audio.currentTime - 15);
+  });
+  skipFwd.addEventListener('click', () => {
+    if (!current) return;
+    audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15);
   });
   audio.addEventListener('play', () => {
     ppIcon.innerHTML = '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
