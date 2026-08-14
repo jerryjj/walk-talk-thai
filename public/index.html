@@ -171,15 +171,50 @@
     border-color: var(--accent);
     box-shadow: 0 0 0 1px var(--accent), var(--shadow);
   }
+
+  /*
+   * ep-head: flex row (was grid).
+   * Play button stays on the left; the expand/collapse toggle fills the rest.
+   * Visual result is identical — flex gap + flex-shrink-0 on play-dot matches
+   * the old 44px / 1fr / auto grid columns exactly.
+   */
   .ep-head {
-    display: grid;
-    grid-template-columns: 44px 1fr auto;
+    display: flex;
     align-items: center;
     gap: 12px;
     padding: 14px 16px;
-    cursor: pointer;
     user-select: none;
   }
+
+  /*
+   * ep-toggle: a real <button> so keyboard users can Tab to it and press
+   * Enter/Space to open/close the notes panel.  All button chrome is reset so
+   * it looks indistinguishable from the previous plain-div layout.
+   */
+  .ep-toggle {
+    appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+    /* fill the remaining row, keep children side-by-side */
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  /* Show a focus ring only when reached by keyboard — invisible on mouse click */
+  .ep-toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
   .play-dot {
     width: 44px; height: 44px;
     border-radius: 999px;
@@ -196,7 +231,7 @@
   }
   .play-dot:active { transform: scale(.95); }
   .play-dot svg { width: 18px; height: 18px; fill: currentColor; }
-  .ep-meta { min-width: 0; }
+  .ep-meta { flex: 1 1 auto; min-width: 0; }
   .ep-meta .row {
     display: flex;
     gap: 8px;
@@ -229,6 +264,7 @@
     color: var(--muted);
     font-size: 13px;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .ep-notes {
     border-top: 1px solid var(--line);
@@ -320,6 +356,8 @@
     .title-wrap h1 { font-size: 22px; }
     .subscribe code { font-size: 12.5px; }
     .ep-head { padding: 12px 14px; }
+    /* Allow long titles to wrap on narrow screens instead of silently clipping */
+    .ep-meta h3 { white-space: normal; }
   }
 
   .error {
@@ -457,6 +495,7 @@
   orderSel.addEventListener('change', render);
 
   function renderEp(ep) {
+    const notesId = 'ep-' + ep.week + '-notes';
     const card = document.createElement('article');
     card.className = 'ep';
     card.dataset.url = ep.url;
@@ -466,28 +505,36 @@
         <button class="play-dot" aria-label="Play ${escapeAttr(ep.title)}">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </button>
-        <div class="ep-meta">
-          <div class="row">
-            <span class="badge ${ep.kind}">${ep.kind === 'builder' ? 'Sentence builder' : 'Vocab'}</span>
-            <span>Week ${ep.week}</span>
+        <button class="ep-toggle" aria-expanded="false" aria-controls="${notesId}">
+          <div class="ep-meta">
+            <div class="row">
+              <span class="badge ${ep.kind}">${ep.kind === 'builder' ? 'Sentence builder' : 'Vocab'}</span>
+              <span>Week ${ep.week}</span>
+            </div>
+            <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
           </div>
-          <h3>${escapeHtml(ep.title.replace(/^Week\s+\d+:\s*/i, ''))}</h3>
-        </div>
-        <span class="duration">${escapeHtml(ep.dur || '')}</span>
+          <span class="duration">${escapeHtml(ep.dur || '')}</span>
+        </button>
       </div>
-      <div class="ep-notes"><pre>${escapeHtml(ep.desc)}</pre></div>
+      <div class="ep-notes" id="${notesId}"><pre>${escapeHtml(ep.desc)}</pre></div>
     `;
-    const head = card.querySelector('.ep-head');
-    const playBtn = card.querySelector('.play-dot');
-    // Clicking the row toggles notes; clicking the play button starts audio.
-    head.addEventListener('click', (e) => {
-      if (e.target.closest('.play-dot')) return;
-      card.classList.toggle('open');
+
+    const playBtn   = card.querySelector('.play-dot');
+    const toggleBtn = card.querySelector('.ep-toggle');
+
+    // Toggle notes panel; keep aria-expanded in sync so screen readers
+    // announce the open/closed state.
+    toggleBtn.addEventListener('click', () => {
+      const opening = !card.classList.contains('open');
+      card.classList.toggle('open', opening);
+      toggleBtn.setAttribute('aria-expanded', String(opening));
     });
-    playBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
+
+    // Play button starts audio independently — no notes toggling.
+    playBtn.addEventListener('click', () => {
       playEp(ep, card);
     });
+
     return card;
   }
 
