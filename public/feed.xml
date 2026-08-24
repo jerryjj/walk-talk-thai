@@ -3,7 +3,7 @@
   <channel>
     <title>Walk Talk Thai: Learn Thai on the Go</title>
     <link>https://jerryjj.github.io/walk-talk-thai</link>
-    <description>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</description>
+    <description>A weekly Thai language podcast for your walk or commute. Each episode teaches 10 everyday Thai words inside complete, natural sentences — heard slowly, then at natural speed, with a pause to repeat aloud. Completely self-hosted and ad-free.</description>
     <atom:link href="https://jerryjj.github.io/walk-talk-thai/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
@@ -13,18 +13,18 @@
       <link>https://jerryjj.github.io/walk-talk-thai</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 08:31:09 +0000</lastBuildDate>
-    <itunes:author>Walk &amp; Talk Thai</itunes:author>
+    <lastBuildDate>Mon, 24 Aug 2026 08:35:36 +0000</lastBuildDate>
+    <itunes:author>Walk Talk Thai</itunes:author>
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
     <itunes:image href="https://jerryjj.github.io/walk-talk-thai/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>Walk &amp; Talk Thai</itunes:name>
+      <itunes:name>Walk Talk Thai</itunes:name>
       <itunes:email>jerry@leakstop.online</itunes:email>
     </itunes:owner>
-    <itunes:summary>A weekly Thai learning podcast. Each episode teaches 10 useful everyday words inside real sentences, with slow and natural pronunciation and a pause for you to repeat aloud while you walk or run.</itunes:summary>
+    <itunes:summary>A weekly Thai language podcast for your walk or commute. Each episode teaches 10 everyday Thai words inside complete, natural sentences — heard slowly, then at natural speed, with a pause to repeat aloud. Completely self-hosted and ad-free.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <item>
       <title>Ep. 12 — Tense Markers in Thai: Past, Future &amp; Right Now (Beginner)</title>
@@ -397,7 +397,7 @@ Words this week:
 - right — ขวา (kwăa)  |  เลี้ยวขวาที่สี่แยก (líao kwăa tîi sìi-yâek) — Turn right at the intersection.</itunes:summary>
     </item>
     <item>
-      <title>Ep. 02 — Ordering Food in Thai: 10 Words for Restaurants &amp; Cafes (Beginner)</title>
+      <title>Ep. 02 — Ordering Food in Thai: 10 Words for Restaurants &amp; Cafés (Beginner)</title>
       <description>Theme: Ordering food &amp; drinks
 
 Words this week:
