@@ -215,6 +215,19 @@
   }
   .badge.builder { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 40%, var(--line)); }
   .badge.vocab   { color: var(--accent);  border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+  .badge.resume  {
+    color: var(--accent-2);
+    border-color: color-mix(in srgb, var(--accent-2) 40%, var(--line));
+    letter-spacing: .02em;
+    text-transform: none;
+    cursor: pointer;
+    background: transparent;
+    font-family: inherit;
+    transition: background .15s ease;
+  }
+  .badge.resume:hover {
+    background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  }
   .ep-meta h3 {
     margin: 0;
     font-size: 16px;
@@ -498,6 +511,32 @@
     countEl.textContent = eps.length + (eps.length === 1 ? ' episode' : ' episodes');
     listEl.innerHTML = '';
     for (const ep of eps) listEl.appendChild(renderEp(ep));
+    markLastPlayed();
+  }
+
+  function markLastPlayed() {
+    let lastUrl;
+    try { lastUrl = localStorage.getItem('wtt:last'); } catch { return; }
+    if (!lastUrl) return;
+    // Find the card whose data-url matches the stored URL.
+    let card = null;
+    for (const c of listEl.querySelectorAll('.ep')) {
+      if (c.dataset.url === lastUrl) { card = c; break; }
+    }
+    if (!card) return;
+    // Don't add a second badge if re-render fires again.
+    const row = card.querySelector('.row');
+    if (!row || row.querySelector('.badge.resume')) return;
+    const badge = document.createElement('button');
+    badge.className = 'badge resume';
+    badge.setAttribute('aria-label', 'Resume this episode from where you left off');
+    badge.textContent = '\u25b6\ufe0e Resume';
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const ep = episodes.find(ep => ep.url === lastUrl);
+      if (ep) playEp(ep, card);
+    });
+    row.appendChild(badge);
   }
   orderSel.addEventListener('change', render);
 
